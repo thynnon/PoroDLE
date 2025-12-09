@@ -1,0 +1,4141 @@
+{
+  "Aatrox": {
+    "name": "Aatrox",
+    "voicelines": [
+      "Maintenant, écoutez le silence d'Annihilation",
+      "Laissez-moi en finir avec ça !",
+      "Panthéon, je te vois ! Telle une lamproie vous vous attachez à un hôte ! Je vais vous sculpter à partir de la forme de ce mortel et vous éviscérer tous les deux !",
+      "Targon envoie un aspect contre moi ? Préparez-vous, Panthéon, je mettrai fin à tout ce que vous espérez être !",
+      "Panthéon! J'écraserai ta divinité, j'éviscérerai tes idéaux, même ta mémoire... Je piétinerai !",
+      "Le véritable son de ma lame ne peut être entendu que lorsqu'ils détestent la réincarnation.",
+      "La seule paix que je recherche... c'est la mort !",
+      "Ils me traiteront de méchant... Venez, laissez-moi gagner leur haine, encore et toujours.",
+      "Il y a une obscurité dans mon cœur plus profonde que n’importe quelle ombre !"
+    ],
+    "voicelines_en": [
+      "Now, hear the silence of Annihilation",
+      "Let me end this!",
+      "Pantheon, I see you! Like a lamprey you attach yourself to a host! I will carve you from this mortal's form, and eviscerate you both!",
+      "Targon sends an aspect against me? Prepare yourself, Pantheon, I will end all that you hope to be!",
+      "Pantheon! I will crush your godhood, I will eviscerate your ideals, even your memory... I will trample!",
+      "The true sound of my blade can only be heard when they loathe re-incarnation.",
+      "The only peace I seek... is death!",
+      "They will call me villain... Come, let me earn their hatred, again and forever.",
+      "There is a darkness in my heart deeper than any shadow!"
+    ]
+  },
+  "Ahri": {
+    "name": "Ahri",
+    "voicelines": [
+      "Un renard intelligent ne se laisse jamais attraper.",
+      "Tu n'as pas à avoir peur de moi.",
+      "Je suis plus âgée que vous tous réunis. » Ahri rit intérieurement. « Du moins, je pense que je le suis.",
+      "Je connais cet endroit... Une partie de moi s'en souvient.",
+      "Je ne suis plus seul. Je peux faire confiance aux autres et à moi-même.",
+      "J'ai combattu aux côtés de certains des meilleurs, vous savez. Alors... essayez de suivre.",
+      "Quelles que soient les nouvelles expériences qui m'attendent aujourd'hui, je les affronterai de front.",
+      "J'ai perdu une éternité à rester immobile. Il est temps d'aller de l'avant.",
+      "Créons ensemble de nouveaux souvenirs."
+    ],
+    "voicelines_en": [
+      "A clever fox is never caught.",
+      "You don't have to be afraid of me.",
+      "I'm older than all of you combined.\" Ahri chuckles to herself. \"At least, I think I am.",
+      "I know this place... Some part of me remembers.",
+      "I'm not alone anymore. I can trust in others, and in myself.",
+      "I've fought alongside some of the best, you know. So... try to keep up.",
+      "Whatever new experiences await me today, I'll meet them head-on.",
+      "I've wasted an eternity standing still. It's time to move forward.",
+      "Let's create new memories together."
+    ]
+  },
+  "Akali": {
+    "name": "Akali",
+    "voicelines": [
+      "Craignez l'assassin sans maître.",
+      "Vous avez peur, c'est bon à savoir.",
+      "Une version allégée des pièces de théâtre \"GIANTS\".",
+      "Prenez une vie à la fois. Rapide. Faire le ménage.",
+      "Il est temps de faire ce qui doit être fait.",
+      "Les règles vous retiennent ! Laissez-les à quelqu'un qui en a besoin.",
+      "Faisons cela rapidement.",
+      "Nous allons faire ça à ma manière : rapide et mortel.",
+      "Reste en dehors de mon chemin !"
+    ],
+    "voicelines_en": [
+      "Fear the assassin with no master.",
+      "You're scared, good to know.",
+      "A stripped-down version of \"GIANTS\" plays.",
+      "Take one life at a time. Fast. Clean.",
+      "Time to do what's gotta be done.",
+      "The rules hold you back! Leave 'em for someone who needs 'em.",
+      "Let's make this quick.",
+      "We're gonna do this my way: quick, and deadly.",
+      "Stay outta my way!"
+    ]
+  },
+  "Akshan": {
+    "name": "Akshan",
+    "voicelines": [
+      "Réparer le monde, un scélérat à la fois !",
+      "Je vais m'en souvenir.",
+      "Shadya approuverait cela. Je pense. On ne pourrait jamais le dire avec elle.",
+      "Alors... c'est ça d'avoir des amis.",
+      "Cette cape n'est pas à la hauteur du Sentinel Code. Mais le grappin ni le boomerang ne le sont non plus.",
+      "Nous ne sommes pas impuissants. C'est nous qui façonnons notre destin. Maintenant, allons tirer sur ces méchants au visage.",
+      "Le destin n’existe pas. Mais Akshan existe.",
+      "Celui qui prend une vie en porte la marque sur son âme.",
+      "Est-ce mal de tuer des tueurs ? Eh, j'y réfléchirai plus tard."
+    ],
+    "voicelines_en": [
+      "Fixing the world, one scoundrel at a time!",
+      "I'm going to remember this.",
+      "Shadya would approve of this. I think. You never could tell with her.",
+      "So... this is what it's like to have friends.",
+      "This cape is not up to Sentinel Code. But, neither is the grappling hook, nor the boomerang.",
+      "We are not helpless. We are the ones who shape our destinies. Now, let's go shoot these villains in the face.",
+      "There is no such thing as fate. But there is such a thing as Akshan.",
+      "He who takes a life bears its mark on his soul.",
+      "Is it wrong to kill killers? Eh, I'll ponder that later."
+    ]
+  },
+  "Alistar": {
+    "name": "Alistar",
+    "voicelines": [
+      "Rien ne peut me retenir !",
+      "Rien ne peut me retenir.",
+      "Vous devez suivre.",
+      "Jouez avec le taureau et vous obtenez les cornes !",
+      "Vous ne pouvez pas les traire.",
+      "Qui est prêt à me battre ?!",
+      "Ne plaisante pas avec le taureau, jeune homme. Vous aurez les cornes.",
+      "Alistar partage des citations avec :\n      « Débandade !",
+      "Vous ne pouvez pas les traire !\" peut faire référence à Greg Focker de Meet the Parents (\"Oh, vous pouvez traire à peu près n'importe quoi avec des tétons.\")"
+    ],
+    "voicelines_en": [
+      "Nothing can hold me back!",
+      "Nothing can hold me back.",
+      "You must follow.",
+      "Mess with the bull and you get the horns!",
+      "You can't milk those.",
+      "Who's ready to lock horns with me?!",
+      "Don't mess with the bull, young man. You'll get the horns.",
+      "Alistar shares quotes with:\n      \"Stampede!",
+      "You can't milk those!\" may be referencing Greg Focker from Meet the Parents (\"Oh, you can milk just about anything with nipples.\")"
+    ]
+  },
+  "Amumu": {
+    "name": "Amumu",
+    "voicelines": [
+      "Je pensais que tu ne me choisirais jamais.",
+      "Où allons-nous ?",
+      "Trouvons des amis.",
+      "Viens jouer avec moi.",
+      "Laisse-moi te faire un câlin.",
+      "Soyons amis pour toujours.",
+      "Aimeriez-vous être amis?",
+      "Jouons encore un jour !"
+    ],
+    "voicelines_en": [
+      "I thought you'd never pick me.",
+      "Where are we going?",
+      "Let's find some friends.",
+      "Come play with me.",
+      "Let me give you a hug.",
+      "Let's be friends forever.",
+      "Would you like to be friends?",
+      "Let's play again some time!"
+    ]
+  },
+  "Anivia": {
+    "name": "Anivia",
+    "voicelines": [
+      "C'est-à-dire dans chaque flocon de neige.",
+      "Quelque chose d’ancien remue.",
+      "Je ne suis ni le premier, ni le dernier.",
+      "Quel changement ce vent apportera-t-il ?",
+      "Prenez le temps de réfléchir.",
+      "Je rêve d'époques passées.",
+      "Pensez au-delà d’une vie.",
+      "Nous sommes tous connectés.",
+      "Je renaîtrai."
+    ],
+    "voicelines_en": [
+      "Meaning, in every snowflake.",
+      "Something ancient stirs.",
+      "I am neither the first, nor the last.",
+      "What change will this wind bring?",
+      "Take time to reflect.",
+      "I dream of eras past.",
+      "Think beyond one lifetime.",
+      "We are all connected.",
+      "I will be reborn."
+    ]
+  },
+  "Annie": {
+    "name": "Annie",
+    "voicelines": [
+      "Tu veux jouer aussi ? Ce sera amusant !",
+      "♪ Sortez, sortez, où que vous soyez ! ♪",
+      "Ne soyez pas un chat effrayé !",
+      "Sommes-nous déjà là ?",
+      "Je ne joue jamais avec des allumettes.",
+      "Avez-vous vu mon ours Tibbers ?",
+      "Hop, saute, saute !",
+      "Je suis en caoutchouc et tu es... en feu !",
+      "Battu par une petite fille... ha !"
+    ],
+    "voicelines_en": [
+      "You wanna play too? It'll be fun!",
+      "♪ Come out, come out, wherever you are! ♪",
+      "Don't be a scaredy cat!",
+      "Are we there yet?",
+      "I never play with matches.",
+      "Have you seen my bear Tibbers?",
+      "Hop, skip, jump!",
+      "I'm rubber and you're... on fire!",
+      "Beaten by a little girl... ha!"
+    ]
+  },
+  "Aphelios": {
+    "name": "Aphelios",
+    "voicelines": [
+      "Un Xer'Sai connu sous le nom de Rek'Sai",
+      "Kai'Sa combattant les bêtes extérieures 1",
+      "Kai'Sa combattant les Outerbeasts 2",
+      "Kai'Sa combattant les Outerbeasts 3",
+      "Kai'Sa combattant les Outerbeasts 4",
+      "Tant d'armes, Aphelios. Le plus mortel est votre foi.",
+      "Condamné aux ténèbres, là où notre pouvoir grandit.",
+      "A chaque pas, deux pas. À chaque respiration, deux respirations.",
+      "Même de l'autre côté du voile céleste… Je serai avec toi, frère."
+    ],
+    "voicelines_en": [
+      "A Xer'Sai known as Rek'Sai",
+      "Kai'Sa fighting Outerbeasts 1",
+      "Kai'Sa fighting Outerbeasts 2",
+      "Kai'Sa fighting Outerbeasts 3",
+      "Kai'Sa fighting Outerbeasts 4",
+      "So many weapons, Aphelios. The deadliest is your faith.",
+      "Condemned to darkness, where our power grows.",
+      "With every step, two steps. With every breath, two breaths.",
+      "Even from across the celestial veil… I will be with you, brother."
+    ]
+  },
+  "Ashe": {
+    "name": "Ashe",
+    "voicelines": [
+      "Tout le monde sur une seule flèche.",
+      "Lâche! Puissiez-vous mourir les yeux fermés.",
+      "Avarosa me guide.",
+      "Dirigez la cible.",
+      "Il faut continuer !",
+      "La paix nécessite une main ferme.",
+      "Ne confondez pas miséricorde et faiblesse.",
+      "Nous unifierons Freljord.",
+      "Voyons à quel point ils peuvent se rapprocher."
+    ],
+    "voicelines_en": [
+      "All the world on one arrow.",
+      "Coward! May you die with your eyes closed.",
+      "Avarosa guide me.",
+      "Lead the target.",
+      "We must press on!",
+      "Peace requires a steady hand.",
+      "Do not confuse mercy for weakness.",
+      "We will unite the  Freljord.",
+      "Let's see how close they can get."
+    ]
+  },
+  "Aurelion Sol": {
+    "name": "Aurelion Sol",
+    "voicelines": [
+      "Dans un cosmos en constante évolution, un monde aussi statique est… rafraîchissant.",
+      "Se recroqueviller, adorer, mendier, ce sont toutes des réactions valables.",
+      "Il n’y a tout simplement pas d’autres dragons comme moi.",
+      "Espoir. Merveille. Insignifiance. Imaginez ce qu'ils ressentiront lorsque j'aurai terminé les étoiles.",
+      "On m'appelle une comète. Ils m'appellent un dragon. Ils n'ont pas de mots pour décrire ma vraie forme.",
+      "Ah, les joies des organismes inférieurs qui se lèvent pour tuer leurs meilleurs ! Si seulement ils étaient conscients de l'impermanence de l'être... ou de ma permanence.",
+      "Les étoiles sont très différentes aujourd’hui.",
+      "Pourquoi fait-on un vœu à une étoile ?",
+      "Peut-être qu'il y a plus dans ce monde que je ne le pensais... pas grand-chose, mais assez."
+    ],
+    "voicelines_en": [
+      "In a constantly shifting cosmos, a world this static is... refreshing.",
+      "Cower, worship, beg, they're all valid reactions.",
+      "There simply are no other dragons like me.",
+      "Hope. Wonder. Insignificance. Imagine what they'll feel when I complete the stars.",
+      "They call me a comet. They call me a dragon. They have no words for my true form.",
+      "Ah, the joys of lesser organisms rising up to slay their betters! If only they were aware of the impermanence of being... or the permanence of me.",
+      "The stars look very different today.",
+      "Why does anyone wish upon a star?",
+      "Perhaps there is more to this world than I thought... not much, but enough."
+    ]
+  },
+  "Aurora": {
+    "name": "Aurora",
+    "voicelines": [
+      "Voir avec des yeux clairs.",
+      "De toute façon, je préférerais être à la maison.",
+      "À moins que vous ne connaissiez quelque chose aux esprits ou au royaume des esprits, vous feriez bien de me laisser me concentrer sur mon travail.",
+      "Est-ce que l'un de vous veut parler des esprits ? ...Je suppose que c'est un oui !",
+      "J'ai mon livre, ma baguette, mes fournitures de départ... Ai-je besoin d'autre chose ? D'accord... Allons-y !",
+      "Cette région regorge d’esprits rebelles. Je vais tous les trouver et les aider.",
+      "Juste pour que vous le sachiez tous, je vais me concentrer sur mes recherches. Vous pouvez vous attendre à recevoir mes notes une fois que j'aurai terminé.",
+      "Passer du temps avec les autres est épuisant. Si je parais brusque, ne le prenez pas personnellement.",
+      "Le pire sort pour un demi-dieu est d'être oublié. Je ne laisserai pas cela arriver à Haestryr."
+    ],
+    "voicelines_en": [
+      "See with eyes unclouded.",
+      "I'd rather be home anyway.",
+      "Unless you know anything about spirits or the Spirit Realm, you'd do well to let me focus on my work.",
+      "Do any of you wanna talk about spirits? ...I'll assume that's a yes!",
+      "I have my book, my wand, my starting supplies... Do I need anything else? Okay... Let's go!",
+      "This region is teeming with wayward spirits. I'll find and help them all.",
+      "Just so you all know, I'll be focused on my research. You can expect to receive my notes once I'm done.",
+      "Spending time with others is exhausting. If I seem curt, don't take it personally.",
+      "The worst fate for a  Demi-god is to be forgotten. I won't let that happen to Haestryr."
+    ]
+  },
+  "Azir": {
+    "name": "Azir",
+    "voicelines": [
+      "Shurima ! Votre empereur est de retour !",
+      "Votre empereur reviendra.",
+      "Le monde est un désert. Je suis l'oasis.",
+      "Shurima s'étendra à nouveau jusqu'à l'horizon.",
+      "C'est mon heure. Mettez votre confiance en moi.",
+      "Shurima est le lieu où convergent tous les chemins.",
+      "Je nous guiderai vers la gloire.",
+      "Revenons à notre juste place, Nasus.",
+      "L'attente a été longue, Nasus... mais cela en vaudra la peine."
+    ],
+    "voicelines_en": [
+      "Shurima! Your emperor has returned!",
+      "Your emperor shall return.",
+      "The world is a desert. I am the oasis.",
+      "Shurima will once again stretch to the horizon.",
+      "It is my time. Put your faith in me.",
+      "Shurima is where all paths converge.",
+      "I will guide us to glory.",
+      "Let us return to our rightful place, Nasus.",
+      "It has been a long wait Nasus... but it will be worth it."
+    ]
+  },
+  "Bard": {
+    "name": "Bard",
+    "voicelines": [
+      "Utiliser l'appel du voyageur",
+      "Utiliser le sanctuaire du gardien",
+      "Sanctuaire du gardien",
+      "Bien que Bard lui-même n'ait pas de doubleur, ses Meeps en ont.\nEn reflétant cela, lorsqu'un Meep apparaît, il murmure occasionnellement \"Utora\", qui est l'un des concepteurs audio de Bard, Riot Utora.",
+      "En reflétant cela, lorsqu'un Meep apparaît, il murmure occasionnellement \"Utora\", qui est l'un des concepteurs audio de Bard, Riot Utora."
+    ],
+    "voicelines_en": [
+      "Using  Traveler's Call",
+      "Using  Caretaker's Shrine",
+      "Caretaker's Shrine",
+      "Although Bard himself does not have a voice actor, his  Meeps do.\nReflecting this, when a  Meep spawns, they will occasionally whisper \"Utora\", who is one of Bard's audio designer, Riot Utora.",
+      "Reflecting this, when a  Meep spawns, they will occasionally whisper \"Utora\", who is one of Bard's audio designer, Riot Utora."
+    ]
+  },
+  "Bel'Veth": {
+    "name": "Bel'Veth",
+    "voicelines": [
+      "Bel'Veth/LoL/Audio",
+      "Je suis la voix du silence.",
+      "Nous attendrons.",
+      "Que mes premiers pas marquent la fin de ce monde.",
+      "Vous ne nous appelez rien, et pourtant nous sommes tout. Partout, à chaque fois... nous sommes vous.",
+      "Toute votre vie, vous avez recherché votre propre destruction. Enfin, je suis là.",
+      "Ma faim est sans fin. On ne peut pas le rassasier et on ne l’arrêtera pas.",
+      "L'existence était notre cocon. Cela a transformé le vide en quelque chose de plus.",
+      "Je te dépasse infiniment. Un esprit indivis par la faiblesse ou la miséricorde."
+    ],
+    "voicelines_en": [
+      "Bel'Veth/LoL/Audio",
+      "I am the voice of the silence.",
+      "We will be waiting.",
+      "Let my first steps mark the end of this world.",
+      "You call us nothing, yet we are everything. Every place, every time... we are you.",
+      "All your lives, you have chased your own destruction. At long last, I am here.",
+      "My hunger is endless. It cannot be sated, and it will not be stopped.",
+      "Existence was our cocoon. It has made the void into something more.",
+      "I am infinitely beyond you. A mind undivided by weakness or mercy."
+    ]
+  },
+  "Blitzcrank": {
+    "name": "Blitzcrank",
+    "voicelines": [
+      "Enflammé et prêt à servir.",
+      "L’os est une mauvaise alternative.",
+      "Je reste concentré.",
+      "La magie m'appelle.",
+      "Un golem roulant ne rouille pas.",
+      "Le temps qu'il faudra.",
+      "La magie et la vapeur me guident.",
+      "Le temps de l'homme est terminé.",
+      "J'ai mis le \"go\" dans \"golem\". C'était de l'humour. D’autres golems trouvent cela tout à fait drôle."
+    ],
+    "voicelines_en": [
+      "Fired up and ready to serve.",
+      "Bone is a poor alternative.",
+      "I remain focused.",
+      "The magic calls to me.",
+      "A rolling golem gathers no rust.",
+      "As long as it takes.",
+      "Magic and steam guide me.",
+      "The time of man has come to an end.",
+      "I put the 'go' in 'golem'. That was humor. Other golems find that to be appropriately funny."
+    ]
+  },
+  "Brand": {
+    "name": "Brand",
+    "voicelines": [
+      "Prêt à mettre le feu au monde ? Héhéhé...",
+      "Ce corps n’est qu’un parmi tant d’autres !",
+      "Vous ne pouvez pas me contenir, invocateur !",
+      "Après des millénaires, je suis libre !",
+      "Je suis sur un fusible court.",
+      "Je vais ouvrir la voie.",
+      "Je suis le feu qui nettoie le monde !",
+      "Est-ce ignifuge ?",
+      "Il fait chaud ici ou c'est juste moi ?!"
+    ],
+    "voicelines_en": [
+      "Ready to set the world on fire? Heheheh...",
+      "This body is just one of many!",
+      "You can't contain me, summoner!",
+      "After millennia, I am free!",
+      "I'm on a short fuse.",
+      "I will blaze a trail.",
+      "I am the fire that cleanses the world!",
+      "Is that fireproof?",
+      "Is it hot in here or is it just me?!"
+    ]
+  },
+  "Braum": {
+    "name": "Braum",
+    "voicelines": [
+      "Le cœur est le muscle le plus fort.",
+      "Réfléchissez bien, mon ami.",
+      "De bons moments, de bons amis... quoi de mieux ?",
+      "Ah, un nouveau départ.",
+      "Est-ce la moustache ? Qui sait ?",
+      "Amenez toujours Braum !",
+      "Aujourd'hui sera une journée passionnante !",
+      "S’ils insistent pour se battre, je les obligerai.",
+      "Ils en ont peut-être beaucoup, mais vous m'avez."
+    ],
+    "voicelines_en": [
+      "The heart is the strongest muscle.",
+      "Think carefully, my friend.",
+      "Good times, good friends... what could be better?",
+      "Ah, new beginnings.",
+      "Is it the moustache? Who knows?",
+      "Always bring Braum!",
+      "Today will be exciting day!",
+      "If they insist on a fight, I will oblige them.",
+      "They may have many, but you have me."
+    ]
+  },
+  "Briar": {
+    "name": "Briar",
+    "voicelines": [
+      "Ravi de vous rencontrer! J'ai faim. Je veux dire... Briar !",
+      "Ahh... C'est ce que les gens appellent « stratégie » ?",
+      "Souviens-toi. Vous pouvez choisir. Pas besoin de vous lâcher tout de suite... Vous. Peut. Choisir.",
+      "Voyons! Aujourd'hui, je vais... Grimper à un arbre, apprendre l'hymne noxien, tuer mes ennemis, et... Oh ! Faites rire un bébé.",
+      "D'accord... alors, je peux aller par là... oh, par là, ou... par là. Euh, tellement de choix ! Comment faites-vous pour faire quelque chose ?!",
+      "De qui allons-nous verser le sang aujourd'hui ! Je veux dire... boire. Non... partager ? Ugh, que fais-tu d'autre avec le sang...",
+      "Ah, enfin. J'avais besoin d'une pause loin de la ville. Peu importe où je vais, tant que je bouge.",
+      "Les oreilles ont une belle sensation en bouche. Très moelleux.",
+      "La nature est plus incontrôlable que moi !"
+    ],
+    "voicelines_en": [
+      "Nice to meet you! I'm hungry. I mean... Briar!",
+      "Ahh... Is this what people call 'strategy'?",
+      "Remember. You can choose. Don't need to cut loose right away... You. Can. Choose.",
+      "Let's see! Today, I'm going to... Climb a tree, learn the Noxian anthem, kill my enemies, and... Oh! Make a baby laugh.",
+      "Okay... so, I can go that way... oh, that way, or... that way. Ugh, so many choices! How do you all get anything done?!",
+      "Whose blood are we gonna spill today! I mean... drink. No... share? Ugh, what else do you do with blood...",
+      "Ah, finally. I needed a break from the city. Don't care where I'm going, as long as I'm moving.",
+      "Ears have a nice mouthfeel. Very chewy.",
+      "Nature's more outta control than I am!"
+    ]
+  },
+  "Caitlyn": {
+    "name": "Caitlyn",
+    "voicelines": [
+      "Je suis sur l'affaire.",
+      "Dois-je également rendre mon badge et mon fusil ?",
+      "Mon devoir est de protéger les citoyens de Piltover, et j'y parviendrai.",
+      "Si proche d’une percée. Tout ce que je dois faire, c'est relier les points.",
+      "Je vous accorde beaucoup ma confiance. Allons au bout de cette affaire... et essayons de ne pas me décevoir.",
+      "Il est facile de négliger la rouille sous la dorure, mais je ne manque jamais un détail.",
+      "Chaque affaire, chaque enquête me rapproche de la justice.",
+      "Ce devrait être le progrès, et non le pouvoir et la peur, qui mènera Piltover vers l'avenir.",
+      "Je devrais remercier « C » de m'avoir mis sur cette voie. La vie en prison semble être un véritable cadeau, n'est-ce pas ?"
+    ],
+    "voicelines_en": [
+      "I'm on the case.",
+      "Shall I turn in my badge and rifle as well?",
+      "My duty is to protect the citizens of Piltover, and I will see that through.",
+      "So close to a breakthrough. All I must do is connect the dots.",
+      "I'm placing my trust in you lot. Let's see this case through... and try not to disappoint me.",
+      "It's easy to overlook the rust beneath the gilding, but I never miss a detail.",
+      "Every case, every investigation brings me one step closer to justice.",
+      "It should be progress, not power and fear, that leads Piltover into the future.",
+      "I ought to thank 'C' for setting me on this path. Life in prison seems a proper gift, does it not?"
+    ]
+  },
+  "Camille": {
+    "name": "Camille",
+    "voicelines": [
+      "La précision est la différence entre un boucher et un chirurgien.",
+      "J'attendrai que tu ailles mieux.",
+      "Le progrès ne doit jamais se faire attendre.",
+      "Je vais là où le travail mène.",
+      "Je reste humain... pour la plupart.",
+      "Cibles acquises.",
+      "Autoriser la force meurtrière.",
+      "Ligne de commande reçue : Kill-Dash-Nine.",
+      "Je... déteste... la neige."
+    ],
+    "voicelines_en": [
+      "Precision is the difference between a butcher and a surgeon.",
+      "I will wait for you to be better.",
+      "Progress should never be kept waiting.",
+      "I go where the work leads.",
+      "I remain human... for the most part.",
+      "Targets acquired.",
+      "Authorizing deadly force.",
+      "Command line received: Kill-Dash-Nine.",
+      "I... hate... snow."
+    ]
+  },
+  "Cassiopeia": {
+    "name": "Cassiopeia",
+    "voicelines": [
+      "Il n'y a pas d'antidote pour moi.",
+      "Pensez à ce que je pourrais offrir.",
+      "Qui aura la « chance » de m’affronter aujourd’hui ?",
+      "Autant de ficelles qui attendent d’être tirées.",
+      "Un autre jeu de serpent et de souris.",
+      "Attention, maintenant. Je mords.",
+      "La violence est tellement compliquée.",
+      "Patience, chérie.",
+      "Je ne suis pas si facile à sortir de votre système."
+    ],
+    "voicelines_en": [
+      "There is no antidote for me.",
+      "Think what I could offer.",
+      "Who will have the 'fortune' of facing me today?",
+      "So many strings waiting to be pulled.",
+      "Another game of snake and mice.",
+      "Careful, now. I bite.",
+      "Violence is so messy.",
+      "Patience, darling.",
+      "I'm not so easy to get out of your system."
+    ]
+  },
+  "Cho'Gath": {
+    "name": "Cho'Gath",
+    "voicelines": [
+      "Cho'Gath/LoL/Audio",
+      "Vous souhaiteriez que le monde que vous connaissez prenne fin ! Ouaissssss...",
+      "Peur du noir ? Sage!",
+      "Vous... êtes un fléau pour le monde.",
+      "La lumière du jour ! Ça brûle !",
+      "Vos voix sont un fléau pour le monde !",
+      "Invocateur, vos ténèbres vous appellent.",
+      "Pour l'obscurité !",
+      "Je vais leur apporter la terreur !"
+    ],
+    "voicelines_en": [
+      "Cho'Gath/LoL/Audio",
+      "You'd wish the world you know to end! Yeeeesssss...",
+      "Afraid of the dark? Wise!",
+      "You... are a scourge upon the world.",
+      "The daylight! It burns!",
+      "Your voices are a scourge upon the world!",
+      "Summoner, your darkness beckons.",
+      "For the darkness!",
+      "I shall bring them terror!"
+    ]
+  },
+  "Corki": {
+    "name": "Corki",
+    "voicelines": [
+      "Je suis à la hauteur et j'ai une machine à as !",
+      "Cela montre simplement que vous n'êtes rien d'autre qu'un Whisky Delta !",
+      "C'est le major Tom au contrôle au sol !",
+      "Encore une belle sortie !",
+      "J'y suis, Blackshoe !",
+      "LimaOscar Lima !",
+      "C'est un Charlie Foxtrot !",
+      "Considérez-vous fessée, pépite !",
+      "J'ai un croque-mitaine à mes trousses !"
+    ],
+    "voicelines_en": [
+      "I'm up to snuff, and gots me an ace machine!",
+      "That just goes to show you you're nothin' but a Whiskey Delta!",
+      "This is Major Tom to ground control!",
+      "Another fine sortie!",
+      "I'm on it, blackshoe!",
+      "Lima Oscar Lima!",
+      "It's a Charlie Foxtrot!",
+      "Consider yourself spanked, nugget!",
+      "I got a bogey on my tail!"
+    ]
+  },
+  "Darius": {
+    "name": "Darius",
+    "voicelines": [
+      "Ils regretteront de s'être opposés à moi.",
+      "Je ne tolère pas la lâcheté.",
+      "Je ne me reposerai pas.",
+      "Ma destination est claire.",
+      "Noxus va se lever.",
+      "La force avant tout.",
+      "Ne faites aucune erreur.",
+      "J'ai mes commandes.",
+      "Défiez Noxus et goûtez votre propre sang."
+    ],
+    "voicelines_en": [
+      "They will regret opposing me.",
+      "I do not tolerate cowardice.",
+      "I will not rest.",
+      "My destination is clear.",
+      "Noxus will rise.",
+      "Strength above all.",
+      "Make no mistakes.",
+      "I have my orders.",
+      "Defy Noxus and taste your own blood."
+    ]
+  },
+  "Diana": {
+    "name": "Diana",
+    "voicelines": [
+      "Une nouvelle lune se lève.",
+      "Des esclaves ignorants !",
+      "Ne suivez aucune fausse lumière.",
+      "La lune se lève aussi.",
+      "Ils n’écouteraient pas.",
+      "Je serai entendu.",
+      "Élu de la lune.",
+      "Mes yeux sont ouverts.",
+      "Embrassez la nuit."
+    ],
+    "voicelines_en": [
+      "A new moon is rising.",
+      "Ignorant thralls!",
+      "Follow no false light.",
+      "The moon also rises.",
+      "They would not listen.",
+      "I will be heard.",
+      "Chosen of the moon.",
+      "My eyes are open.",
+      "Embrace the night."
+    ]
+  },
+  "Dr. Mundo": {
+    "name": "Dr. Mundo",
+    "voicelines": [
+      "Un Xer'Sai connu sous le nom de Rek'Sai",
+      "Kai'Sa combattant les bêtes extérieures 1",
+      "Kai'Sa combattant les Outerbeasts 2",
+      "Kai'Sa combattant les Outerbeasts 3",
+      "Kai'Sa combattant les Outerbeasts 4",
+      "Le docteur est... euh... là !",
+      "Je facture des frais d'annulation.",
+      "Chère revue médicale. Premier jour dans un nouvel hôpital. J'ai déjà... euh... cinq patients.",
+      "Seringues... vérifiez. Des bandages... vérifiez. Dr_Mundo... euh... vérifiez."
+    ],
+    "voicelines_en": [
+      "A Xer'Sai known as Rek'Sai",
+      "Kai'Sa fighting Outerbeasts 1",
+      "Kai'Sa fighting Outerbeasts 2",
+      "Kai'Sa fighting Outerbeasts 3",
+      "Kai'Sa fighting Outerbeasts 4",
+      "The doctor is... uh... in!",
+      "Me charge cancellation fee.",
+      "Dear medical journal. First day in new hospital. Already have... uh... five patients.",
+      "Syringes... check. Bandages... check. Dr._Mundo... uh... check."
+    ]
+  },
+  "Draven": {
+    "name": "Draven",
+    "voicelines": [
+      "Bienvenue dans la Ligue de Draven.",
+      "Ne soyez pas jaloux.",
+      "J'ai de la douleur à servir.",
+      "Perfection? J'ai compris.",
+      "J'ai des haches, j'ai besoin de victimes.",
+      "Maintenant, voici comment bouger.",
+      "Des endroits où aller, moi à voir.",
+      "Admirons-moi un peu.",
+      "Subtil? Je ne fais pas de subtilité."
+    ],
+    "voicelines_en": [
+      "Welcome to the League of Draven.",
+      "Don't be jealous.",
+      "I've got pain to serve.",
+      "Perfection? I got that.",
+      "Got axes, need victims.",
+      "Now this is how to move.",
+      "Places to go, me to see.",
+      "Let's admire me for a bit.",
+      "Subtle? I don't do subtle."
+    ]
+  },
+  "Ekko": {
+    "name": "Ekko",
+    "voicelines": [
+      "Ce qui compte n'est pas le temps dont vous disposez, mais la façon dont vous l'utilisez.",
+      "Avant, tu étais cool.",
+      "Une version allégée des pièces de théâtre orchestrales de Star Guardian 2022.",
+      "La journée de quelqu'un est sur le point d'être gâchée.",
+      "Il est temps de commencer des ennuis.",
+      "Ah… cette odeur de nouveau départ.",
+      "Zaun est l'avenir.",
+      "Je ne leur dois rien.",
+      "Le temps ne guérit pas toutes les blessures."
+    ],
+    "voicelines_en": [
+      "It's not how much time you have, it's how you use it.",
+      "You used to be cool.",
+      "A stripped-down version of Star Guardian 2022's orchestral theme plays.",
+      "Someone's day's about to get wrecked.",
+      "Time to start some trouble.",
+      "Ah… that fresh start smell.",
+      "Zaun is the future.",
+      "I owe them nothing.",
+      "Time doesn't heal all wounds."
+    ]
+  },
+  "Elise": {
+    "name": "Elise",
+    "voicelines": [
+      "Seule l'araignée est en sécurité dans sa toile.",
+      "Des imbéciles à la volonté faible !",
+      "Je connais le vrai chemin.",
+      "Nous devons tous faire des sacrifices.",
+      "Je sais ce qui se cache dans l'ombre.",
+      "Je peux leur montrer le chemin vers la divinité.",
+      "Chaque toile, un chef-d'œuvre.",
+      "Il n'y a rien à craindre.",
+      "Tirez sur les ficelles. Regardez-les danser."
+    ],
+    "voicelines_en": [
+      "Only the spider is safe in her web.",
+      "Weak-willed fools!",
+      "I know the true path.",
+      "We must all make sacrifices.",
+      "I know what lurks in the shadows.",
+      "I can show them the way to divinity.",
+      "Every web, a masterpiece.",
+      "There's nothing to fear.",
+      "Pull the strings. Watch them dance."
+    ]
+  },
+  "Evelynn": {
+    "name": "Evelynn",
+    "voicelines": [
+      "Tu sais que tu me veux.",
+      "Une fois de plus, une femme reste insatisfaite.",
+      "\"Cet endroit est tellement fade. Il a besoin d'une touche de rouge.",
+      "Au moment où ils pensent qu'ils m'ont... *rires* Ouais, c'est pour ça que je vis.",
+      "\"Voyons voir... quelle vie vais-je gâcher aujourd'hui ?",
+      "\"Oooh, tant de gens joyeux à blesser.",
+      "Montre-moi l'homme qui a tout, et je te montrerai ma prochaine victime.",
+      "​\"La souffrance est le sens de la vie. Eh bien... leur vie.",
+      "Cette envie sera bientôt assouvie."
+    ],
+    "voicelines_en": [
+      "You know you want me.",
+      "Once again, a woman's left unsatisfied.",
+      "​\"This place is so bland. It needs a splash of red.",
+      "The moment they think they have me... *laughs* Yeah, that's what I live for.",
+      "​\"Let's see... whose life shall I ruin today?",
+      "​\"Oooh, so many joyful people to hurt.",
+      "Show me the man who has everything, and I'll show you my next victim.",
+      "​\"Suffering is the meaning of life. Well... their lives.",
+      "This craving will soon be sated."
+    ]
+  },
+  "Ezreal": {
+    "name": "Ezreal",
+    "voicelines": [
+      "Quête acceptée ! ...Attends, où allons-nous ?",
+      "Hé, ta perte. Mais je comprends.",
+      "Une version allégée de \"A New Horizon\" est jouée, qui passe ensuite à \"Burning Bright\".",
+      "*soupir* \"Je m'en fiche de l'endroit où nous sommes. Dirigez-moi simplement vers l'aventure.",
+      "Ouais, ouais, ouais. Monde. Péril. Enregistrez-le. Je l'ai eu, je l'ai eu.",
+      "Euh, j'aurais juré qu'il y avait une entrée cachée quelque part par ici...",
+      "Là où il y a un trésor, il y a de la gloire. Et là où il y a de la gloire... les filles regardent.",
+      "Reste avec moi et tout ira bien. Ce n'est d'ailleurs pas une garantie.",
+      "Oh, s'il te plaît, ne meurs pas. Je ne peux pas perdre un acolyte. Pas encore."
+    ],
+    "voicelines_en": [
+      "Quest accepted! ...Wait, where are we going?",
+      "Hey, your loss. But I get it.",
+      "A stripped-down version of \"A New Horizon\" plays, which then switches to \"Burning Bright\".",
+      "*sighs* \"I don't care where here is. Just point me toward adventure.",
+      "Yeah, yeah, yeah. World. Peril. Save it. I got it, I got it.",
+      "Huh, could've sworn there was a hidden entrance around here somewhere...",
+      "Where there's treasure, there's glory. And where there's glory... girls are watching.",
+      "Stick with me and you'll be fine. That's not a guarantee, by the way.",
+      "Oh, please don't die. I can't lose a sidekick. Not again."
+    ]
+  },
+  "Fiddlesticks": {
+    "name": "Fiddlesticks",
+    "voicelines": [
+      "Une version allégée des pièces de théâtre orchestrales de Star Guardian 2022.",
+      "Il nous chasse. Il sait de quoi nous avons peur.",
+      "N'ayez pas peur. Cela ne peut pas vous faire de mal.",
+      "Se rapprocher. Plus près...",
+      "Des bâtons de violon... Des bâtons de violon...",
+      "Il se déplace la nuit.",
+      "Tout seul. Perdu dans le noir.",
+      "Je vais t'aider. Suivez ma voix...",
+      "Y a-t-il quelqu'un ?"
+    ],
+    "voicelines_en": [
+      "A stripped-down version of Star Guardian 2022's orchestral theme plays.",
+      "It's hunting us. It knows what we're afraid of.",
+      "Don't be scared. It can't hurt you.",
+      "Come closer. Closer...",
+      "Fiddlesticks... Fiddlesticks...",
+      "It moves around at night.",
+      "All alone. Lost in the dark.",
+      "I'll help you. Follow my voice...",
+      "Is someone there?"
+    ]
+  },
+  "Fiora": {
+    "name": "Fiora",
+    "voicelines": [
+      "J'aspire à un adversaire digne.",
+      "Précision et grâce.",
+      "Je n'ai pas d'égal.",
+      "N'hésitez pas !",
+      "Lame tranchante, esprit vif.",
+      "D’autres essaient – ​​je réussis.",
+      "En un clin d'œil.",
+      "Est-ce censé être un défi ?",
+      "Un style si peu raffiné."
+    ],
+    "voicelines_en": [
+      "I long for a worthy opponent.",
+      "Precision, and grace.",
+      "I have no equal.",
+      "Do not hesitate!",
+      "Sharp blade, sharp mind.",
+      "Others try—I succeed.",
+      "In the blink of an eye.",
+      "Is this supposed to be a challenge?",
+      "Such unrefined style."
+    ]
+  },
+  "Fizz": {
+    "name": "Fizz",
+    "voicelines": [
+      "Jusqu'aux profondeurs saumâtres.",
+      "Allez, c'est parti !",
+      "Tu veux voir un truc ?",
+      "Un saut devant vous.",
+      "Ils ne m'attraperont pas.",
+      "Tu es ennuyeux, pouah... (ronfle) Hein, hein ? (souffle)",
+      "Pas intéressé, euh... (ronfle). Hum, hein ? (souffle)",
+      "Mmm... Poisson poisson poisson ! (rires) (avaler une gorgée)",
+      "Hmm, quelque chose ne va pas ! Hmm... (rires) (avaler une gorgée)"
+    ],
+    "voicelines_en": [
+      "To the briny deep.",
+      "Come on, let's go!",
+      "Wanna see a trick?",
+      "One jump ahead of you.",
+      "They won't catch me.",
+      "You're boring, ugh... (snores) Huh, huh? (huffs)",
+      "Not interested, ungh... (snores). Hm, huh? (huffs)",
+      "Mmm... Fish fish fish! (giggles) (gulps)",
+      "Hmm, something's fishy! Hmm... (giggles) (gulps)"
+    ]
+  },
+  "Galio": {
+    "name": "Galio",
+    "voicelines": [
+      "Il est temps d’avoir un impact !",
+      "Rendormez-vous, alors...",
+      "Tu sais ce qui est difficile dans le fait de se battre ? Rien! Allez, je suis fait de pierre.",
+      "J'ai une grande tolérance à la magie. Il m'en faut beaucoup pour le ressentir.",
+      "En tant que symbole de cette grande nation, je dis... allons gâcher quelques mages !",
+      "Connaissez-vous des batailles ? Je cherche juste à me salir les ailes.",
+      "Les gens sont drôles. Ils passent sous moi et font la même chose jour après jour.",
+      "Je voudrais m'excuser par avance d'avoir gâché cet endroit.",
+      "Laisse quelqu'un d'autre être une statue, j'ai des trucs à faire."
+    ],
+    "voicelines_en": [
+      "Time to make an impact!",
+      "Back to sleep, then...",
+      "You know what's hard about fighting? Nothing! Come on, I'm made of stone.",
+      "I've got a high tolerance for magic. Takes a lot for me to feel it.",
+      "As a symbol of this great nation, I say... let's go mess up some mages!",
+      "Know of any battles? Just looking to get my wings dirty.",
+      "People are funny. They pass beneath me doing the same thing day after day.",
+      "I'd like to apologize in advance for ruining this place.",
+      "Let someone else be a statue, I got stuff to do."
+    ]
+  },
+  "Gangplank": {
+    "name": "Gangplank",
+    "voicelines": [
+      "Ni les flammes ni les profondeurs ne pouvaient me réclamer.",
+      "Je reviendrai plus fort.",
+      "Ils ont pris mon bateau, je leur ôterai la vie.",
+      "Avec l'épée et le tir, je reprendrai mon île.",
+      "Ma chair ne brûlera jamais.",
+      "Ne faites jamais confiance à un bilgerat !",
+      "Le bilan approche.",
+      "La mer n'a pas de mémoire. Mais je le fais.",
+      "J'ai trouvé ma haine dans le feu."
+    ],
+    "voicelines_en": [
+      "Neither the flames nor the depths could claim me.",
+      "I'll come back stronger.",
+      "They took my ship, I'll take their lives.",
+      "With sword and shot I'll take my island back.",
+      "My flesh will never burn.",
+      "Never trust a bilgerat!",
+      "A reckoning approaches.",
+      "The sea has no memory. But I do.",
+      "I found my hate in the fire."
+    ]
+  },
+  "Garen": {
+    "name": "Garen",
+    "voicelines": [
+      "Mon cœur et mon épée toujours pour Demacia.",
+      "La peur est le premier de nombreux ennemis.",
+      "Un remix synthwave de \"Demacia Rising\".",
+      "N'ayez crainte, j'arrive.",
+      "Ce monde a besoin d'espoir.",
+      "J'apporte la justice.",
+      "Demacia marche comme un seul homme.",
+      "Pour protéger notre terre.",
+      "Soyez audacieux; être juste!"
+    ],
+    "voicelines_en": [
+      "My heart and sword always for Demacia.",
+      "Fear is the first of many foes.",
+      "A synthwave remix of \"Demacia Rising\" plays.",
+      "Fear not, I'm coming.",
+      "This world needs hope.",
+      "I bring justice.",
+      "Demacia marches as one.",
+      "To protect our land.",
+      "Be bold; be just!"
+    ]
+  },
+  "Gnar": {
+    "name": "Gnar",
+    "voicelines": [
+      "Shugi shugi shugi !",
+      "Shooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooh Bahah!\" (rires)",
+      "Les sons suivants accompagnent certaines des citations de l'astronaute Gnar",
+      "L'astronaute Gnar",
+      "Demaglio!\" est une imitation de  \"Demacia!\".\n Le Dieu-Roi Garen répond à cette citation :  \"Demaglio ? Démaglio ?! Comment oses-tu calomnier notre glorieux royaume ?!\".",
+      "Le Dieu-Roi Garen répond à cette citation :  \"Demaglio ? Demaglio ?! Comment oses-tu calomnier notre glorieux royaume ?!\".",
+      "Démaglio ? Démaglio ?! Comment osez-vous calomnier notre glorieux royaume ?!"
+    ],
+    "voicelines_en": [
+      "Shugi shugi shugi!",
+      "Shoo shoo? Bahnah!\" (laughs)",
+      "The following sounds accompany some of  Astronaut Gnar's quotes",
+      "Astronaut Gnar's",
+      "Demaglio!\" is an imitation of   \"Demacia!\".\n God-King Garen responds to this quote:   \"Demaglio? Demaglio?! How dare you slander our glorious kingdom?!\".",
+      "God-King Garen responds to this quote:   \"Demaglio? Demaglio?! How dare you slander our glorious kingdom?!\".",
+      "Demaglio? Demaglio?! How dare you slander our glorious kingdom?!"
+    ]
+  },
+  "Gragas": {
+    "name": "Gragas",
+    "voicelines": [
+      "Si vous achetez, je suis partant !",
+      "Ne soyez pas insistant !",
+      "J'ai besoin d'un peu de grog...",
+      "Commençons cette fête !",
+      "Je vais te boire sous la table, frotter !",
+      "La seule fois où j’ai un problème avec l’alcool, c’est quand je le renverse !",
+      "Happy hour à venir !",
+      "Il est temps de sortir le baril !",
+      "Oh ouais!\" pourrait faire référence au slogan de Kool-Aid Man.\nUne comparaison côte à côte peut être vue ici."
+    ],
+    "voicelines_en": [
+      "If you're buying, I'm in!",
+      "Don't get pushy!",
+      "Need some grog... ",
+      "Let's get this party started!",
+      "I'll drink you under the table, scrub!",
+      "The only time I have a drinking problem is when I spill it!",
+      "Happy hour incoming!",
+      "Time to roll out the barrel!",
+      "Oh yeah!\" might be referencing the Kool-Aid Man's catchphrase.\nA side-by-side comparison can be seen here."
+    ]
+  },
+  "Graves": {
+    "name": "Graves",
+    "voicelines": [
+      "Un homme mort qui marche.",
+      "Fin de la ligne.",
+      "Je n'ai pas le temps de saigner.",
+      "Vous avez des idées lumineuses ?",
+      "Réglons nos comptes.",
+      "Je n'ai pas le temps de jouer.",
+      "A quoi joues-tu ?",
+      "J'espère que tu n'avais pas prévu de mourir de causes naturelles. \" *rires*",
+      "Ne meurs pas encore ! Hé, ce n'était qu'un coup de semonce.\" *rires*"
+    ],
+    "voicelines_en": [
+      "Dead man walkin'.",
+      "End of the line.",
+      "I ain't got time to bleed.",
+      "Got any bright ideas?",
+      "Let's settle the score.",
+      "I got no time for games.",
+      "What are you playin' at?",
+      "Hope you weren't planning to die of natural causes.\" *chuckles*",
+      "Don't die, yet! Heh, that was only a warning shot.\" *chuckles*"
+    ]
+  },
+  "Gwen": {
+    "name": "Gwen",
+    "voicelines": [
+      "La tête haute, la tête haute, les ciseaux prêts !",
+      "Pourquoi pas? Mes ciseaux ne mordent pas.",
+      "Ciseaux, aiguilles, fil ; outils d'Isolde. Elle sera toujours avec moi et moi avec elle.",
+      "Quel monde étrange et merveilleux. Je dois m'assurer que cela reste ainsi.",
+      "Quand j'étais une poupée, je voulais vraiment me battre. C'est ma chance, ma seule.",
+      "Très bien tout le monde. Premièrement, nous devons gagner. Après, je serai heureux de réparer les vêtements, les cheveux ou les esprits brisés.",
+      "J'ai certainement enduré bien pire que cela.",
+      "Je n'arrive toujours pas à croire que je puisse bouger mes mains et mes pieds tout seul !",
+      "Ces tourelles ont l'air solides, ce sera assez amusant de les abattre !"
+    ],
+    "voicelines_en": [
+      "Head high, chin up, scissors ready!",
+      "Why not? My scissors don't bite.",
+      "Scissors, needles, thread; tools of Isolde. She'll always be with me, and I with her.",
+      "What a strange, wonderful world. I must make sure it stays that way.",
+      "Back when I was a doll, I really wanted to fight. This is my chance, my only one.",
+      "Alright everyone. First, we must win. After, I'll be glad to fix any clothes, hair, or broken spirits.",
+      "I've certainly endured far worse than this.",
+      "Still can't believe I get to move my hands and feet all on my own!",
+      "These turrets look strong, it'll be quite fun cutting them down!"
+    ]
+  },
+  "Hecarim": {
+    "name": "Hecarim",
+    "voicelines": [
+      "Découvrez la puissance des îles obscures.",
+      "Leurs âmes implorent la libération.",
+      "Envoyez-moi au combat.",
+      "La tombe appelle.",
+      "Je suis au-delà de la mort.",
+      "L'ombre approche.",
+      "La vie est éphémère.",
+      "Votre vie est un fardeau. Je t'apporte la liberté !",
+      "Vous ne vivrez pas assez longtemps pour voir votre monde détruit."
+    ],
+    "voicelines_en": [
+      "Behold, the might of the Shadow Isles.",
+      "Their souls beg for release.",
+      "Send me to battle.",
+      "The grave calls.",
+      "I am beyond death.",
+      "The shadow approaches.",
+      "Life is fleeting.",
+      "Your life is a burden. I bring you freedom!",
+      "You won't live to see your world destroyed."
+    ]
+  },
+  "Heimerdinger": {
+    "name": "Heimerdinger",
+    "voicelines": [
+      "Effectivement, un choix judicieux.",
+      "Aha, 42 ans, je le savais ! Maintenant... euh, quelle était la question déjà ?",
+      "Je pourrais faire ça mieux.",
+      "D'après mes calculs...",
+      "Retour à la planche à dessin !",
+      "J'ai mis le schéma en schéma !",
+      "Fascinant, n'est-ce pas ?",
+      "Le cerveau contre les muscles !",
+      "Pas assez de variables... hmm... pas assez de variables."
+    ],
+    "voicelines_en": [
+      "Indeed, a wise choice.",
+      "Aha, 42, I knew it! Now - er, what was the question again?",
+      "I could do that better.",
+      "By my calculations... ",
+      "Back to the drawing board!",
+      "I put the scheme in schematic!",
+      "Fascinating, isn't it?",
+      "Brain over brawn!",
+      "Not enough variables... hmm... not nearly enough variables."
+    ]
+  },
+  "Hwei": {
+    "name": "Hwei",
+    "voicelines": [
+      "Un peintre rencontre son sujet les yeux dans les yeux.",
+      "L'art peut éclairer nos peurs.",
+      "Laissez tout à mon imagination.",
+      "Aucun de nous ne restera inchangé. Je vais donner un sens à notre souffrance.",
+      "Il n'y a pas de secret dans l'art... il suffit de commencer et de continuer. C'est tout ce que nous pouvons faire.",
+      "Chaque question, chaque fardeau, chaque vision : je vais les exposer ici.",
+      "Quelque chose de sombre s'accroche à moi. A toujours vécu en moi.",
+      "Quelque chose de sombre s'accroche à moi, a toujours vécu en moi. Vous l'avez mis en lumière, Jhin.",
+      "Il y a de la lumière en moi... Je ne peux pas la perdre de vue."
+    ],
+    "voicelines_en": [
+      "A painter meets their subject eye to eye.",
+      "Art can shed light on our fears.",
+      "Leave everything to my imagination.",
+      "None of us will leave unchanged. I'll make sense of our suffering.",
+      "There's no secret to art... just begin and keep going. That's all we can do.",
+      "Every question, every burden, every vision: I'll lay them out, here.",
+      "Something dark clings to me. Has always lived in me.",
+      "Something dark clings to me—has always lived in me. You brought it to light, Jhin.",
+      "There is light in me... I can't lose sight of it."
+    ]
+  },
+  "Illaoi": {
+    "name": "Illaoi",
+    "voicelines": [
+      "Je ne suis pas un grand amateur de sermons : les os brisés enseignent de meilleures leçons.",
+      "La vie est trop courte pour avoir peur.",
+      "C'est mon fardeau de porter un œil de Dieu. C'est un privilège pour moi de voir la vérité.",
+      "Mourir, c'est se noyer, alors je nagerai bien jusqu'à ce que je ne puisse plus nager.",
+      "Nous ne pouvons pas comprendre le design. Une goutte de pluie ne peut pas comprendre une vallée fluviale.",
+      "Comment pourrais-je aimer un seul homme ? Ils se cassent trop facilement.",
+      "La sagesse est souvent un coup de pied dans la tête.",
+      "De nombreux dieux demandent à être adorés. Ce sont des dieux faibles.",
+      "Je n'ai pas peur, je ne me fatigue pas et je ne m'arrête pas."
+    ],
+    "voicelines_en": [
+      "I'm not big on sermons—broken bones teach better lessons.",
+      "Life is too short for fear.",
+      "It is my burden to carry an eye of god. It is my privilege to see the truth.",
+      "To die is to drown, so I will swim well, till I can swim no more.",
+      "We cannot comprehend the design. A raindrop cannot comprehend a river valley.",
+      "How could I love only one man? They break too easily.",
+      "Wisdom is frequently a kick in the head.",
+      "Many gods ask for worship. They are weak gods.",
+      "I don't scare, I don't tire, and I don't stop."
+    ]
+  },
+  "Irelia": {
+    "name": "Irelia",
+    "voicelines": [
+      "Combattez pour les Premières Terres !",
+      "Nous vivrons... Soit dans la victoire, soit dans les cicatrices que nous leur laissons !",
+      "Qu'ils viennent ! Cette terre sera leur cimetière !",
+      "Ils attendent mes paroles... Que dois-je leur dire... ?",
+      "Je n'ai qu'une vie à donner pour Ionia. Je dois faire en sorte que ça compte.",
+      "Nous nous appuyons sur les ossements de ceux qui nous ont précédés. Pour eux, on se bat !",
+      "Prêt pour le décollage.",
+      "Ouais, ce sont des lames de glace. Ne leur collez pas la langue.",
+      "Donnez-leur un pouce, ils prendront un royaume."
+    ],
+    "voicelines_en": [
+      "Fight for the First Lands!",
+      "We will live on... Either in victory, or in the scars we leave on them!",
+      "Let them come! This land will be their graveyard!",
+      "They await my words... What should I tell them...?",
+      "I have but one life to give for Ionia. I must make it count.",
+      "We stand on the bones of the ones who came before us. For them, we fight!",
+      "Ready for takeoff.",
+      "Yup, they're ice blades. Don't stick your tongue to them.",
+      "Give them an inch, they'll take a kingdom."
+    ]
+  },
+  "Ivern": {
+    "name": "Ivern",
+    "voicelines": [
+      "Ma couleur préférée est le printemps.",
+      "Heureux de m'asseoir sur celui-ci.",
+      "Vivez chaque jour comme si c'était le premier.",
+      "Le soleil a si bon goût aujourd’hui.",
+      "Ça fait du bien d’étirer les vieilles tiges de haricots !",
+      "Quelle merveilleuse journée ! Les groseilles adoreraient ça.",
+      "Hmm, le ciel devient nuageux. J'espère qu'il versera bientôt du chocolat !",
+      "Ivern bâille. \"Il est temps de sortir les vieilles cannes de bonbon pour une promenade.",
+      "J'ai hâte de répandre un peu de douceur."
+    ],
+    "voicelines_en": [
+      "My favorite color is spring.",
+      "Happy to sit this one out.",
+      "Live each day as if it's your first.",
+      "The sunshine tastes so good today.",
+      "Feels good to stretch the ole beanstalks!",
+      "What a wonderful day! Gooseberries would love it.",
+      "Hmm, it's getting cloudy. I hope it drizzles chocolate soon!",
+      "Ivern yawns. \"Time to take the old candy canes out for a stroll.",
+      "I can't wait to spread a little sweetness."
+    ]
+  },
+  "Janna": {
+    "name": "Janna",
+    "voicelines": [
+      "La tempête est à vos ordres.",
+      "Une version allégée des pièces de théâtre \"Burning Bright\".",
+      "Et vous pensiez que c'était juste une brise inoffensive !",
+      "Oui, c'est vrai. Pour seulement 2,95 $ la minute, je vous couperai le souffle.",
+      "Dites bonjour aux vents de… » (double toux, s'éclaircit la gorge) « Je ne sais pas ce qui m'a pris.",
+      "Par votre commandement.",
+      "Pour la tranquillité.",
+      "La tempête approche.",
+      "Des vents violents se sont déchaînés."
+    ],
+    "voicelines_en": [
+      "The tempest is at your command.",
+      "A stripped-down version of \"Burning Bright\" plays.",
+      "And you thought it was just a harmless breeze!",
+      "Yes, it's true. For only $2.95 a minute, I will leave you breathless.",
+      "Say hello to the winds of—\" (double cough, clears throat) \"I don't know what came over me.",
+      "By your command.",
+      "For tranquility.",
+      "The storm approaches.",
+      "Gale winds unleashed."
+    ]
+  },
+  "Jarvan IV": {
+    "name": "Jarvan IV",
+    "voicelines": [
+      "Par ma volonté, cela sera terminé.",
+      "Qui ose défier ma volonté ?",
+      "Protégez les fidèles.",
+      "Pour mon père, le roi.",
+      "Pas de quartier pour les méchants.",
+      "Trouvez-moi de plus grands ennemis.",
+      "Soyez à mes côtés, frères et sœurs.",
+      "Demacia, maintenant et pour toujours.",
+      "Aujourd'hui est un bon jour pour mourir !"
+    ],
+    "voicelines_en": [
+      "By my will, this shall be finished.",
+      "Who dares defy my will?",
+      "Protect the faithful.",
+      "For my father, the king.",
+      "No quarter for the wicked.",
+      "Find me greater foes.",
+      "Stand with me, brothers and sisters.",
+      "Demacia, now and forever.",
+      "Today is a good day to die!"
+    ]
+  },
+  "Jax": {
+    "name": "Jax",
+    "voicelines": [
+      "Jax bâille. \"On dirait que je porterai plus que mon propre poids aujourd'hui.",
+      "Écoutez, les gens : je ne suis pas là pour nettoyer vos dégâts ! C'est une lampe, pas une vadrouille !",
+      "Si vous vous perdez, cherchez ma lumière ! À moins, bien sûr, qu'il soit logé dans le crâne de quelqu'un.",
+      "Porter la Lumière d'Icathia dans une lanterne ordinaire ? Juste mon style.",
+      "Une bataille, ici ? Hein, je pensais qu'ils ne le demanderaient jamais !",
+      "Un mot de sagesse pour vous tous : le secret d'une longue vie ? Pas mourir.",
+      "Je pourrais prendre un œuf à la coque tout de suite.",
+      "Old man with a lamp, comin' through!",
+      "Dernière lumière d'Icathia, première ligne de défense."
+    ],
+    "voicelines_en": [
+      "Jax yawns. \"Looks like I'll be carrying more than my own weight today.",
+      "Listen here, people: I'm not here to clean up your messes! This is a lamp, not a mop!",
+      "If you get lost, look for my light! Unless, of course, it's lodged in somebody's skull.",
+      "Bearing the Light of  Icathia in a run-of-the-mill lantern? Just my style.",
+      "A battle, here? Huh, I thought they'd never ask!",
+      "Word o' wisdom to the rest of ya: the secret to a long life? Not dying.",
+      "Could go for a boiled egg right about now.",
+      "Old man with a lamp, comin' through!",
+      "Last light of Icathia, first line of defense."
+    ]
+  },
+  "Jayce": {
+    "name": "Jayce",
+    "voicelines": [
+      "Je me bats pour un avenir meilleur.",
+      "Ne jamais regarder en arrière.",
+      "Je suis toujours prêt.",
+      "Notre avenir sera radieux.",
+      "Les yeux vers l'horizon.",
+      "Il est temps de prendre position.",
+      "J'éclairerai notre chemin.",
+      "Jamais de faux pas.",
+      "Hé, voilà à quoi ressemble l'avenir."
+    ],
+    "voicelines_en": [
+      "I fight for a brighter tomorrow.",
+      "Never look back.",
+      "I'm always ready.",
+      "Our future will be bright.",
+      "Eyes on the horizon.",
+      "Time to make a stand.",
+      "I will light our path.",
+      "Never a wrong step.",
+      "Heh, this is what the future looks like."
+    ]
+  },
+  "Jhin": {
+    "name": "Jhin",
+    "voicelines": [
+      "Dans le carnage, je m'épanouis, comme une fleur à l'aube.",
+      "Mon génie sera compris – un jour.",
+      "Et maintenant, le rideau se lève.",
+      "Cette étape est en dessous de mon talent, mais je vais l'élever.",
+      "Le décor est planté.",
+      "Notre représentation commence.",
+      "Je suppose que je dois me contenter de ce décor sordide.",
+      "Je leur apporterai un opéra de la mort.",
+      "Je sers une clientèle exigeante."
+    ],
+    "voicelines_en": [
+      "In carnage, I bloom, like a flower in the dawn.",
+      "My genius will be understood—eventually.",
+      "And now, the curtain rises.",
+      "This stage is beneath my talent, but I shall elevate it.",
+      "The stage is set.",
+      "Our performance begins.",
+      "I suppose I must make do with this tawdry setting.",
+      "I will bring them an opera of death.",
+      "I serve a discerning clientele."
+    ]
+  },
+  "Jinx": {
+    "name": "Jinx",
+    "voicelines": [
+      "Les règles sont faites pour être enfreintes... comme les bâtiments ! Ou des gens !",
+      "Aww, allez, quel est le pire qui puisse arriver ?",
+      "Quoi qu'il en soit, commençons à tirer !",
+      "Maintenant, où en étais-je ? Oh, c'est vrai, ça fait des ravages !",
+      "Soyons sages... n'a jamais dit personne.",
+      "Et si j'avais une arme qui... tirait avec d'autres armes ?",
+      "J'essaie de m'en soucier ! Mais je... ne peux pas !",
+      "Attendez. Je pense...! Urgh... comment font les gens ?",
+      "Porte-poisse? Signifie Jinx! Durr."
+    ],
+    "voicelines_en": [
+      "Rules are made to be broken... like buildings! Or people!",
+      "Aww, c'mon, what's the worst that could happen?",
+      "Whatever, let's just start shooting!",
+      "Now where was I? Oh, right, wreaking havoc!",
+      "Let's just behave... said no one, ever.",
+      "What if I had a gun that... shot other guns?",
+      "I'm trying to care! But I just... can't!",
+      "Wait. I'm thinking...! Urgh... how do people do this?",
+      "Jinx? Stands for Jinx! Durr."
+    ]
+  },
+  "K'Sante": {
+    "name": "K'Sante",
+    "voicelines": [
+      "K'Sante/LoL/Audio",
+      "Mieux vaut se battre que vivre dans la peur.",
+      "Certains d’entre nous n’en verront pas la fin. Souvenez-vous des morts pendant que vous faites couler le sang de l'ennemi.",
+      "Héhé, nous n'avons pas besoin d'être amis. Mais nous devons lutter ensemble.",
+      "Autant que je le souhaite, un seul chef ne peut pas tenir conseil. Alors s'il vous plaît, marchez avec moi.",
+      "K'Sante. Écoutez mon nom et connaissez ma force.",
+      "Gardez la tête haute, nous en sommes dignes !",
+      "Changez comme le sable. Frappez comme l'aigle.",
+      "Rugissez à chaque pas."
+    ],
+    "voicelines_en": [
+      "K'Sante/LoL/Audio",
+      "Better to fight, than to live in fear.",
+      "Some of us won't see the end. Remember the fallen, as you draw the enemy's blood.",
+      "Hehe, we don't have to be friends. But we do have to fight, together.",
+      "As much as I wish, a single head can't hold counsel. So please, march with me.",
+      "K'Sante. Hear my name, and know my strength.",
+      "Keep your heads high—we are worthy!",
+      "Shift like the sand. Strike like the eagle.",
+      "Roar with every step."
+    ]
+  },
+  "Kai'Sa": {
+    "name": "Kai'Sa",
+    "voicelines": [
+      "Kai'Sa/LoL/Audio",
+      "Êtes-vous le chasseur... ou la proie ?",
+      "Tu ne tiendrais pas une journée dans le Vide.",
+      "Mon apparence peut vous effrayer, mais ne vous y trompez pas : je suis à vos côtés et nous nous battons jusqu'au bout.",
+      "Ce costume vit sur moi. Cela m'appelle chez moi. Nous survivons ensemble...",
+      "Reste avec moi et nous vivons.",
+      "Lorsque les souvenirs s'estompent et que l'obscurité vous entoure... trouvez la force à l'intérieur.",
+      "C'est ici que nous prenons position. Faites ce que je dis. C'est le seul moyen si nous voulons vivre.",
+      "La première fois que je suis revenu du Vide... C'était pour me sauver... Maintenant, c'est pour les sauver."
+    ],
+    "voicelines_en": [
+      "Kai'Sa/LoL/Audio",
+      "Are you the hunter... or the prey?",
+      "You wouldn't last a day in the Void.",
+      "My appearance may frighten you, but make no mistake: I am on your side, and we fight to the bitter end.",
+      "This suit lives on me. It calls me home. We survive together...",
+      "Stay with me, and we live.",
+      "When memories fade and darkness surrounds you... find the strength inside.",
+      "Here is where we make our stand. Do as I say. It's the only way, if we want to live.",
+      "The first time I returned from the  Void... It was to save me... Now, it's to save them."
+    ]
+  },
+  "Kalista": {
+    "name": "Kalista",
+    "voicelines": [
+      "Mort à tous les traîtres.",
+      "Toutes choses ont des conséquences.",
+      "Le sang des amis et des parents tache leurs mains.",
+      "Les transfuges, les briseurs de serment et les traîtres... nous les détestons tous.",
+      "Il ne peut y avoir de justice. Seulement une vengeance.",
+      "Les morts ne ressentent pas le froid.",
+      "Les promesses doivent être tenues.",
+      "La confiance... est une arme.",
+      "Les blessures de la trahison ne guérissent jamais."
+    ],
+    "voicelines_en": [
+      "Death to all betrayers.",
+      "All things have consequence.",
+      "The blood of kith and kin stains their hands.",
+      "Turncoats, oath breakers and betrayers... we hate them all.",
+      "There can be no justice. Only revenge.",
+      "The dead feel not the cold.",
+      "Promises must be kept.",
+      "Trust... is a weapon.",
+      "The wounds of betrayal never heal."
+    ]
+  },
+  "Karma": {
+    "name": "Karma",
+    "voicelines": [
+      "Faites toujours confiance à votre esprit.",
+      "Nous devons tous faire nos choix.",
+      "Je ne resterai plus jamais les bras croisés.",
+      "J'ai vu deux chemins et j'en ai tracé un autre entre les deux.",
+      "Mon esprit est un feu inextinguible.",
+      "Cœur et esprit ne font qu’un.",
+      "À mesure qu’Ionia change, moi aussi.",
+      "Remettez en question ce que vous savez.",
+      "N'ayez jamais peur du changement."
+    ],
+    "voicelines_en": [
+      "Always trust your spirit.",
+      "We must all make our choices.",
+      "Never again will I sit idle.",
+      "I have seen two paths, and made another between.",
+      "My spirit is an unquenchable fire.",
+      "Heart and mind as one.",
+      "As  Ionia changes, so must I.",
+      "Challenge what you know.",
+      "Never fear change."
+    ]
+  },
+  "Karthus": {
+    "name": "Karthus",
+    "voicelines": [
+      "Agonie, extase, paix. Chaque passage a sa propre beauté.",
+      "Ah, le baiser de la mort.",
+      "Tant d’âmes attendent.",
+      "Nous avons tous une place parmi le divin. Nous n'avons qu'à l'accepter.",
+      "Mon pèlerinage commence.",
+      "Le réconfort vient avec un cœur tranquille.",
+      "Ne versez pas de larmes pour les morts.",
+      "Que la mort nous libère tous.",
+      "Suivez ma voix et éloignez-vous."
+    ],
+    "voicelines_en": [
+      "Agony, ecstasy, peace. Every passing has a beauty all its own.",
+      "Ah, the kiss of death.",
+      "So many souls await.",
+      "We all have a place among the divine. We have only to accept it.",
+      "My pilgrimage begins.",
+      "Solace comes with a still heart.",
+      "Shed no tears for the dead.",
+      "May death free us all.",
+      "Follow my voice, and slip away."
+    ]
+  },
+  "Kassadin": {
+    "name": "Kassadin",
+    "voicelines": [
+      "L’équilibre des pouvoirs doit être préservé.",
+      "Vous êtes nul et non avenu.",
+      "La justice sera rendue.",
+      "L’équilibre avant tout.",
+      "J'ai essayé de faire taire ma mère une fois. Garçon, est-ce que je l'ai regretté.",
+      "Ta magie est impuissante contre moi !"
+    ],
+    "voicelines_en": [
+      "The balance of power must be preserved.",
+      "You are null and void.",
+      "Justice will be served.",
+      "Balance above all else.",
+      "I tried to silence my mother once. Boy, did I regret that.",
+      "Your magic is powerless against me!"
+    ]
+  },
+  "Katarina": {
+    "name": "Katarina",
+    "voicelines": [
+      "La violence résout tout.",
+      "Est-ce que c'est la peur que je sens ?",
+      "Prêt pour les ennuis ?",
+      "J'ai fait mon choix.",
+      "Gardez vos amis proches et vos ennemis en train de deviner.",
+      "Ne jouez jamais fair-play.",
+      "Pourquoi? Parce que je peux.",
+      "Seuls les imbéciles hésitent.",
+      "Mieux vaut mort que ennuyeux."
+    ],
+    "voicelines_en": [
+      "Violence solves everything.",
+      "Is that fear I smell?",
+      "Ready for trouble?",
+      "I've made my choice.",
+      "Keep friends close and enemies guessing.",
+      "Never play fair.",
+      "Why? Because I can.",
+      "Only fools hesitate.",
+      "Better dead than dull."
+    ]
+  },
+  "Kayle": {
+    "name": "Kayle",
+    "voicelines": [
+      "Ils trembleront devant ma perfection.",
+      "Je vois que tu manques de jugement.",
+      "Avec la main juste de la loi, j'entre dans la mêlée, libéré de cette mesquinerie mortelle.",
+      "En moi s'élèvera la force de mille épées... La fureur de mille flammes...",
+      "Quand j'ai regardé ma mère dans les yeux, j'ai vu un paradis pour les justes et les glorieux. C'est pour ce monde que je me bats.",
+      "Ces cycles mortels sans fin... La cruauté engendre la souffrance. La souffrance engendre la cruauté... Elle se termine avec moi.",
+      "Accorde-moi la force de forger par la flamme un monde au-delà des mondes.",
+      "Ici pour trouver des excuses à leur obscurité, sœur ?",
+      "Kayle rit avec mépris. \"Je vais combattre mon jumeau maudlin une fois de plus."
+    ],
+    "voicelines_en": [
+      "They shall tremble at my perfection.",
+      "I see you lack judgement.",
+      "With the just hand of law I enter the fray, unbound by this mortal pettiness.",
+      "In me will rise the strength of a thousands swords... The fury of a thousand flames...",
+      "When I looked into my mother's eyes, I saw a paradise for the just and glorious. It is for that world I fight.",
+      "These endless mortal cycles... Cruelty begets suffering. Suffering begets cruelty... It ends with me.",
+      "Grant me the strength to forge by flame, a world beyond worlds.",
+      "Here to make excuses for their darkness, sister?",
+      "Kayle chuckles scornfully. \"I shall battle my maudlin twin once more."
+    ]
+  },
+  "Kayn": {
+    "name": "Kayn",
+    "voicelines": [
+      "En serez-vous digne ? »\n \"Probablement pas.",
+      "En serez-vous digne ?",
+      "Les faibles ont peur des ombres.\"\n \"La peur les contrôle.",
+      "Les faibles ont peur des ombres.",
+      "La peur les contrôle.",
+      "L'enfant est parti. Le tueur restera...",
+      "Je survivrai à l'éternité. Ils mourront aujourd'hui.",
+      "Le sang des morts me consacrera comme nouveau maître. »\n \"Tout le monde est plus beau en rouge.",
+      "Le sang des morts m'oindre nouveau maître."
+    ],
+    "voicelines_en": [
+      "Will you prove worthy?\"\n \"Probably not.",
+      "Will you prove worthy?",
+      "The weak fear the shadows.\"\n \"Fear controls them.",
+      "The weak fear the shadows.",
+      "Fear controls them.",
+      "The child is gone. The killer will remain...",
+      "I will survive eternity. They will die today.",
+      "The blood of the fallen will annoint me the new master.\"\n \"Everyone does look better in red.",
+      "The blood of the fallen will annoint me the new master."
+    ]
+  },
+  "Kennen": {
+    "name": "Kennen",
+    "voicelines": [
+      "Les yeux ne mentent jamais.",
+      "Équilibre en toutes choses.",
+      "Les grandes cibles sont les meilleures ! Il y a plus à viser !",
+      "Oui, ils font des shurikens aussi petits !",
+      "Leurs derniers instants approchent.",
+      "De l'ombre !"
+    ],
+    "voicelines_en": [
+      "The eyes never lie.",
+      "Balance in all things.",
+      "Big targets are the best! There's more to aim at!",
+      "Yes, they make shurikens this small!",
+      "Their final moments approach.",
+      "From the shadows!"
+    ]
+  },
+  "Kha'Zix": {
+    "name": "Kha'Zix",
+    "voicelines": [
+      "Kha'Zix/LoL/Audio",
+      "Le changement... c'est bien.",
+      "Consommez et adaptez-vous.",
+      "Position d'embuscade.",
+      "Une vision différente.",
+      "Je sens une proie digne.",
+      "Ce monde est délicieux !",
+      "J'ai aiguisé mes griffes.",
+      "Ils ne me verront jamais."
+    ],
+    "voicelines_en": [
+      "Kha'Zix/LoL/Audio",
+      "Change... is good.",
+      "Consume and adapt.",
+      "Position for ambush.",
+      "A different view.",
+      "I sense worthy prey.",
+      "This world is delicious!",
+      "Sharpening my claws.",
+      "They'll never see me."
+    ]
+  },
+  "Kindred": {
+    "name": "Kindred",
+    "voicelines": [
+      "Lamb : \"Jamais un...\"\nLoup : \"...sans l'autre.",
+      "Loup : \"...sans l'autre.",
+      "...sans l'autre.",
+      "Lamb : \"Vous dépassez les limites.",
+      "Lamb : \"Chaque vie...\"\nLoup : \"...se termine avec nous.",
+      "Loup : \"...se termine avec nous.",
+      "... se termine avec nous.",
+      "Loup : \"Jamais un...\"\nLamb : \"...sans l'autre.",
+      "Lamb : \"...sans l'autre."
+    ],
+    "voicelines_en": [
+      "Lamb: \"Never one...\"\nWolf: \"...without the other.",
+      "Wolf: \"...without the other.",
+      "...without the other.",
+      "Lamb: \"You overstep.",
+      "Lamb: \"Every life...\"\nWolf: \"...ends with us.",
+      "Wolf: \"...ends with us.",
+      "...ends with us.",
+      "Wolf: \"Never one...\"\nLamb: \"...without the other.",
+      "Lamb: \"...without the other."
+    ]
+  },
+  "Kled": {
+    "name": "Kled",
+    "voicelines": [
+      "Je trouve le courage imprévisible. C'est une folie totale sur laquelle vous pouvez compter !",
+      "Oh, je savais que tu criais tous !",
+      "Ce sont des humains ! »\nSkaarl grogne.\n      \"Non, ils mangent bien.",
+      "Skaarl grogne.\n      \"Non, ils mangent bien.",
+      "Non, ils mangent bien.",
+      "Ca c'était quoi? Oh, je devrais opter pour le décakill ? Euh, si tu le dis.",
+      "C'est ma propriété ! Les soixante milliards d’acres !",
+      "Bon sang, où sommes-nous ?\nSkaarl grogne.\n      « Je suppose que nous devrons tuer pour sortir !",
+      "Bon sang, où sommes-nous ?"
+    ],
+    "voicelines_en": [
+      "I find courage unpredictable. It's total insanity you can rely on!",
+      "Oh, I knew you was all yeller!",
+      "Them's humans!\"\nSkaarl growls.\n      \"Naw, they're good eatin'.",
+      "Skaarl growls.\n      \"Naw, they're good eatin'.",
+      "Naw, they're good eatin'.",
+      "What was that? Oh, I should go for the decakill? Uh, if you say so.",
+      "It's my property! All sixty gazillion acres of it!",
+      "Holy ****, where are we?\"\nSkaarl growls.\n      \"Guess we'll have to kill our way out!",
+      "Holy ****, where are we?"
+    ]
+  },
+  "Kog'Maw": {
+    "name": "Kog'Maw",
+    "voicelines": [
+      "Kog'Maw/LoL/Audio",
+      "Avoir faim, ne jamais dormir.",
+      "Avoir faim...",
+      "En savoir plus... Tellement vide...!",
+      "Kog'Maw gargouilla.",
+      "La terreur arrive... papa arrive !",
+      "Continuez à venir ! Pas complet !",
+      "Kog'Maw sonne un « Charge ! » appel de clairon.",
+      "Fa la la la la, la la la la"
+    ],
+    "voicelines_en": [
+      "Kog'Maw/LoL/Audio",
+      "Hungry never sleep.",
+      "Getting hungry...",
+      "More... So empty...!",
+      "Kog'Maw gurgles.",
+      "Terror coming... daddy coming!",
+      "Keep coming! Not full!",
+      "Kog'Maw sounds a 'Charge!' bugle call.",
+      "Fa la la la la, la la la la"
+    ]
+  },
+  "LeBlanc": {
+    "name": "LeBlanc",
+    "voicelines": [
+      "La Rose Noire refleurira.",
+      "Êtes-vous certain?",
+      "Tout n'est que de la fumée et des miroirs.",
+      "Patience, invocateur.",
+      "Difficile, n'est-ce pas ?",
+      "Erreur de direction classique.",
+      "Les apparences peuvent être trompeuses.",
+      "Pendant un moment, j'ai cru que j'avais transpiré.",
+      "Pour mon prochain tour, je ferai disparaître leur barre de vie."
+    ],
+    "voicelines_en": [
+      "The Black Rose shall bloom once more.",
+      "Are you certain?",
+      "It's all smoke and mirrors.",
+      "Patience, summoner.",
+      "Tricky, aren't you?",
+      "Classic misdirection.",
+      "Looks can be deceiving.",
+      "For a moment I thought I'd broken a sweat.",
+      "For my next trick I'll make their life bar disappear."
+    ]
+  },
+  "Lee Sin": {
+    "name": "Lee Sin",
+    "voicelines": [
+      "Ta volonté, mes mains.",
+      "Je retourne à ma formation.",
+      "De nombreux moines vivent en paix.  Je ne les envie pas.",
+      "Le poids de ce pouvoir, il ne me retiendra pas.",
+      "Ma vue a peut-être disparu, mais ma vision reste vraie.",
+      "Je lutterai, j'échouerai, mais abandonner est un privilège que je n'ai pas.",
+      "Un combat jusqu'au bout. Je me réjouis de cette opportunité.",
+      "Étendez vos sens.",
+      "Où suis-je nécessaire ?"
+    ],
+    "voicelines_en": [
+      "Your will, my hands.",
+      "I return to my training.",
+      "Many monks live in peace.  I do not envy them.",
+      "The weight of this power, it will not hold me back.",
+      "My sight may be gone, but my vision holds true.",
+      "I will struggle, I will fail, but to surrender is a privilege I do not have.",
+      "A fight to the bitter end. I welcome this opportunity.",
+      "Extend your senses.",
+      "Where am I needed?"
+    ]
+  },
+  "Leona": {
+    "name": "Leona",
+    "voicelines": [
+      "L'aube est arrivée.",
+      "Je ne dois pas tomber.",
+      "Restez à l'avant-garde.",
+      "Les premières lueurs approchent.",
+      "Le soleil se lève toujours.",
+      "Je te protégerai.",
+      "Élu du soleil.",
+      "Le jour est à nos portes.",
+      "Plume ou épée : le bouclier est le plus puissant."
+    ],
+    "voicelines_en": [
+      "The dawn has arrived.",
+      "I must not fall.",
+      "Stay at the vanguard.",
+      "First light approaches.",
+      "The sun always rises.",
+      "I will protect you.",
+      "Chosen of the sun.",
+      "The day is upon us.",
+      "Pen or sword—the shield is mightiest."
+    ]
+  },
+  "Lillia": {
+    "name": "Lillia",
+    "voicelines": [
+      "Moi? Un rêve devenu réalité.",
+      "Ils me fuient ?",
+      "Les humains jettent un sort chaque nuit. Chaque fois qu'ils s'endorment.",
+      "Le jardin est rempli de loupes. Les loups, avec leurs cauchemars... Arbre Mère, je leur rappellerai comment rêver.",
+      "Tu peux le faire, Lillia. Vous êtes un faon de rêve fort et capable. Et tu as un gros bâton. E-et vous frappez les gens avec ça, mais vous ne le pensez pas vraiment ! Désolé.",
+      "Où es-tu, petits rêves perdus ? Je vous amènerai chez vous dans l'Arbre des Rêves.",
+      "Je suis content que tu sois avec moi, rêve.",
+      "Dans mon jardin – le jardin – il y a un arbre – l'arbre.",
+      "La nuit tombe dans mon jardin. Les feuilles bruissent comme des draps ! Pourquoi... personne ne rêve ?"
+    ],
+    "voicelines_en": [
+      "Me? A dream come true.",
+      "They're scampering from me?",
+      "Humans cast a spell every night. Every time they fall asleep.",
+      "The garden is filled with burls. The burls, with nightmares... Mother Tree, I'll remind them how to dream.",
+      "You can do this, Lillia. You are a strong, capable dream fawn. A-and you have a big stick. A-and you hit people with it but don't really mean it! Sorry.",
+      "Where are you, little lost dreams? I'll bring you to your home in the Dreaming Tree.",
+      "I'm glad you're with me, dream.",
+      "In my garden—the garden—there's a tree—the tree.",
+      "Night's falling in my garden. Leaves rustle like sheets! Why is...no one dreaming?"
+    ]
+  },
+  "Lissandra": {
+    "name": "Lissandra",
+    "voicelines": [
+      "J'enterrerai le monde dans la glace.",
+      "Tout le monde s'agenouillera... à temps.",
+      "Je vois les choses clairement.",
+      "Je restaurerai la grandeur de Freljord.",
+      "Des plans dans les plans.",
+      "Il n'y aura pas de dégel.",
+      "Les batailles vont et viennent. Je suis éternel.",
+      "Ce monde a oublié le vrai pouvoir.",
+      "Tant de secrets enfouis dans la glace."
+    ],
+    "voicelines_en": [
+      "I will bury the world in ice.",
+      "All will kneel... in time.",
+      "I see things clearly.",
+      "I will restore Freljord's greatness.",
+      "Plans within plans.",
+      "There will be no thaw.",
+      "Battles come and go. I am eternal.",
+      "This world has forgotten true power.",
+      "So many secrets, buried in ice."
+    ]
+  },
+  "Lucian": {
+    "name": "Lucian",
+    "voicelines": [
+      "Tout le monde meurt. Certains ont juste besoin d’un peu d’aide.",
+      "Vous n'avez pas le cœur pour ça.",
+      "Un remix synthwave de \"Demacia Rising\". Une moto démarre, prend des tours et s'éloigne.",
+      "La Brume nous attend tous. Dites au revoir à tout ce qui vous tient à cœur.",
+      "J'ai deux armes. L'un est pour ce qui est devant moi et l'autre pour ce qui me poursuit.",
+      "Il n'y a pas assez de balles au monde pour tous les meurtres que je m'apprête à commettre.",
+      "Regardez-les tous. Je ne sais même pas qu'ils me suivent en enfer.",
+      "Le combat est par ici. Si vous venez, essayez de ne pas mourir.",
+      "Si je croyais en quelque chose, je commencerais à prier pour cela tout de suite."
+    ],
+    "voicelines_en": [
+      "Everybody dies. Some just need a little help.",
+      "You don't have the heart for this.",
+      "A synthwave remix of \"Demacia Rising\" plays. A motorcycle starts, revvs and drives away.",
+      "The Mist awaits us all. Say goodbye to whatever you care about.",
+      "I got two guns. One's for what's in front of me, and one's for what's chasin'.",
+      "Ain't enough bullets in the world for all the killin' I'm about to do.",
+      "Look at 'em all. Not even knowin' they're following me to hell.",
+      "Fight's this way. If you're coming along, try not to die.",
+      "If I believed in something, I'd start prayin' to it right about now."
+    ]
+  },
+  "Lulu": {
+    "name": "Lulu",
+    "voicelines": [
+      "Heureux de vous rencontrer!",
+      "Je recommande de sauter.",
+      "Une version allégée des pièces de théâtre \"Burning Bright\".",
+      "Ouais, ça avait un goût violet.",
+      "Vous en verrez plus les yeux fermés.",
+      "Goutte de rosée curieuse...",
+      "Ne regardez jamais une tulipe dans les yeux...",
+      "Cet écureuil me semble familier.",
+      "Allez, on danse ! Ha!"
+    ],
+    "voicelines_en": [
+      "Pleased to meet you!",
+      "I recommend skipping.",
+      "A stripped-down version of \"Burning Bright\" plays.",
+      "Yup, that tasted purple.",
+      "You'll see more with your eyes closed.",
+      "Nosey dewdrop... ",
+      "Never look a tulip in the eye...",
+      "That squirrel looks familiar.",
+      "C'mon you, let's dance! Ha!"
+    ]
+  },
+  "Lux": {
+    "name": "Lux",
+    "voicelines": [
+      "Allumons-le !",
+      "Mais tous mes jeux de mots légers auraient égayé votre journée.",
+      "Une version allégée des pièces de théâtre \"Burning Bright\".",
+      "Demacia doit montrer l’exemple.",
+      "J'ai caché ma lumière assez longtemps.",
+      "Le soleil brille ; nous devrions aussi.",
+      "Ensemble! Pour Demacia !",
+      "Avec ma magie et votre anti-magie, il n'y a rien que nous ne puissions accomplir.",
+      "Être un héros, c’est en quelque sorte une affaire de famille."
+    ],
+    "voicelines_en": [
+      "Let's light it up!",
+      "But all my light puns would've brightened your day.",
+      "A stripped-down version of \"Burning Bright\" plays.",
+      "Demacia must lead by example.",
+      "I've been hiding my light long enough.",
+      "The sun is shining; we should too.",
+      "Together! For Demacia!",
+      "With my magic, and your anti-magic, there's nothing we can't accomplish.",
+      "Being a hero kind of runs in the family."
+    ]
+  },
+  "Malphite": {
+    "name": "Malphite",
+    "voicelines": [
+      "J'avance aussi vite que je peux.",
+      "Pris entre le marteau... et l'enclume.",
+      "Pris entre le marteau... et l'enclume\" est un jeu de mots littéral sur l'idiome éponyme.",
+      "Pris entre le marteau... et l'enclume"
+    ],
+    "voicelines_en": [
+      "I'm moving as fast as I can.",
+      "Caught between a rock... and a hard place.",
+      "Caught between a rock... and a hard place\" is a literal pun on the eponymous idiom.",
+      "Caught between a rock... and a hard place"
+    ]
+  },
+  "Malzahar": {
+    "name": "Malzahar",
+    "voicelines": [
+      "L'oubli vous attend !",
+      "Sans aucun doute.",
+      "C'est en mouvement.",
+      "La seconde vue l’ordonne.",
+      "Icathia fait signe.",
+      "Comme prévu.",
+      "Ne défiez pas la volonté du destin !",
+      "Nous sommes intemporels.",
+      "Inclinez-vous devant le Vide, ou laissez-vous consumer par lui !"
+    ],
+    "voicelines_en": [
+      "Oblivion awaits!",
+      "Without question.",
+      "It is in motion.",
+      "Second sight ordains it.",
+      "Icathia beckons.",
+      "As was foreseen.",
+      "Do not challenge fate's will!",
+      "We are timeless.",
+      "Bow to the Void, or be consumed by it!"
+    ]
+  },
+  "Maokai": {
+    "name": "Maokai",
+    "voicelines": [
+      "Les îles refleuriront !",
+      "Votre jugement viendra d’une manière ou d’une autre.",
+      "La vie peut revenir, une fois la terre retournée.",
+      "Tiens bon, mon jeune arbre.",
+      "Assaillie par les esprits, ma maison est en ruine !... Et on me traite de tordu.",
+      "L'eau de la vie a succombé à la mort. Les mortels suivront.",
+      "La nature humaine ? Pah !",
+      "Battez-vous pour les jeunes arbres !",
+      "Buvez profondément ce qui reste de magie."
+    ],
+    "voicelines_en": [
+      "The Isles will bloom again!",
+      "Your reckoning will come either way.",
+      "Life can come back, once the earth is turned.",
+      "Hold tight, my sapling.",
+      "Beset by spirits, my home laid to waste!... And they call me twisted.",
+      "The water of life succumbed to death. The mortals will follow.",
+      "Human nature? Pah!",
+      "Fight for the saplings!",
+      "Drink deep of what magic remains."
+    ]
+  },
+  "Master Yi": {
+    "name": "Master Yi",
+    "voicelines": [
+      "Ma lame est à toi.",
+      "Le doute est le plus grand ennemi.",
+      "Un vrai maître est un éternel étudiant.",
+      "L’esprit concentré peut percer la pierre.",
+      "La colère donne de la motivation sans but.",
+      "Je vais vous montrer le chemin.",
+      "Forme avant force.",
+      "Ne laissez pas votre orgueil vous aveugler.",
+      "En moi, Wuju vit."
+    ],
+    "voicelines_en": [
+      "My blade is yours.",
+      "Doubt is the greatest enemy.",
+      "A true master is an eternal student.",
+      "The focused mind can pierce through stone.",
+      "Anger gives motivation without purpose.",
+      "I will show you the path.",
+      "Form before strength.",
+      "Do not let your pride blind you.",
+      "In me,  Wuju lives on."
+    ]
+  },
+  "Milio": {
+    "name": "Milio",
+    "voicelines": [
+      "Reste avec moi ! Je te garderai au chaud. » applaudit Fuemigo.",
+      "Qu'est-ce qui ne va pas? Vous ne supportez pas la chaleur ?",
+      "Vous avez tous l'air si forts. Mais vous pouvez compter sur moi, je l'ai compris !",
+      "C'est tellement cool. Ma prochaine lettre à la maison sera légendaire ! Tomasín sera tellement jaloux.",
+      "Allez, les fuemigos ! Nous avons beaucoup de travail à faire. Commençons... oh ! Ici!",
+      "Mes fuemigos ne sont pas seulement mignons, ils sont aussi utiles. Attendez, je vais vous montrer les gars.",
+      "Qiyana ! Une fois dans le Yun Tal, pouvons-nous traîner comme ça tout le temps ?",
+      "Hé, Fuemigo, ça va là-bas ?",
+      "Même quand je suis seul, je ne suis pas seul."
+    ],
+    "voicelines_en": [
+      "Stick with me! I'll keep you warm.\" Fuemigo cheers.",
+      "What's wrong? Can't take the heat?",
+      "You guys all look so strong. You can count on me though, I got this!",
+      "This is so cool. My next letter home is gonna be legendary! Tomasín will be so jealous.",
+      "Come on, fuemigos! We got a lot of work to do. Let's start...oh! Over here!",
+      "My fuemigos aren't just cute, they're also helpful. Just wait, I'll show you guys.",
+      "Qiyana! Once I'm in the Yun Tal, can we hang out like this all the time?",
+      "Hey, fuemigo, you okay back there?",
+      "Even when I'm alone, I'm not lonely."
+    ]
+  },
+  "Miss Fortune": {
+    "name": "Miss Fortune",
+    "voicelines": [
+      "La fortune ne favorise pas les imbéciles.",
+      "Une version allégée de \"A New Horizon\" est jouée, qui passe ensuite à \"Burning Bright\".",
+      "Vous avez des yeux dangereux... J'aime ça.",
+      "Vous êtes sûr de pouvoir me gérer, invocateur ?",
+      "Ne soyez pas arrogant.",
+      "Je sais ce que je fais.",
+      "J'ai un bon pressentiment à ce sujet.",
+      "Surveille ce que tu dis, gamin, ou tu te retrouveras à réapparaître à la maison !",
+      "Comment aimez-vous mes armes... Choc et admiration !"
+    ],
+    "voicelines_en": [
+      "Fortune doesn't favor fools.",
+      "A stripped-down version of \"A New Horizon\" plays, which then switches to \"Burning Bright\".",
+      "You've got dangerous eyes... I like that.",
+      "Sure you can handle me, summoner?",
+      "Don't get cocky.",
+      "I know what I'm doing.",
+      "I've got a good feeling about this.",
+      "Watch your mouth, kid, or you'll find yourself respawning at home!",
+      "How do you like my guns... Shock, and Awe!"
+    ]
+  },
+  "Mordekaiser": {
+    "name": "Mordekaiser",
+    "voicelines": [
+      "Destin. Domination. Tromperie.",
+      "Personne ne peut m'échapper.",
+      "Les hommes naïfs prient les dieux ; ils apprendront à me prier.",
+      "Je sculpte mon royaume au-delà des cendres de rien, aucun mortel, pas même les dieux, ne m'empêchera de revendiquer ce qui m'appartient.",
+      "Le monde a essayé d’oublier mon existence, il est temps de lui rappeler pourquoi il a peur.",
+      "J'ai plié le royaume des morts à ma volonté, ce monde sera le prochain.",
+      "Dans le monde au-delà, de l'ichor noirci remplissait un ciel en ruine, alors que les âmes se flétrissaient jusqu'à néant. Mais j'ai refusé de m'effacer.",
+      "Moi seul suis le bastion entre l'existence éternelle et l'oubli.",
+      "Bientôt, Nightfall se régalera."
+    ],
+    "voicelines_en": [
+      "Destiny. Domination. Deceit.",
+      "None can escape me.",
+      "Naive men pray to the gods; they will learn to pray to me.",
+      "I carve my kingdom beyond, from the ashes of nothing, no mortals, not even gods, will stop me from claiming what is mine.",
+      "The world has tried to forget my existence, time to remind them why they fear.",
+      "I have bent the realm of the dead to my will, this world shall be next.",
+      "In the world beyond, blackened ichor filled a crumbling sky, as souls withered to nothing. But I refused to fade.",
+      "I alone am the bastion between eternal existence and oblivion.",
+      "Soon, Nightfall shall feast."
+    ]
+  },
+  "Morgana": {
+    "name": "Morgana",
+    "voicelines": [
+      "Je suis lié, mais je ne romprai pas.",
+      "Vos pires décisions vous hanteront.",
+      "Une version allégée des pièces à thème orchestrales de Star Guardian 2022.",
+      "Ils ressentiront ma douleur et craindront pour leur âme.",
+      "Ils ne sont pas prêts pour les reflets dans mes ténèbres.",
+      "Les humains sont intrinsèquement imparfaits, et pourtant je leur fais plus confiance qu’au divin.",
+      "À chaque pas, je forge mon destin dans les feux de la douleur.",
+      "La vraie grâce est belle dans son imperfection, honnête dans son émotion, libérée par sa propre fragilité.",
+      "Les épreuves que j'ai endurées ont été gravées dans mon âme, elles me font avancer même après que mes blessures soient guéries."
+    ],
+    "voicelines_en": [
+      "I am bound, but I will not break.",
+      "Your worst decisions will haunt you.",
+      "A stripped-down version of Star Guardian 2022's orchestral theme plays.",
+      "They shall feel my pain, and fear for their souls.",
+      "They are not ready for the reflections within my darkness.",
+      "Humans are inherently flawed, and yet I trust them more than the divine.",
+      "With each step I forge my fate in the fires of pain.",
+      "True grace is beautiful in its imperfection, honest in its emotion, freed by its own frailty.",
+      "The trials I endured were seared into my soul, they drive me forward even after my wounds have healed."
+    ]
+  },
+  "Naafiri": {
+    "name": "Naafiri",
+    "voicelines": [
+      "Nous ne serons pas muselés.",
+      "Que le monde entende nos hurlements et sache que la mort nous attend.",
+      "Un esprit, réparti sur de nombreux vaisseaux ; telle est la voie de la meute.",
+      "Les Darkin se lèvent. Cinq séries de dents dans une gueule vorace.",
+      "Quelle chance le monde aura-t-il lorsque les Darkin chasseront ensemble ?",
+      "Callosité des sables brûlants de Shurima. Qu'est-ce qui peut nous nuire, dans cet endroit ?",
+      "Ce ne sont pas les plus forts qui survivent, ce sont les plus unis.",
+      "Pourquoi mendier des restes ? Notre repas est toute la fête !",
+      "Un chien des dunes ne laisse rien. Pas même les os !"
+    ],
+    "voicelines_en": [
+      "We won't be muzzled.",
+      "Let the world hear our howls and know that death awaits.",
+      "One mind, spread among many vessels; this, is the way of the pack.",
+      "The Darkin rise. Five sets of teeth in a ravenous maw.",
+      "What chance will the world have, when the Darkin hunt as one?",
+      "Calloused by the burning sands of  Shurima. What can harm us, in this place?",
+      "It's not the strongest who survive—it's the most united.",
+      "Why beg for scraps? Our meal is the entire feast!",
+      "A dune hound leaves nothing. Not even the bones!"
+    ]
+  },
+  "Nami": {
+    "name": "Nami",
+    "voicelines": [
+      "Je décide de ce que la marée apportera.",
+      "Il y a toujours une autre vague.",
+      "Arrête de te balader.",
+      "Nager contre le courant.",
+      "Je trouverai mon chemin.",
+      "Bien sûr, comme les marées.",
+      "Nous sommes tous liés à l'océan.",
+      "Surfez sur les vagues.",
+      "Les pieds sont étranges."
+    ],
+    "voicelines_en": [
+      "I decide what the tide will bring.",
+      "There's always another wave.",
+      "Quit flopping around.",
+      "Swim against the current.",
+      "I'll find my path.",
+      "Sure as the tides.",
+      "We are all tied to the ocean.",
+      "Ride upon the waves.",
+      "Feet are strange."
+    ]
+  },
+  "Nasus": {
+    "name": "Nasus",
+    "voicelines": [
+      "Le cycle de la vie et de la mort continue, nous vivrons, eux mourront.",
+      "N'essayez pas ma patience.",
+      "Les fardeaux dorment mieux dans leurs tombeaux.",
+      "Pendant des siècles, j'ai observé.",
+      "Des paroles erronées peuvent faire tomber des empires.",
+      "Là, pour la grâce, j'y vais.",
+      "Cela ne finit jamais.",
+      "Il n'y a pas d'aube sans obscurité.",
+      "Peut-être que Shurima était destinée à tomber."
+    ],
+    "voicelines_en": [
+      "The cycle of life and death continues,we will live,they will die.",
+      "Do not try my patience.",
+      "Burdens sleep best in their tombs.",
+      "For centuries, I have watched.",
+      "Errant words may fell empires.",
+      "There, for grace, I go.",
+      "It is never ending.",
+      "No dawn comes without darkness.",
+      "Perhaps Shurima was meant to fall."
+    ]
+  },
+  "Nautilus": {
+    "name": "Nautilus",
+    "voicelines": [
+      "Attention aux profondeurs.",
+      "Je ne me reposerai pas.",
+      "Les entendez-vous appeler ?",
+      "Perdu et oublié.",
+      "Trouvez les coupables.",
+      "Regardez dans l’obscurité.",
+      "En avant, en avant.",
+      "Des échos des profondeurs.",
+      "La marche sans fin."
+    ],
+    "voicelines_en": [
+      "Beware the depths.",
+      "I will not rest.",
+      "Do you hear them calling?",
+      "Lost and forgotten.",
+      "Find the guilty.",
+      "Peer into the darkness.",
+      "Forward, forward.",
+      "Echoes from the deep.",
+      "The endless march."
+    ]
+  },
+  "Neeko": {
+    "name": "Neeko",
+    "voicelines": [
+      "Neeko est la meilleure décision !",
+      "Ils ne peuvent pas gérer Neeko.",
+      "Une version allégée de \"Scattered Stars\" est diffusée.",
+      "Cet endroit a le goût de nombreuses émotions. Excitation, colère, joie et… salé ? Le salé est-il une sensation ?",
+      "Co-'om se-henné. Oh, ça veut dire, euh... \"nous sourions pour toujours\". Amis! C'est le mot ! Amis!",
+      "Je veux devenir tout le monde ! Qui a dit que je ne pouvais pas ? Je vais leur prouver le contraire ! Alors, je deviendrai eux. Un dernier rire ? Neeko !",
+      "Partager des souvenirs, des couleurs, des sentiments, c'est magique ! La magie connecte les gens.",
+      "Neeko garde un tout petit peu du sho'ma de tout le monde. Ils sont précieux !",
+      "Une fois le combat terminé, tout le monde est invité à pique-niquer ! Même les ennemis."
+    ],
+    "voicelines_en": [
+      "Neeko is best decision!",
+      "They cannot handle Neeko.",
+      "A stripped-down version of \"Scattered Stars\" plays.",
+      "This place tastes like many emotions. Excitement, anger, joy and... salty? Is salty a feeling?",
+      "Co-'om se-henna. Oh, it means like, um... 'we smile forever.' Friends! That is the word! Friends!",
+      "I want to become everybody! Who says I cannot? I will prove them wrong! Then, I will become them. Last laugh? Neeko!",
+      "Sharing memories, colors, feelings is magic! Magic connects people.",
+      "Neeko keeps a tiny bit of everybody's sho'ma. They are precious!",
+      "After fight ends, everyone invited to picnic! Even enemies."
+    ]
+  },
+  "Nidalee": {
+    "name": "Nidalee",
+    "voicelines": [
+      "Les appels sauvages. Je réponds.",
+      "Tu as raison de me craindre !",
+      "Je me réjouis de ce silence. Le calme avant la chasse.",
+      "Je ne suis jamais seul. Ma tribu vit dans mon cœur et dans ma lance.",
+      "Les proies se cachent dans les bruits de la nature : écoutez, puis frappez.",
+      "Les os d'airain pensent qu'ils peuvent conquérir le désert, mais la nature ne peut pas être apprivoisée.",
+      "La vie continue.",
+      "Je suis toujours Nidalee.",
+      "Protéger ma meute est mon objectif."
+    ],
+    "voicelines_en": [
+      "The wild calls. I answer.",
+      "You are right to fear me!",
+      "I delight in this silence. The quiet before the hunt.",
+      "I am never alone. My tribe lives in my heart, and in my spear.",
+      "Prey hide in the sounds of the wild—listen, then strike.",
+      "The  brass-bones think they can conquer the wilderness, but nature cannot be tamed.",
+      "Life circles on.",
+      "I am always Nidalee.",
+      "Protecting my pack is my purpose."
+    ]
+  },
+  "Nilah": {
+    "name": "Nilah",
+    "voicelines": [
+      "Joie, incessante et éternelle !",
+      "Je ne vous en veux pas. Je suis assez fort.",
+      "Une version allégée des pièces à thème orchestrales de Star Guardian 2022.",
+      "Je suis indépendant du monde, puissant et joyeux. Que le mal tremble devant moi.",
+      "Dans la mort, Ashlesh, mon esprit est à toi. Mais dans la vie, ta force et ta joie m'appartiennent.",
+      "Ashlesh, Seigneur de la Joie, pour avoir volé mon nom et mon destin, je revendique votre pouvoir.",
+      "Lorsque vous coulez comme de l’eau, rien ne peut vous nuire.",
+      "Apportez-moi plus d'ennemis à vaincre.",
+      "Triomphe et exaltation."
+    ],
+    "voicelines_en": [
+      "Joy, unceasing and forever!",
+      "I don't blame you. I'm quite strong.",
+      "A stripped-down version of Star Guardian 2022's orchestral theme plays.",
+      "I am unbound from the world, mighty and joyous. May evil tremble before me.",
+      "In death,  Ashlesh, my spirit is yours. But in life, your strength and joy belong to me.",
+      "Ashlesh, Lord of Joy, for stealing my name and my fate, I claim your power.",
+      "When you flow as water, nothing can harm you.",
+      "Bring me more foes to defeat.",
+      "Triumph and exaltation."
+    ]
+  },
+  "Nocturne": {
+    "name": "Nocturne",
+    "voicelines": [
+      "Embrassez l’obscurité.",
+      "Peur du noir ?",
+      "Cet endroit me dégoûte.",
+      "Les gens sont des flammes à éteindre.",
+      "Êtes-vous déjà fatigué ?",
+      "Est-ce que je te fais peur, invocateur ?",
+      "\"Es-tu mon cauchemar, ou suis-je le tien ?",
+      "Apportez-moi d'autres sacs de chair à découper !",
+      "Météo pour ce soir : temps sombre, avec risque de douleur !"
+    ],
+    "voicelines_en": [
+      "Embrace the darkness.",
+      "Afraid of the dark?",
+      "This place disgusts me.",
+      "People are flames to be blotted out.",
+      "Are you getting tired yet?",
+      "Do I scare you, summoner?",
+      "\"Are you my nightmare, or am I yours?",
+      "Bring me more flesh bags to slice up!",
+      "Weather forecast for tonight: dark, with a chance of pain!"
+    ]
+  },
+  "Olaf": {
+    "name": "Olaf",
+    "voicelines": [
+      "Ne laissez rien derrière vous !",
+      "Allez, je ne te ferai pas de mal. Je le promets !",
+      "Envie de tuer, en hausse !",
+      "La puissance de Lokfar approche !",
+      "La valeur d’un homme peut être mesurée par la longueur de sa barbe et la circonférence de sa boucle de ceinture.",
+      "Ma hache a soif.",
+      "Enfin du plaisir !",
+      "Plus rapide au combat !",
+      "Mec, je suis tellement excité en ce moment."
+    ],
+    "voicelines_en": [
+      "Leave nothing behind!",
+      "C'mon, I won't hurt you. I promise!",
+      "Urge to kill, rising!",
+      "The might of Lokfar approaches!",
+      "The worth of a man can be measured by the length of his beard, and the girth of his belt buckle.",
+      "My axe is thirsty.",
+      "Finally, some fun!",
+      "Faster to battle!",
+      "Dude, I'm so buffed up right now."
+    ]
+  },
+  "Orianna": {
+    "name": "Orianna",
+    "voicelines": [
+      "Nous tuerons vos ennemis. Ce sera amusant.",
+      "Le ballon est en colère.",
+      "J'entends des choses douces.",
+      "Le ballon est impatient.",
+      "Pourquoi courent-ils ?",
+      "C'est un jeu amusant.",
+      "C'est très excitant.",
+      "Le temps passe.",
+      "Je sais ce qui les motive. Je sais comment arrêter le tic-tac."
+    ],
+    "voicelines_en": [
+      "We will kill your enemies. That will be fun.",
+      "The ball is angry.",
+      "I hear soft things.",
+      "The ball is impatient.",
+      "Why are they running?",
+      "This is a fun game.",
+      "This is very exciting.",
+      "Time tick-ticks away.",
+      "I know what makes them tick. I know how to make the ticking stop."
+    ]
+  },
+  "Ornn": {
+    "name": "Ornn",
+    "voicelines": [
+      "Retour à la forge.",
+      "J'ai de la fourrure. C'est doux. Ne me serre pas dans tes bras.",
+      "Si tout se passe bien, nos chemins ne se croiseront plus jamais. Ça ne se passe jamais bien.",
+      "Le meilleur repas est un troupeau de bovins, avec de la bière brune et des cerises... mmm.",
+      "J'ai fabriqué ce marteau. C'était tellement bon que je l'ai nommé... 'Hammer'.",
+      "Freljord est un lieu de construction, de combat et de restauration. Home Sweet Home.",
+      "Je m'appelle Ornn. Aucune autre plaisanterie nécessaire.",
+      "J'irai là-bas. Ça a l'air calme. Ce sera sympa.",
+      "Je vais par là. Ne me suivez pas. S'il te plaît."
+    ],
+    "voicelines_en": [
+      "Back to the forge.",
+      "I have fur. It is soft. Do not hug me.",
+      "If all goes well, our paths will never cross again. It never goes well.",
+      "The best meal is a herd of cattle, with dark beer, and cherries... mmm.",
+      "I made this hammer. It was so good I named it... 'Hammer.",
+      "The  Freljord is a place for building, fighting, and eating. Home, sweet home.",
+      "Name's Ornn. No further pleasantries needed.",
+      "I will go over there. It looks quiet. It will be nice.",
+      "I am going this way. Do not follow me. Please."
+    ]
+  },
+  "Pantheon": {
+    "name": "Pantheon",
+    "voicelines": [
+      "Au combat, nous renaissons.",
+      "Fuyez et la lance vous retrouvera.",
+      "Je me bats jusqu'à ce que le sang me prenne la lance, jusqu'à ce que je ne puisse plus que ramper. Et même alors, tu ne me vaincras pas, même alors, je te cracherai au visage !",
+      "Les cieux ne me craignent pas parce que je suis un dieu, ils me craignent parce que je suis un homme !",
+      "Que ce jour soit une légende.",
+      "Je m'appelle Soldat. Par ma lance, ils connaîtront la guerre.",
+      "On les appelle des dieux, mais quand ils meurent, on ne peut pas entendre leurs hurlements au-dessus du vent.",
+      "Frère des guerriers se reposant sous le blé. Fils de batailles mille fois perdues. Je sais qui je suis et je montrerai aux dieux ce que je peux devenir !",
+      "Les boucliers défendent les cœurs. Le vôtre et ceux à vos côtés."
+    ],
+    "voicelines_en": [
+      "In battle, we are reborn.",
+      "Flee, and the spear will find your back.",
+      "I fight until the blood takes the spear from my grasp, until I can only crawl. And even then, you will not defeat me, even then, I will spit in your face!",
+      "The heavens do not fear me because I am a god, they fear me because I am a man!",
+      "Let this day be legend.",
+      "My name is Soldier. By my spear, they will know war.",
+      "They are called gods, but when they die you cannot hear their howls above the wind.",
+      "Brother to warriors resting beneath wheat. Son of battles a thousand times lost. I know who I am, and I will show the gods what I can become!",
+      "Shields defend hearts. Both yours, and those beside you."
+    ]
+  },
+  "Poppy": {
+    "name": "Poppy",
+    "voicelines": [
+      "Je ne suis pas un héros, juste un Yordle avec un marteau.",
+      "On dirait que tu as oublié ton courageux pantalon à la maison. Tu veux que j'attende pendant que tu vas les chercher ?",
+      "Une version allégée des pièces de théâtre \"Burning Bright\".",
+      "Le marteau n'est pas à moi, je le garde jusqu'à ce que le vrai gars apparaisse.",
+      "J'ai beaucoup entendu parler de ce héros au marteau, j'ai hâte de le rencontrer.",
+      "Je ne reviendrai pas tant que je n'aurai pas trouvé ce héros.",
+      "Une fois, j'ai cru trouver le héros... mais il est mort.",
+      "Aujourd'hui, c'est le jour où je trouve ce héros.",
+      "Hmm... si j'étais un héros, où me cacherais-je... ?"
+    ],
+    "voicelines_en": [
+      "I'm no hero—just a Yordle with a hammer.",
+      "Seems you left your brave pants at home. Want me to wait while you go get them?",
+      "A stripped-down version of \"Burning Bright\" plays.",
+      "The hammer isn't mine, just keeping it until the real guy shows up.",
+      "I've heard a lot about this hero with a hammer, can't wait to meet him.",
+      "Not coming back 'til I find that hero.",
+      "One time I thought I found the hero... but he died.",
+      "Today's the day I find that hero.",
+      "Hmm... if I were a hero, where would I hide...?"
+    ]
+  },
+  "Pyke": {
+    "name": "Pyke",
+    "voicelines": [
+      "Ma liste vient de s'allonger.",
+      "Une dure journée s'annonce.",
+      "Il n'y a pas de hauteur assez élevée, pas pour la tempête qui se prépare.",
+      "Je suis né là où meurent les monstres, je suis mort là où naissent les monstres.",
+      "J'ai tué beaucoup de monstres, aucun d'entre eux ne vivait dans la mer.",
+      "J'ai été au fond de la mer, ça devient un peu plus profond à chaque fois.",
+      "Gardez un homme à terre assez longtemps et le caniveau devient son royaume.",
+      "Je suis allé trop loin, une partie de moi est toujours là-bas... en train de nager...",
+      "Il y a de la place pour tout le monde au fond de la mer."
+    ],
+    "voicelines_en": [
+      "My list just got longer.",
+      "Hard day's killin' ahead.",
+      "Ain't no high ground high enough, not for the storm that's brewin'.",
+      "I was born where monsters die, I died where monsters are born.",
+      "I've killed a lot of monsters, none of them lived in the sea.",
+      "Been to the bottom of the sea, gets a little deeper each time.",
+      "Keep a man down long enough, and the gutter becomes his kingdom.",
+      "Went too deep, part of me is still down there... swimming...",
+      "There's plenty of room for everyone at the bottom of the sea."
+    ]
+  },
+  "Qiyana": {
+    "name": "Qiyana",
+    "voicelines": [
+      "Vous pouvez maintenant m'apprécier.",
+      "Vous avez raison de craindre ma grandeur.",
+      "Une version allégée des pièces de théâtre \"GIANTS\".",
+      "Oh, bien, serviteurs. Emportez ma panoplie au combat, voulez-vous ?",
+      "Couvrez le sol derrière moi. Personne ne peut marcher là où j'ai mis les pieds.",
+      "Je dirais « regardez et apprenez », mais malheureusement, vous ne pouvez pas apprendre cela.",
+      "Est-ce tout ce qu’ils nous ont apporté ? Mon omele pourrait les vaincre, et elle a 85 ans.",
+      "Je ne veux pas paraître arrogant, mais je suis extrêmement bon dans tout.",
+      "Je peux dire à vos expressions que vous n'avez jamais rencontré d'être supérieur."
+    ],
+    "voicelines_en": [
+      "You may now appreciate me.",
+      "You are right to fear my greatness.",
+      "A stripped-down version of \"GIANTS\" plays.",
+      "Oh, good, servants. Carry my panoply to the battle, would you?",
+      "Cover the ground behind me. None may tread where I have stepped.",
+      "I would say 'watch and learn,' but unfortunately you cannot learn this.",
+      "Is that all they brought to face us? My omele could defeat them, and she is 85.",
+      "I don't mean to sound arrogant, but I'm extremely good, at everything.",
+      "I can tell by your expressions you've never met a superior being."
+    ]
+  },
+  "Quinn": {
+    "name": "Quinn",
+    "voicelines": [
+      "La justice prend son envol.",
+      "Je garderais la tête baissée si j'étais toi.",
+      "Une version allégée des pièces à thème orchestrales de Star Guardian 2022.",
+      "Parfois, je jure que cet oiseau ne fait que s'exhiber.",
+      "Il y a toujours une piste.",
+      "Nous nous en occupons.",
+      "Demacia compte sur nous.",
+      "Gagnez-moi du temps.",
+      "Tenez-vous en au plan, Val."
+    ],
+    "voicelines_en": [
+      "Justice takes wing.",
+      "I'd keep my head down if I were you.",
+      "A stripped-down version of Star Guardian 2022's orchestral theme plays.",
+      "Sometimes I swear that bird is just showing off.",
+      "There's always a trail.",
+      "We've got this covered.",
+      "Demacia is counting on us.",
+      "Buy me some time.",
+      "Stick to the plan, Val."
+    ]
+  },
+  "Rakan": {
+    "name": "Rakan",
+    "voicelines": [
+      "Sérieusement? Sérieusement? Boiteux.",
+      "Tu vois cette cape ? Ha! Je dis putain, je suis sexy !",
+      "Rien d'important ne doit être pris au sérieux.",
+      "Nous sommes vus danser et considérés comme fous... par ceux qui n'entendent pas la musique.",
+      "Ok tout le monde, je suis là, je suis là... la fête commence maintenant !",
+      "Mes compagnons de voyage, vous êtes tous sur le point d’être témoins de ma majestueuse épopée ! ... à moins que je me fasse tuer, mais... probablement pas !",
+      "Xayah ? Xayah ? Merde. Qu'étais-je censé faire ?",
+      "Les conséquences n'auront d'importance que si je ne pars pas.",
+      "La magie est dans le coeur. La magie est dans le rythme."
+    ],
+    "voicelines_en": [
+      "Seriously? Seriously? Lame.",
+      "You see this cape? Ha! I say goddamn I'm sexy!",
+      "Nothing important should be taken seriously.",
+      "We are seen dancing and thought insane... by those who can't hear the music.",
+      "Okay, everybody, I'm here, I'm here... the party starts now!",
+      "My fellow travelers, you are all about to witness my majestic epicness! ...unless I get killed, but... probably not!",
+      "Xayah? Xayah? Crap. What was I supposed to do?",
+      "Consequences only matter if I don't get away.",
+      "Magic is in the heart. Magic is in the rhythm."
+    ]
+  },
+  "Rammus": {
+    "name": "Rammus",
+    "voicelines": [
+      "Rammus rate une frappe, mais se lance plutôt dans le but. Les spectateurs applaudissent.\n   Annonceur : \"Objectif !!",
+      "Annonceur : \"Objectif !!",
+      "Ces sons accompagnent certaines citations de l'astronaute Rammus.",
+      "L'astronaute Rammus",
+      "Le ton de Rammus change lorsqu'il reçoit un ordre d'attaque.",
+      "OK.\" a gagné le statut de mème parmi la base de joueurs.",
+      "\"\" (\"Ma créature la plus détestée est un hérisson bleu parce que je ne peux pas le distancer.\")\nCette ligne vocale fait référence à Sonic the Hedgehog.",
+      "我最讨厌的生物就是一只蓝色的刺猬，因为我跑不过他。",
+      "Ma créature la plus détestée est un hérisson bleu parce que je ne peux pas le distancer."
+    ],
+    "voicelines_en": [
+      "Rammus fails a strike, but launches himself into the goal instead. Spectators cheer.\n   Announcer: \"Goal!!",
+      "Announcer: \"Goal!!",
+      "These sounds accompany some of  Astronaut Rammus' quotes.",
+      "Astronaut Rammus",
+      "Rammus' tone changes when issued an attack command.",
+      "OK.\" has earned meme status among the playerbase.",
+      "我最讨厌的生物就是一只蓝色的刺猬，因为我跑不过他。\" (\"My most hated creature is a blue hedgehog because I can't outrun him.\")\nThis voiceline references Sonic the Hedgehog.",
+      "我最讨厌的生物就是一只蓝色的刺猬，因为我跑不过他。",
+      "My most hated creature is a blue hedgehog because I can't outrun him."
+    ]
+  },
+  "Rek'Sai": {
+    "name": "Rek'Sai",
+    "voicelines": [
+      "Rek'Sai/LoL/Audio",
+      "Rek'Sai crépite.",
+      "Utiliser la colère de la reine",
+      "Rek'Sai hurle.",
+      "Rek'Sai crie.",
+      "Rek'Sai couine.",
+      "Rek'Sai, le fouisseur du Vide",
+      "Rek'Sai est l'un des rares champions à ne pas parler une langue intelligible.\nLe premier d'entre eux étant Gnar, et ses successeurs étant Bard et plus tard Zombie Nunu.",
+      "Fête à la piscine Rek'Sai"
+    ],
+    "voicelines_en": [
+      "Rek'Sai/LoL/Audio",
+      "Rek'Sai crackles.",
+      "Using  Queen's Wrath",
+      "Rek'Sai screeches.",
+      "Rek'Sai shrieks.",
+      "Rek'Sai squeals.",
+      "Rek'Sai, the Void Burrower",
+      "Rek'Sai is one of a few champions that do not speak an intelligible language.\nThe first of these being  Gnar, and her successors being  Bard and later  Zombie Nunu.",
+      "Pool Party Rek'Sai"
+    ]
+  },
+  "Rell": {
+    "name": "Rell",
+    "voicelines": [
+      "Rien n’entre, personne ne sort.",
+      "Une version allégée des pièces à thème orchestrales de Star Guardian 2022.",
+      "Combattez comme vous le pensez. Mourez pour quelque chose qui compte !",
+      "Cette « petite fille » est sur le point d’écraser quelques têtes.",
+      "Éliminez-les tous ! Nous sommes bons, eux sont mauvais, et c'est tout ce que vous devez savoir.",
+      "Si je faisais confiance aux gens, j'aurais besoin d'encore plus d'armure.",
+      "Je vais tordre Noxus jusqu'à ce qu'il se brise.",
+      "Je me bats pour les perdus. Mais surtout, je me bats.",
+      "Je vais finir ce combat. Je suis le seul à pouvoir le faire."
+    ],
+    "voicelines_en": [
+      "Nothing gets in, no one gets out.",
+      "A stripped-down version of Star Guardian 2022's orchestral theme plays.",
+      "Fight like you mean it. Die for something that matters!",
+      "This 'little girl' is about to crush some heads.",
+      "Run 'em all down! We're good, they're bad, and that's all you need to know.",
+      "If I trusted people, I'd need even more armor.",
+      "I'll twist Noxus until it snaps.",
+      "I fight for the lost. But mostly, I just fight.",
+      "I'll finish this fight. I'm the only one who can."
+    ]
+  },
+  "Renata Glasc": {
+    "name": "Renata Glasc",
+    "voicelines": [
+      "C'est \"Miss Glasc\"... si vous tenez à la vie.",
+      "Je ne retiendrai pas mon souffle.",
+      "Ah, ma partie préférée du travail : les tests de produits.",
+      "Chaque Piltovan à la mode possède au moins un de mes produits. Si confiant, si naïf.",
+      "Travaillez pour moi ou travaillez contre moi, peu importe. Tout le monde finit par venir à mes côtés.",
+      "Très bien, j'ai des entreprises à acheter et une ville à détruire, alors faisons vite.",
+      "La différence entre un médicament et un poison réside dans le dosage. Permettez-moi de démontrer.",
+      "Je me souviens d'être affamée dans le puisard, un petit rien pathétique de fille. Regardez-moi maintenant !",
+      "Ma carafe n'est qu'un pion de plus à pousser."
+    ],
+    "voicelines_en": [
+      "It's 'Miss Glasc'... if you value your life.",
+      "I won't hold my breath.",
+      "Ah, my favorite part of the job: product testing.",
+      "Every fashionable Piltovan owns at least one of my products. So trusting, so naive.",
+      "Work for me or work against me, it doesn't matter. Everyone comes to my side eventually.",
+      "Alright, I've got companies to buy and a city to crush, so let's make this quick.",
+      "The difference between medicine and poison is the dosage. Allow me to demonstrate.",
+      "I remember starving in the sump, a pathetic little nothing of a girl. Look at me now!",
+      "My decanter is just one more pawn to push."
+    ]
+  },
+  "Renekton": {
+    "name": "Renekton",
+    "voicelines": [
+      "Tant que je vis, tous mourront !",
+      "Le chaos suivra.",
+      "Tout le monde souffrira comme moi !",
+      "Fais que ça fasse mal...",
+      "Déchiquetez leurs corps fragiles !",
+      "Ils ressentiront une douleur qu’ils n’auraient jamais imaginée !",
+      "Pris au piège dans une boîte depuis si longtemps, Xerath, ils n'auraient jamais dû nous laisser sortir !",
+      "Xerath, nous leur donnerons ce qu'ils méritent...",
+      "Il n'y a pas de retraite."
+    ],
+    "voicelines_en": [
+      "As I live, all will die!",
+      "Chaos will follow.",
+      "All will suffer as I have!",
+      "Make this hurt...",
+      "Shred their fragile bodies!",
+      "They will feel pain they've never imagined!",
+      "Trapped in a box so long Xerath, they never should have let us out!",
+      "Xerath, we will give them what they deserve...",
+      "There is no retreat."
+    ]
+  },
+  "Rengar": {
+    "name": "Rengar",
+    "voicelines": [
+      "Ce soir, on chasse !",
+      "Un vrai chasseur ne se repose jamais.",
+      "On peut faire peur aux monstres.",
+      "Je ne recherche que le plus fort.",
+      "Suivez le chemin du tueur.",
+      "Frappez lorsque vous êtes prêt.",
+      "Suivez leur trace.",
+      "Le confort engendre la faiblesse.",
+      "À qui dois-je prendre la tête ?"
+    ],
+    "voicelines_en": [
+      "Tonight, we hunt!",
+      "A true hunter never rests.",
+      "Monsters can be made to fear.",
+      "I seek only the strongest.",
+      "Walk the killer's path.",
+      "Strike when ready.",
+      "Catch their trail.",
+      "Comfort breeds weakness.",
+      "Whose head shall I take?"
+    ]
+  },
+  "Riven": {
+    "name": "Riven",
+    "voicelines": [
+      "Ce qui est cassé peut être reforgé.",
+      "Apprenez de vos erreurs.",
+      "Quel conflit nous attend ?",
+      "Mes mains sont tachées.",
+      "Fardeaux du passé.",
+      "Comment dois-je procéder ?",
+      "Une épée est le miroir de son propriétaire.",
+      "Mon esprit n'est pas perdu.",
+      "J'ai erré pendant si longtemps..."
+    ],
+    "voicelines_en": [
+      "What is broken can be reforged.",
+      "Learn from your mistakes.",
+      "What conflict awaits?",
+      "My hands are stained.",
+      "Burdens of the past.",
+      "How should I proceed?",
+      "A sword mirrors its owner.",
+      "My spirit is not lost.",
+      "So long I've wandered..."
+    ]
+  },
+  "Rumble": {
+    "name": "Rumble",
+    "voicelines": [
+      "Entrons dans le combat !",
+      "Très bien... j'y vais.",
+      "Qui veut un morceau de ça ?",
+      "Qui appelles-tu petit ?",
+      "Tu n'es pas obligé de me le dire deux fois.",
+      "Très bien, j'y vais.",
+      "Avez-vous déjà admiré un yordle ?",
+      "Tenez-le stable.",
+      "Maintenant, nous cuisinons."
+    ],
+    "voicelines_en": [
+      "Let's get in the fight!",
+      "Alright... I'm going.",
+      "Who wants a piece of this?",
+      "Who you callin' little?",
+      "You don't have to tell me twice.",
+      "Alright, I'm going.",
+      "Ever looked up to a yordle?",
+      "Hold 'er steady.",
+      "Now we're cookin'."
+    ]
+  },
+  "Ryze": {
+    "name": "Ryze",
+    "voicelines": [
+      "Une longueur d’avance sur le cataclysme.",
+      "Il est préférable de ne pas voir les choses que j'ai vues dans les recoins sombres de Runeterra.",
+      "Si j'ai l'air impoli, c'est parce que j'ai un monde à sauver.",
+      "Je trouve les runes pour qu'elles ne soient pas trouvées par quelqu'un d'autre... ou quelque chose du genre.",
+      "Je trouve les runes pour qu'elles ne soient pas trouvées par quelqu'un d'autre... ou quelqu'un d'autre.",
+      "Choses à faire aujourd'hui : trouver de la nourriture, construire un abri, réparer le monde.",
+      "Pouvons-nous faire ça rapidement ? J'ai un endroit où être !",
+      "Je sens une autre rune, mais où ?",
+      "Tu sais ce qui me manque ? Rester immobile."
+    ],
+    "voicelines_en": [
+      "A step ahead of cataclysm.",
+      "The things I've seen in the dark corners of Runeterra are better left unseen.",
+      "If I sound rude, it's because I've got a world to save.",
+      "I find the runes so they won't be found by someone else... or some thing.",
+      "I find the runes so they won't be found by someone else... or some",
+      "Things to do today: find food, build shelter, fix the world.",
+      "Can we make this quick? I have some place to be!",
+      "I sense another rune, but where?",
+      "You know what I miss? Standing still."
+    ]
+  },
+  "Samira": {
+    "name": "Samira",
+    "voicelines": [
+      "Vous voulez du style ? Vous l'avez trouvée.",
+      "Eh, je pourrais faire mieux.",
+      "Je m'appelle Samira. Essayez de ne pas me ralentir.",
+      "Si vous ne pouvez pas suivre, n’intervenez pas. Je n'ai pas de temps pour les imbéciles.",
+      "Écoutez, vous êtes désolés ! Une seule règle pour cette mission : ne pas faire de prisonniers.",
+      "J'ai deux règles pour chaque combat. Ne demandez pas la permission, ne demandez pas le pardon.",
+      "Le terme est PsyOps, abréviation de Psychic Operations. Je m'appelle Samira, abréviation de style pour les idiots.",
+      "Haut commandement, BRG. Peu importe! Je vais là où va le frisson.",
+      "Réfugié, mercenaire, l'inspiration d'une génération !"
+    ],
+    "voicelines_en": [
+      "You want style? You've found her.",
+      "Eh, I could do better.",
+      "Name's Samira. Try not to slow me down.",
+      "If you can't keep up don't step up. I don't have time for fools.",
+      "Listen up, you sorry lot! Only one rule for this mission: take no prisoners.",
+      "I've got two rules for every fight. Don't ask for permission, don't ask for forgiveness.",
+      "The term's PsyOps, short for Psychic Operations. My name's Samira, short for styling on idiots.",
+      "High command, BRG. Whatever! I go where the thrill goes.",
+      "Refugee, mercenary, the inspiration of a generation!"
+    ]
+  },
+  "Sejuani": {
+    "name": "Sejuani",
+    "voicelines": [
+      "Ne faites confiance qu’à votre force.",
+      "Je ne serai pas refusé !",
+      "Vous possédez ce que vous prenez.",
+      "Combattez ou faites de la place à ceux qui le veulent.",
+      "Des actes, pas des mots.",
+      "Nous nous battons pendant que des lâches parlent.",
+      "Pas de spoil pour les humbles.",
+      "Vivre dans la peur, ce n'est pas vivre du tout.",
+      "Je ne tolérerai pas la faiblesse."
+    ],
+    "voicelines_en": [
+      "Trust nothing but your strength.",
+      "I won't be denied!",
+      "You own what you take.",
+      "Fight or make room for those who will.",
+      "Deeds, not words.",
+      "We fight while cowards talk.",
+      "No spoils for the meek.",
+      "Living in fear is not living at all.",
+      "I will not tolerate weakness."
+    ]
+  },
+  "Senna": {
+    "name": "Senna",
+    "voicelines": [
+      "Personne ne se bat seul dans la Brume.",
+      "Bien. Je n'ai pas besoin de plus d'ennemis.",
+      "Une version allégée des pièces de théâtre \"GIANTS\".",
+      "Là où je vais, tu ne veux pas y aller. Sérieusement, ce n'est pas le cas.",
+      "Je ne les fuis plus. Ils me fuient.",
+      "Quand il n'y aura plus de lumière, j'emporterai leurs ténèbres.",
+      "Si je peux gérer cette arme, je peux me débrouiller moi-même. Croyez-moi, je peux gérer cette arme.",
+      "Des volontaires pour charger aveuglément dans une tempête d'âmes ?",
+      "Revenez à la vie... sauvez le monde... le tout avec les armes verrouillées. Les sentinelles m'ont bien entraîné."
+    ],
+    "voicelines_en": [
+      "No one fights alone in the Mist.",
+      "Fine. I don't need more enemies.",
+      "A stripped-down version of \"GIANTS\" plays.",
+      "Where I'm going, you don't want to go. Seriously—you don't.",
+      "I'm not running from them anymore. They're running from me.",
+      "When there's no more light, I'll carry their darkness.",
+      "If I can handle this gun, I can handle myself. Trust me, I can handle this gun.",
+      "Any volunteers to charge blindly into a storm of souls?",
+      "Come back to life... save the world... all with weapons locked. The sentinels trained me right."
+    ]
+  },
+  "Seraphine": {
+    "name": "Seraphine",
+    "voicelines": [
+      "Un Xer'Sai connu sous le nom de Rek'Sai",
+      "Kai'Sa combattant les bêtes extérieures 1",
+      "Kai'Sa combattant les Outerbeasts 2",
+      "Kai'Sa combattant les Outerbeasts 3",
+      "Kai'Sa combattant les Outerbeasts 4",
+      "Changeons le monde !",
+      "Je chante pour les aider à se retrouver. La scène rend les choses plus faciles.",
+      "Tout me chante ! Je dois tout chanter en retour.",
+      "Cela ne peut pas être aussi simple que nous contre eux. Je sais que si je chante assez fort, ils écouteront !"
+    ],
+    "voicelines_en": [
+      "A Xer'Sai known as Rek'Sai",
+      "Kai'Sa fighting Outerbeasts 1",
+      "Kai'Sa fighting Outerbeasts 2",
+      "Kai'Sa fighting Outerbeasts 3",
+      "Kai'Sa fighting Outerbeasts 4",
+      "Let's change the world!",
+      "I sing to help them find themselves. The stage just makes it easier.",
+      "Everything sings to me! I've gotta sing it all back.",
+      "It can't be as simple as us versus them. I know if I sing loud enough, they'll listen!"
+    ]
+  },
+  "Sett": {
+    "name": "Sett",
+    "voicelines": [
+      "Hé, ne choisis jamais un combat que tu ne peux pas gagner.",
+      "Attends, attends. Sommes-nous payés pour ça ?",
+      "Cinq contre cinq ? Hé. Quel genre de malade dirige ce grondement ?",
+      "D'accord, tout le monde ici sait donner un coup de poing, n'est-ce pas ? Parce que je n'ai pas le temps pour les cours.",
+      "Écoute, si quelqu'un ne meurt pas là-bas, j'ai peut-être du travail pour toi.",
+      "Le patron est là. Retenez vos applaudissements... sérieusement, taisez-vous.",
+      "Hé, euh, écoute... Ma mère n'a pas besoin de savoir tout ça. 'D'accord ?",
+      "Ouais, ce sera un bon échauffement pour mon combat contre un Kaiju géant.",
+      "Hmm, Kaiju contre Avalon. Maintenant, il y a un combat que je peux vendre."
+    ],
+    "voicelines_en": [
+      "Ey, never pick a fight you can't win.",
+      "Wait, hold up. Are we gettin' paid for this?",
+      "Five versus five? Heh. What kinda sicko is runnin' this rumble?",
+      "Okay, everyone here knows how to throw a punch, right? 'Cause I don't have time for lessons.",
+      "Listen up, if any o' you don't die out there, I might have work for ya.",
+      "The boss is here. Hold your applause... seriously, be quiet.",
+      "Hey, uh, listen... My momma don't need to know about any o' this. 'Kay?",
+      "Yeah, this'll be a good warm-up for my fight with a giant Kaiju.",
+      "Hmm, Kaiju versus Avalon. Now there's a fight I can sell."
+    ]
+  },
+  "Shaco": {
+    "name": "Shaco",
+    "voicelines": [
+      "Que diriez-vous d'un tour de magie ?",
+      "La blague est contre toi !",
+      "Ce sera amusant !",
+      "Juste un peu plus près !",
+      "Maintenant tu me vois, maintenant non !",
+      "Marchez, marchez, marchez, marchez !",
+      "Pour mon prochain tour, je te ferai disparaître !",
+      "Regarde... derrière toi.",
+      "Les effets sonores suivants accompagnent certaines des citations de Dark Star Shaco."
+    ],
+    "voicelines_en": [
+      "How about a magic trick?",
+      "The joke's on you!",
+      "This will be fun!",
+      "Just a little bit closer!",
+      "Now you see me, now you don't!",
+      "March, march, march, march!",
+      "For my next trick, I'll make you disappear!",
+      "Look... behind you.",
+      "The following sound effects play alongside some of  Dark Star Shaco's quotes."
+    ]
+  },
+  "Shen": {
+    "name": "Shen",
+    "voicelines": [
+      "Une démonstration de jugement supérieur.",
+      "Avec des étapes équilibrées.",
+      "Nos volontés s'alignent.",
+      "De l'ombre.",
+      "Avancez prudemment.",
+      "Sans un bruit.",
+      "Il n’y a pas de contestation.",
+      "Vous êtes déjà mort, mais vous n'avez pas encore rattrapé votre retard.",
+      "Si la lumière voyage si vite, comment se fait-il qu'elle n'ait jamais attrapé un ninja ?"
+    ],
+    "voicelines_en": [
+      "A demonstration of superior judgement.",
+      "With balanced steps.",
+      "Our wills align.",
+      "From the shadows.",
+      "Tread carefully.",
+      "Without a sound.",
+      "There is no dispute.",
+      "You're already dead, you just haven't caught up yet.",
+      "If light travels so fast, how come it's never caught a ninja?"
+    ]
+  },
+  "Shyvana": {
+    "name": "Shyvana",
+    "voicelines": [
+      "Ils ne sont rien devant moi.",
+      "Le dragon s'approche.",
+      "Sur les ailes de la fureur.",
+      "Les ennemis de Demacia tomberont.",
+      "Sans remords.",
+      "Le calme avant la bataille.",
+      "Ils devraient courir maintenant.",
+      "Ils n’ont rien affronté comme moi.",
+      "Voici ma vraie forme."
+    ],
+    "voicelines_en": [
+      "They are nothing before me.",
+      "The dragon nears.",
+      "On wings of fury.",
+      "The enemies of Demacia will fall.",
+      "Without remorse.",
+      "The quiet before battle.",
+      "They should run now.",
+      "They have faced nothing like me.",
+      "Behold my true form."
+    ]
+  },
+  "Singed": {
+    "name": "Singed",
+    "voicelines": [
+      "Un verre vous tente?",
+      "Mélangez, mélangez, tourbillonnez, mélangez.",
+      "Secouer ou ne pas secouer.",
+      "Il est presque temps.",
+      "Quel goût ça avait ?",
+      "Secoué, pas remué.",
+      "Ces sons accompagnent les citations en mouvement et en attaque de l'astronaute Singed.",
+      "L'astronaute Singed",
+      "Secouer ou ne pas secouer"
+    ],
+    "voicelines_en": [
+      "How about a drink?",
+      "Mix, mix, swirl, mix.",
+      "To shake, or not to shake.",
+      "It's nearly time.",
+      "How'd that taste?",
+      "Shaken, not stirred.",
+      "These sounds accompany  Astronaut Singed's Moving and Attacking quotes.",
+      "Astronaut Singed's",
+      "To shake, or not to shake"
+    ]
+  },
+  "Sion": {
+    "name": "Sion",
+    "voicelines": [
+      "Le repos est pour les vivants.",
+      "Tu pues la peur !",
+      "Quand commence la tuerie ?",
+      "Ça fait trop longtemps.",
+      "Je déteste cette attente.",
+      "Le calme... me ronge.",
+      "Quel péage ai-je payé ?",
+      "Ces blessures n'apportent aucune douleur.",
+      "Cette faim... elle ronge."
+    ],
+    "voicelines_en": [
+      "Rest is for the living.",
+      "You reek of fear!",
+      "When does the killing start?",
+      "It's been too long.",
+      "I hate this waiting.",
+      "The quiet... eats at me.",
+      "What toll have I paid?",
+      "These wounds bring no pain.",
+      "This hunger... it gnaws."
+    ]
+  },
+  "Sivir": {
+    "name": "Sivir",
+    "voicelines": [
+      "Je fais toujours des ravages; du sang ou de l'or.",
+      "C'est juste du business.",
+      "Très bien, Azir, mettons votre Ascension à profit.",
+      "On ne peut pas apprivoiser le désert.",
+      "Je fais ma propre fortune.",
+      "J'ai des valeurs – elles s'empilent bien.",
+      "Les héros ont faim.",
+      "L'honneur est la rouille sur une lame émoussée.",
+      "La seule chose que j'admire, c'est le ciel."
+    ],
+    "voicelines_en": [
+      "I always take my toll; blood, or gold.",
+      "It's just business.",
+      "Alright, Azir, let's put your Ascension to work.",
+      "You can't tame the desert.",
+      "I make my own fortune.",
+      "I've got values - they stack up nicely.",
+      "Heroes go hungry.",
+      "Honor is the rust on a dull blade.",
+      "The only thing I look up to is the sky."
+    ]
+  },
+  "Skarner": {
+    "name": "Skarner",
+    "voicelines": [
+      "Je suis l'avant-garde de la protection d'Ixtal.",
+      "Vous avez déjà perdu.",
+      "J'ai vu l'essor et la chute d'innombrables civilisations. Ce n’est qu’un moment parmi tant d’autres.",
+      "La guerre est une arme des faibles. Je brise la terre et apporte la dévastation.",
+      "Depuis des générations, je défends Ixtal. Je défendrai cette terre aussi.",
+      "Tu veux ma protection ? Prouvez-vous que vous en êtes digne, et c'est à vous.",
+      "Ce monde est aveuglé par la colère et la ruine.",
+      "C'est grâce à ma souveraineté qu'Ixtal continue de survivre.",
+      "Moi seul suis prêt à faire ce qui est nécessaire."
+    ],
+    "voicelines_en": [
+      "I am the vanguard of Ixtal's protection.",
+      "You've already lost.",
+      "I have seen the rise and fall of countless civilizations. This is but one moment among many.",
+      "War is a weapon of the weak. I rupture the earth and bring devastation.",
+      "For generations, I have defended Ixtal. I will defend this land, too.",
+      "You want my protection? Prove yourself worthy, and it is yours.",
+      "This world is blinded by wrath and ruin.",
+      "It is through my sovereignty that Ixtal continues to survive.",
+      "Only I am willing to do what is necessary."
+    ]
+  },
+  "Smolder": {
+    "name": "Smolder",
+    "voicelines": [
+      "J'apporte la chaleur !",
+      "J'ai entendu dire que la famille royale de Camaroar offrait des bagues à mes ancêtres. Ha, ces choses devaient être énormes.",
+      "Je m'appelle Ignacarious Gigantareno Rex Le Spes Offerentis, mais mon ami humain m'a nommé Smolder.",
+      "Le voilà ! Le prix le plus splendide de Camaroar ! Moi!\" Smolder imite l'écho d'une foule. \"... Aw, ouais ! Bravo, Smolder... !",
+      "Mes ailes battent, mes éternuements sont des flammes et mes super respirations de faisceaux de feu ne font que devenir plus fortes ! Plus besoin d'être traité comme un nouveau-né !",
+      "Hé, maman... Je me suis fait de nouveaux amis, euh, je vais aller jouer avec eux très vite !\"\n   Maman rugit affirmativement.",
+      "Hé, maman... Je me suis fait de nouveaux amis, euh, je vais aller jouer avec eux très vite !",
+      "Il y a tellement de place pour courir !",
+      "Je dois rester sur mes griffes. Comme maman le dit toujours : « Rawr rawr rawr rawr rawr rawr !"
+    ],
+    "voicelines_en": [
+      "I bring the heat!",
+      "I heard that the royal family of Camaroar used to offer rings to my ancestors. Ha, those things must've been humongous.",
+      "My name's Ignacarious Gigantareno Rex Le Spes Offerentis, but my human friend named me Smolder.",
+      "Here he is! The most splendiferous prize of  Camaroar! Me!\" Smolder imitates the echo of a crowd. \"...Aw, yeah! Way to go, Smolder...!",
+      "My wings flap, my sneezes are flame-nados, and my super fire beam breaths are only getting stronger! No more getting treated like a hatchling!",
+      "Heyyy, mom... I made some new friends, uh, I'm gonna go play with them real quick!\"\n   Mom roars affirmatively.",
+      "Heyyy, mom... I made some new friends, uh, I'm gonna go play with them real quick!",
+      "There's so much room to run around!",
+      "Gotta stay on my claws. Like mom always says, 'Rawr rawr rawr rawr rawr rawr!"
+    ]
+  },
+  "Sona": {
+    "name": "Sona",
+    "voicelines": [
+      "Un Xer'Sai connu sous le nom de Rek'Sai",
+      "Kai'Sa combattant les bêtes extérieures 1",
+      "Kai'Sa combattant les Outerbeasts 2",
+      "Kai'Sa combattant les Outerbeasts 3",
+      "Kai'Sa combattant les Outerbeasts 4",
+      "Quel chef-d'œuvre allons-nous jouer aujourd'hui ?",
+      "Une version allégée des pièces de théâtre orchestrales de Star Guardian 2022.",
+      "Haha. Je ne parviens jamais à me déprimer avant une grande performance.",
+      "Je n'ai jamais pu refuser une scène vide. Pas même celui-ci."
+    ],
+    "voicelines_en": [
+      "A Xer'Sai known as Rek'Sai",
+      "Kai'Sa fighting Outerbeasts 1",
+      "Kai'Sa fighting Outerbeasts 2",
+      "Kai'Sa fighting Outerbeasts 3",
+      "Kai'Sa fighting Outerbeasts 4",
+      "What masterpiece shall we play today?",
+      "A stripped-down version of Star Guardian 2022's orchestral theme plays.",
+      "Haha. I can never shake the nerves before a big performance.",
+      "I never could refuse an empty stage. Not even this one."
+    ]
+  },
+  "Soraka": {
+    "name": "Soraka",
+    "voicelines": [
+      "Un Xer'Sai connu sous le nom de Rek'Sai",
+      "Kai'Sa combattant les bêtes extérieures 1",
+      "Kai'Sa combattant les Outerbeasts 2",
+      "Kai'Sa combattant les Outerbeasts 3",
+      "Kai'Sa combattant les Outerbeasts 4",
+      "Laissez-moi vous guider.",
+      "Que faut-il faire.",
+      "Une version allégée de \"A New Horizon\" est jouée, qui passe ensuite à \"Burning Bright\".",
+      "C'est mon chemin."
+    ],
+    "voicelines_en": [
+      "A Xer'Sai known as Rek'Sai",
+      "Kai'Sa fighting Outerbeasts 1",
+      "Kai'Sa fighting Outerbeasts 2",
+      "Kai'Sa fighting Outerbeasts 3",
+      "Kai'Sa fighting Outerbeasts 4",
+      "Let me guide you.",
+      "What must be done.",
+      "A stripped-down version of \"A New Horizon\" plays, which then switches to \"Burning Bright\".",
+      "This is my path."
+    ]
+  },
+  "Swain": {
+    "name": "Swain",
+    "voicelines": [
+      "Un Xer'Sai connu sous le nom de Rek'Sai",
+      "Kai'Sa combattant les bêtes extérieures 1",
+      "Kai'Sa combattant les Outerbeasts 2",
+      "Kai'Sa combattant les Outerbeasts 3",
+      "Kai'Sa combattant les Outerbeasts 4",
+      "Craignez le pouvoir que vous ne voyez pas.",
+      "Ne confondez pas lâcheté et sagesse.",
+      "Une version abrégée des pièces thématiques de Swain.",
+      "Vous pouvez vous asseoir sur un trône, cela ne fait pas de vous un dirigeant. Ça veut seulement dire que tu as un cul."
+    ],
+    "voicelines_en": [
+      "A Xer'Sai known as Rek'Sai",
+      "Kai'Sa fighting Outerbeasts 1",
+      "Kai'Sa fighting Outerbeasts 2",
+      "Kai'Sa fighting Outerbeasts 3",
+      "Kai'Sa fighting Outerbeasts 4",
+      "Fear the power you do not see.",
+      "Do not confuse cowardice for wisdom.",
+      "A shortened version of Swain's theme plays.",
+      "You can sit on a throne, that doesn't make you a ruler. It only means you have an arse."
+    ]
+  },
+  "Sylas": {
+    "name": "Sylas",
+    "voicelines": [
+      "Tu ne peux pas m'enfermer longtemps.",
+      "Alors... qui veut tuer le roi ?",
+      "La grande rébellion des mages commence maintenant !",
+      "Voyez les restes de mon esclavage et sachez que vous pouvez être libre !",
+      "S'évader n'était rien ! Regardez-moi briser un royaume.",
+      "Regardez tous ces bons petits rouages, ignorant la roue qu’ils tournent.",
+      "Ceux qui attendent d’être libérés ne méritent pas la liberté. En avant, frères et sœurs !",
+      "Cet endroit a du potentiel ! Démolissons tout ça !",
+      "Un berger sans troupeau n’est qu’un idiot avec un bâton."
+    ],
+    "voicelines_en": [
+      "You can't cage me for long.",
+      "So... who wants to kill the king?",
+      "The great mage rebellion starts now!",
+      "See the remnants of my bondage, and know you can be free!",
+      "Breaking out was nothing! Watch me break a kingdom.",
+      "Look at all those good little cogs, unaware of the wheel they turn.",
+      "Those who wait to be freed do not deserve freedom. Onwards, brothers and sisters!",
+      "This place has potential! Let's tear it all down!",
+      "A shepherd with no flock is just an idiot with a stick."
+    ]
+  },
+  "Syndra": {
+    "name": "Syndra",
+    "voicelines": [
+      "Tant de puissance inexploitée !",
+      "Les gens ont peur de ce qu’ils ne peuvent pas comprendre.",
+      "Une version allégée de \"A New Horizon\" est jouée, qui passe ensuite à \"Burning Bright\".",
+      "Mon potentiel est illimité !",
+      "Par la force de la volonté.",
+      "Qu'ils essaient de m'arrêter.",
+      "Tout un monde avec lequel jouer.",
+      "Ce pouvoir m’appartient.",
+      "Plus! Je peux être bien plus !"
+    ],
+    "voicelines_en": [
+      "So much untapped power!",
+      "People fear what they cannot understand.",
+      "A stripped-down version of \"A New Horizon\" plays, which then switches to \"Burning Bright\".",
+      "My potential is limitless!",
+      "By force of will.",
+      "Let them try to stop me.",
+      "A whole world to toy with.",
+      "This power is mine to command.",
+      "More! I can be so much more!"
+    ]
+  },
+  "Tahm Kench": {
+    "name": "Tahm Kench",
+    "voicelines": [
+      "Appelez-moi roi, appelez-moi démon. L'eau oublie les noms des noyés.",
+      "Tu es plus ennuyeux qu'un sandwich cassé.",
+      "Parcourons les tarifs de cet établissement.",
+      "C'est le cœur d'où jaillit l'eau la plus sombre.",
+      "Ce buffet dépasse la répugnance !",
+      "C'est ma bouche dans laquelle se terminent tous les voyages.",
+      "Je ne vois rien de splendide dans les offrandes de cette table !",
+      "Votre établissement dispose-t-il de tables ?",
+      "Je refuse de succomber à la dégradation culinaire !"
+    ],
+    "voicelines_en": [
+      "Call me king, call me demon. Water forgets the names of the drowned.",
+      "You're duller than a broken sandwich.",
+      "Let us peruse this establishment's fare.",
+      "It is the heart from which the darkest water flows.",
+      "This buffet exceeds repugnance!",
+      "It is my mouth into which all travels end.",
+      "I see nothing splendiferous in this table's offerings!",
+      "Does your establishment have any tables?",
+      "I refuse to succumb to culinary degradation!"
+    ]
+  },
+  "Taliyah": {
+    "name": "Taliyah",
+    "voicelines": [
+      "Connaissez le métier à tisser. Soyez la pierre.",
+      "Une version allégée des pièces de théâtre orchestrales de Star Guardian 2022.",
+      "Le sol ici cache une puissance puissante.",
+      "Chaque tapisserie commence par un seul point.",
+      "Il est temps d'appliquer ce que j'ai appris.",
+      "Il est temps de retrousser mes manches.",
+      "J'y vais.",
+      "Le soleil se lève... je dois y aller !",
+      "La confiance d'un oiseau n'est pas dans la branche."
+    ],
+    "voicelines_en": [
+      "Know the loom. Be the stone.",
+      "A stripped-down version of Star Guardian 2022's orchestral theme plays.",
+      "The ground here conceals a mighty power.",
+      "Every tapestry begins with a single stitch.",
+      "Time to apply what I've learned.",
+      "Time to roll up my sleeves.",
+      "I'm going ahead.",
+      "The sun rises... I must go!",
+      "A bird's trust is not in the branch."
+    ]
+  },
+  "Talon": {
+    "name": "Talon",
+    "voicelines": [
+      "Vivez et mourez par la lame.",
+      "Ils ne survivront pas.",
+      "Seuls les imbéciles promettent d’honorer leur vie.",
+      "Sur le fil du rasoir.",
+      "Je ne fais jamais de compromis.",
+      "Il n'y a nulle part où se cacher.",
+      "Vos allégeances ne signifient rien pour moi.",
+      "Finissons-en rapidement.",
+      "Finalement, mes lames trouveront leur chemin dans votre cœur."
+    ],
+    "voicelines_en": [
+      "Live and die by the blade.",
+      "They won't survive.",
+      "Only fools pledge life to honor.",
+      "On the razor's edge.",
+      "I never compromise.",
+      "There's nowhere to hide.",
+      "Your allegiances mean nothing to me.",
+      "Let's finish this quickly.",
+      "Eventually, my blades will find their way into your heart."
+    ]
+  },
+  "Taric": {
+    "name": "Taric",
+    "voicelines": [
+      "Cette lueur d'espoir que vous voyez, c'est moi.",
+      "Votre jugement est brouillé. Recherchez la clarté.",
+      "Il y a un grand pouvoir dans les étoiles. Grand danger également.",
+      "Écrasez la montagne sur eux.",
+      "Le joyau le plus précieux est celui que nous portons dans notre cœur.",
+      "Il n'y a plus d'autre endroit où aller que de monter.",
+      "La montée est peut-être longue, mais la vue en vaut la peine.",
+      "J'ai été au sommet de la montagne... et au fond du caniveau. Il y a beaucoup à apprendre des deux.",
+      "Je me suis élevé au-delà de l'appel des bannières et des rois."
+    ],
+    "voicelines_en": [
+      "That glimmer of hope you see, that's me.",
+      "Your judgement is clouded. Seek clarity.",
+      "There is great power in the stars. Great danger as well.",
+      "Crash the mountain upon them.",
+      "The most precious jewel is the one we hold in our heart.",
+      "There's nowhere left to go but up.",
+      "The climb may be long, but the view is worth it.",
+      "I've been to the top of the mountain... and the bottom of the gutter. There's much to learn from both.",
+      "I have risen beyond the call of banners and kings."
+    ]
+  },
+  "Teemo": {
+    "name": "Teemo",
+    "voicelines": [
+      "Un Xer'Sai connu sous le nom de Rek'Sai",
+      "Kai'Sa combattant les bêtes extérieures 1",
+      "Kai'Sa combattant les Outerbeasts 2",
+      "Kai'Sa combattant les Outerbeasts 3",
+      "Kai'Sa combattant les Outerbeasts 4",
+      "Capitaine Teemo en service.",
+      "Armé et prêt.",
+      "Cabane, deux, trois, quatre.",
+      "Je vais faire des recherches à l'avance !"
+    ],
+    "voicelines_en": [
+      "A Xer'Sai known as Rek'Sai",
+      "Kai'Sa fighting Outerbeasts 1",
+      "Kai'Sa fighting Outerbeasts 2",
+      "Kai'Sa fighting Outerbeasts 3",
+      "Kai'Sa fighting Outerbeasts 4",
+      "Captain Teemo on duty.",
+      "Armed and ready.",
+      "Hut, two, three, four.",
+      "I'll scout ahead!"
+    ]
+  },
+  "Thresh": {
+    "name": "Thresh",
+    "voicelines": [
+      "Quelle délicieuse agonie nous allons infliger.",
+      "C'est fini quand je dis.",
+      "Le tourment se décline en tant de saveurs.",
+      "Quelle est la valeur d’une âme ?",
+      "Ah, les doux tons de la misère.",
+      "Je suis la chose sous le lit.",
+      "Détends-toi, juste... lâche-toi.",
+      "Oh, l'éternité que nous passerons ensemble.",
+      "Hmm, à qui allons-nous faire penser ?"
+    ],
+    "voicelines_en": [
+      "What delightful agony we shall inflict.",
+      "It's over when I say.",
+      "Torment comes in so many flavors.",
+      "What is the worth of a soul?",
+      "Ah, the sweet tones of misery.",
+      "I am the thing under the bed.",
+      "Relax, just... let go.",
+      "Oh, the eternity we shall spend together.",
+      "Hmm, whose mind shall we snap?"
+    ]
+  },
+  "Tristana": {
+    "name": "Tristana",
+    "voicelines": [
+      "Tireur de Bandle un jour, tireur de Bandle toujours !",
+      "Laissez-moi entrer là-dedans !",
+      "J'appelle la première ligne.",
+      "Je me porte courageusement volontaire pour charger imprudemment !",
+      "Verrouillé, chargé et prêt à décoller !",
+      "Commençons cette fête !",
+      "Où est l'action ?",
+      "Faites venir les méchants !",
+      "Qui porte un casque ?"
+    ],
+    "voicelines_en": [
+      "Once a Bandle gunner, always a Bandle gunner!",
+      "Let me get in there!",
+      "I call frontline.",
+      "I bravely volunteer to charge in recklessly!",
+      "Locked, loaded, and ready to rocket!",
+      "Let's get this party started!",
+      "Where's the action?",
+      "Bring on the bad guys!",
+      "Who wears a helmet?"
+    ]
+  },
+  "Trundle": {
+    "name": "Trundle",
+    "voicelines": [
+      "Je suis juge des trolls, jury des trolls et exécuteur... troll !",
+      "Le Freljord est à moi !",
+      "Le roi des trolls arrive.",
+      "Je suis le troll avec le plan.",
+      "Pas le chef des trolls, mais le roi des trolls. Roi!",
+      "Il est temps de commencer une ère glaciaire.",
+      "Je ne suis pas moche, mais ils sont sur le point de le devenir !",
+      "Ohoho, ils ont l'air en colère !",
+      "Les trolls partent en guerre !"
+    ],
+    "voicelines_en": [
+      "I'm troll judge, troll jury, and execu... troll!",
+      "The Freljord is mine!",
+      "King of trolls, coming through.",
+      "I'm the troll with the plan.",
+      "Not troll chief, troll king. King!",
+      "Time to start an ice age.",
+      "I'm not ugly, but they're about to be!",
+      "Ohoho, they look angry!",
+      "The trolls are going to war!"
+    ]
+  },
+  "Tryndamere": {
+    "name": "Tryndamere",
+    "voicelines": [
+      "Ce sera un massacre.",
+      "Je suis ton pire cauchemar !",
+      "Suivez ma lame !",
+      "Tu n'as jamais eu aucune chance.",
+      "Mon bras droit est beaucoup plus fort que mon bras gauche !",
+      "Il n'y a pas de retour en arrière.",
+      "Bientôt, tout le monde me rejoindra.",
+      "Tout sera consommé.",
+      "Trouvez de nouvelles âmes. Rapidement."
+    ],
+    "voicelines_en": [
+      "This'll be a slaughter.",
+      "I am your worst nightmare!",
+      "Follow my blade!",
+      "You never stood a chance.",
+      "My right arm is a lot stronger than my left arm!",
+      "There is no going back.",
+      "Soon all will join me.",
+      "All will be consumed.",
+      "Find fresh souls. Quickly."
+    ]
+  },
+  "Twisted Fate": {
+    "name": "Twisted Fate",
+    "voicelines": [
+      "Dame Chance sourit.",
+      "Charmé, j'en suis sûr.",
+      "Je suis unique en mon genre.",
+      "C'est mon jour de chance.",
+      "Juste le hasard du tirage au sort.",
+      "Cela ne me dérange pas si je le fais.",
+      "Tout est dans les cartes.",
+      "Toujours en fuite.",
+      "Seul un imbécile joue la main qui lui est distribuée."
+    ],
+    "voicelines_en": [
+      "Lady Luck is smilin'.",
+      "Charmed, I'm sure.",
+      "I'm one of a kind.",
+      "It's my lucky day.",
+      "Just the luck of the draw.",
+      "Don't mind if I do.",
+      "It's all in the cards.",
+      "Always on the run.",
+      "Only a fool plays the hand he's dealt."
+    ]
+  },
+  "Twitch": {
+    "name": "Twitch",
+    "voicelines": [
+      "Ce qui ne tue pas n’est tout simplement pas encore terminé.",
+      "Hé, dans quoi suis-je intervenu ?",
+      "Des égouts sort... le malheur.",
+      "Qui a laissé survivre toutes ces plantes ?",
+      "Ohoho, oui, oui...",
+      "Qu’est-ce que « partager » ?",
+      "Ne faites confiance à aucun liquide à travers lequel vous pouvez voir.",
+      "C'est collant donc on ne le laisse pas tomber.",
+      "Ugh, je ne peux même pas goûter l'air d'ici, bleugh."
+    ],
+    "voicelines_en": [
+      "What doesn't kill you just isn't finished yet.",
+      "Hey, what did I step in?",
+      "From out of the sewers comes... doom.",
+      "Who let all these plants survive?",
+      "Ohoho, yes, yes...",
+      "What's 'sharing'?",
+      "Don't trust any liquid that you can see through.",
+      "It's sticky so you don't drop it.",
+      "Ugh, I can't even taste the air up here, bleugh."
+    ]
+  },
+  "Udyr": {
+    "name": "Udyr",
+    "voicelines": [
+      "Le conflit nourrit Freljord.",
+      "Les esprits au cœur de Freljord ont besoin de moi. Je réponds à leur appel.",
+      "Écoutez-moi, esprits. Je prie pour la lutte. Je prie pour la croissance.",
+      "Je peux goûter la soif de victoire de nos ennemis. Laissez-les mourir de faim.",
+      "Pendant de nombreuses années, j'ai cru que j'étais maudit. Je me demande encore.",
+      "Les vies ordinaires recèlent de beauté.",
+      "Deux fois j'ai aimé, deux fois je suis parti.",
+      "Je ne canalise pas les demi-dieux.",
+      "Je ne connaissais pas vraiment Freljord jusqu'à ce que je le quitte."
+    ],
+    "voicelines_en": [
+      "Conflict feeds the Freljord.",
+      "The spirits at the heart of the Freljord have need of me. I answer their call.",
+      "Hear me, spirits. I pray for struggle. I pray for growth.",
+      "I can taste our enemies' hunger for victory. Let them starve.",
+      "For many years I thought I was cursed. I still wonder.",
+      "Ordinary lives hold beauty.",
+      "Twice I have loved, twice I have left.",
+      "I do not channel the demigods.",
+      "I did not truly know the Freljord until I left it."
+    ]
+  },
+  "Urgot": {
+    "name": "Urgot",
+    "voicelines": [
+      "Vous ne pouvez pas connaître la force... Jusqu'à ce que vous soyez brisé.",
+      "Accrochez-vous à l'espoir... C'est tout ce que vous avez.",
+      "S'ils pouvaient seulement comprendre la vérité sur la Drague... je n'aurais pas besoin de l'enfoncer dans leur crâne.",
+      "Profitez de ce dernier moment... avant le début de votre épreuve.",
+      "Il est temps... pour eux de mourir.",
+      "Les contrôler sera simple... avec ma main autour de leur gorge.",
+      "Je détecte la présence d'écume.",
+      "La machine est prête.",
+      "Pouvoir. Peur. Ce sont mes armes."
+    ],
+    "voicelines_en": [
+      "You cannot know strength... Until you are broken.",
+      "Cling to hope... It is all you have.",
+      "If they could only comprehend the truth of the Dredge... I wouldn't need to drive it into their skulls.",
+      "Enjoy this final moment... before your trial begins.",
+      "It is time... for them to die.",
+      "Controlling them will be simple... with my hand around their throats.",
+      "I detect the presence of scum.",
+      "The machine is ready.",
+      "Power. Fear. These are my weapons."
+    ]
+  },
+  "Varus": {
+    "name": "Varus",
+    "voicelines": [
+      "Les coupables connaîtront l'agonie.",
+      "Je n'ai aucune grâce à donner.",
+      "Les citations dans lesquelles parlent les vaisseaux de Varus – Kai et Valmar – sont présentées comme des conversations. Sinon, Varus est la voix principale.",
+      "Aucune pitié, aucun pardon. Mortel ou monstre, tout tombera.",
+      "Kai : \"Chaque pas en avant...\"\nValmar : \"...est volé.\"\nVarus : « J'avance vers la vengeance que je mérite.",
+      "Chaque pas en avant...",
+      "Valmar : \"...est volé.\"\nVarus : « J'avance vers la vengeance que je mérite.",
+      "Varus : « J'avance vers la vengeance que je mérite.",
+      "J'avance vers la vengeance que je mérite."
+    ],
+    "voicelines_en": [
+      "The guilty will know agony.",
+      "I have no grace to give.",
+      "Quotes in which Varus' vessels —  Kai and  Valmar — speak are presented as conversations. Varus is the main voice, otherwise.",
+      "No mercy, no forgiveness. Mortal or monster, all will fall.",
+      "Kai: \"Every step forward...\"\nValmar: \"...is stolen.\"\nVarus: \"I move toward the vengeance I deserve.",
+      "Every step forward...",
+      "Valmar: \"...is stolen.\"\nVarus: \"I move toward the vengeance I deserve.",
+      "Varus: \"I move toward the vengeance I deserve.",
+      "I move toward the vengeance I deserve."
+    ]
+  },
+  "Vayne": {
+    "name": "Vayne",
+    "voicelines": [
+      "Chassons ceux qui sont tombés dans les ténèbres.",
+      "Je sens la magie noire.",
+      "Le mal se cache à chaque coin de rue.",
+      "Sur les ailes de la nuit.",
+      "Dans le noir, tout est mis à nu.",
+      "Les ombres sont à craindre.",
+      "L'obscurité devrait me craindre.",
+      "J'entends les innocents crier.",
+      "Me frapper, c'est comme boxer avec des ombres !"
+    ],
+    "voicelines_en": [
+      "Let us hunt those who have fallen to darkness.",
+      "I smell black magics.",
+      "Evil lurks around every corner.",
+      "On wings of night.",
+      "In the dark, all is laid bare.",
+      "The shadows are to be feared.",
+      "The dark should fear me.",
+      "I hear the innocent cry out.",
+      "Hitting me is like boxing with shadows!"
+    ]
+  },
+  "Veigar": {
+    "name": "Veigar",
+    "voicelines": [
+      "Un Xer'Sai connu sous le nom de Rek'Sai",
+      "Kai'Sa combattant les bêtes extérieures 1",
+      "Kai'Sa combattant les Outerbeasts 2",
+      "Kai'Sa combattant les Outerbeasts 3",
+      "Kai'Sa combattant les Outerbeasts 4",
+      "Sachez que si les rôles étaient inversés, je ne vous montrerais aucune pitié !",
+      "Vos ordres me fatiguent.",
+      "La souffrance attend.",
+      "Ce n'est qu'un court chemin' ? C'est une petite blague ?!"
+    ],
+    "voicelines_en": [
+      "A Xer'Sai known as Rek'Sai",
+      "Kai'Sa fighting Outerbeasts 1",
+      "Kai'Sa fighting Outerbeasts 2",
+      "Kai'Sa fighting Outerbeasts 3",
+      "Kai'Sa fighting Outerbeasts 4",
+      "Know that if the tables were turned, I would show you no mercy!",
+      "Your commands tire me.",
+      "Suffering awaits.",
+      "It's only a short way'? Is that a short joke?!"
+    ]
+  },
+  "Vel'Koz": {
+    "name": "Vel'Koz",
+    "voicelines": [
+      "Vel'Koz/LoL/Audio",
+      "La connaissance par... la désintégration.",
+      "C'est inattendu.",
+      "Ma présence leur cause... de la détresse.",
+      "Une terre riche en informations...",
+      "Que puis-je découvrir d’autre ?",
+      "La lumière ici est crue.",
+      "À ce jour, aucun n’a survécu aux tests préliminaires.",
+      "Forte concentration de sujets... merveilleux."
+    ],
+    "voicelines_en": [
+      "Vel'Koz/LoL/Audio",
+      "Knowledge through... disintegration.",
+      "That's unexpected.",
+      "My presence causes them... distress.",
+      "A land rich with information...",
+      "What else can I discover?",
+      "The light here is harsh.",
+      "To date, none have survived preliminary testing.",
+      "High concentration of subjects... wonderful."
+    ]
+  },
+  "Vex": {
+    "name": "Vex",
+    "voicelines": [
+      "Kay. Voyez si je m'en soucie.",
+      "Et puis je lui ai dit : \"Sortez de ma chambre !\" Et elle a dit : \"C'est ma maison, jeune femme et\"... Oh, attends, Shadow. Je finirai ça plus tard.",
+      "Blegh, je viens d'arriver : j'en ai déjà fini avec ça.",
+      "D'autres personnes sont ici ? Ugggh, super.",
+      "Cela va être... horrible, dans le très bon sens. Une bonne et une horrible manière. Vous savez ce que je veux dire!",
+      "Hmm. Quelle couleur dois-je porter aujourd’hui ? Noir? Ou du charbon de bois ?",
+      "Avant de rencontrer Black Mist, je vivais dans un monde de couleurs et de bonheur. J'étais tellement perdu.",
+      "Bienvenue dans la Ville Triste. Population : Moi. Tous les autres sortent.",
+      "Renversons ces sourires."
+    ],
+    "voicelines_en": [
+      "Kay. See if I care.",
+      "And then I told her, 'Get outta my room!' And she said, 'This is my house, young lady and'... Oh, hang on, Shadow. I'll finish this later.",
+      "Blegh, just got here: already over it.",
+      "Other people are here? Ugggh, great.",
+      "This is going to be... awful, in a very good way. A good, awful way. You know what I mean!",
+      "Hmm. What color should I wear today? Black? Or charcoal?",
+      "Before I met the Black Mist, I lived in a world of color and happiness. I was so lost.",
+      "Welcome to Sad Town. Population: Me. Everyone else get out.",
+      "Let's turn these smiles upside down."
+    ]
+  },
+  "Vi": {
+    "name": "Vi",
+    "voicelines": [
+      "Frappez d'abord. Posez des questions en frappant.",
+      "Si je veux votre avis, je vous l'arrache.",
+      "Ici, je viens pour sauver la situation... ou la détruire.",
+      "Je fais ça à ma façon.",
+      "Je laisse mes mains parler.",
+      "Le meilleur de Piltover.",
+      "Allons craquer.",
+      "Qui a besoin d’une raclée ?",
+      "Parfois, il faut faire une porte."
+    ],
+    "voicelines_en": [
+      "Punch first. Ask questions while punching.",
+      "If I want your opinion, I'll beat it out of you.",
+      "Here I come to save the day... or wreck it.",
+      "I'm doing this my way.",
+      "I let my hands do the talking.",
+      "Piltover's finest.",
+      "Let's get crackin'.",
+      "Who needs a beatdown?",
+      "Sometimes you gotta make a door."
+    ]
+  },
+  "Viego": {
+    "name": "Viego",
+    "voicelines": [
+      "Mon cœur était déjà brisé.",
+      "Elle m'attend au-delà de la brume. Ma reine. Mon amour. Mon cœur noir et brisé.",
+      "Aucun prix n’est trop élevé. Aucune atrocité hors de ma portée. Pour elle, je ferai n'importe quoi.",
+      "Soumission ou mort pour tous ceux qui vivent. En fin de compte, cela n’a pas d’importance. Je reverrai son visage.",
+      "Ça fait mal, mon cœur. Ça fait tellement mal.",
+      "Je veux peu de chose, mais je suis obligé de tuer pour cela.",
+      "Bientôt, cette longue nuit cruelle prendra fin. Mais pas encore.",
+      "Mes forces parcourent le monde. Rien n'échappera.",
+      "Nous étions belles autrefois."
+    ],
+    "voicelines_en": [
+      "My heart was already broken.",
+      "She waits for me beyond the mist. My queen. My love. My black and broken heart.",
+      "No price is too great. No atrocity beyond my reach. For her, I will do anything.",
+      "Submission or death for all who live. In the end, it matters not. I will see her face again.",
+      "It hurts, my heart. It hurts so much.",
+      "I want precious little, yet I am forced to kill for it.",
+      "Soon, this long cruel night will end. But not yet.",
+      "My forces scour the world. Nothing will escape.",
+      "We were beautiful once."
+    ]
+  },
+  "Viktor": {
+    "name": "Viktor",
+    "voicelines": [
+      "Rejoignez la glorieuse évolution.",
+      "Constructions inférieures.",
+      "La fonction plutôt que la forme.",
+      "Tout va bientôt changer.",
+      "Le métal est la perfection.",
+      "Embrassez le progrès.",
+      "Avec la plus grande efficacité.",
+      "Je suis le premier d'une longue série.",
+      "Soumettez-moi à mes créations."
+    ],
+    "voicelines_en": [
+      "Join the glorious evolution.",
+      "Inferior constructs.",
+      "Function over form.",
+      "All will soon change.",
+      "Metal is perfection.",
+      "Embrace progress.",
+      "With utmost efficiency.",
+      "I am the first of many.",
+      "Submit to my designs."
+    ]
+  },
+  "Vladimir": {
+    "name": "Vladimir",
+    "voicelines": [
+      "Les rivières seront rouges.",
+      "Je suis absolument furieux.",
+      "Ma tasse est à moitié vide.",
+      "Le caillot s'épaissit.",
+      "S'il vous plaît, laissez tout sortir.",
+      "Unissons nos efforts.",
+      "Des progrès au compte-goutte.",
+      "Une décision vitale.",
+      "Une lune de récolte, si bien nommée."
+    ],
+    "voicelines_en": [
+      "The rivers will run red.",
+      "I'm absolutely livid.",
+      "My cup is half empty.",
+      "The clot thickens.",
+      "Please, let it all out.",
+      "Let's pool our efforts.",
+      "Trickling progress.",
+      "A vital decision.",
+      "A harvest moon, so aptly named."
+    ]
+  },
+  "Volibear": {
+    "name": "Volibear",
+    "voicelines": [
+      "Ressentez la puissance de la nature.",
+      "Vous avez un cœur de faible.",
+      "La terre existera bien plus longtemps que les sangs chauds.",
+      "La terre appartient à la nature. Aujourd’hui, nous le récupérons bec et griffe.",
+      "Leurs os sont de la cendre et de la terre. Le mien gronde avec un tonnerre sauvage.",
+      "Suivez-moi et nous ferons tomber le ciel !",
+      "Les dieux ne mendient pas. Nous prenons ce qui nous appartient !",
+      "Ce sol tremblera au premier orage !",
+      "Nous sommes tous du sang de la nature."
+    ],
+    "voicelines_en": [
+      "Feel the power of the wild.",
+      "You have the heart of a weakling.",
+      "The land will exist far longer than warm-bloods.",
+      "The land belongs to the wild. Today, we reclaim it with tooth and claw.",
+      "Their bones are ash and soil. Mine rumble with wild thunder.",
+      "Follow me and we will bring down sky!",
+      "Gods do not beg. We take what is ours!",
+      "This ground will tremble with the first storm!",
+      "We are all blood of the wild."
+    ]
+  },
+  "Warwick": {
+    "name": "Warwick",
+    "voicelines": [
+      "Le sang coule... ils courent tous.",
+      "Ils me craignent. Ils devraient.",
+      "Les chaînes sont brisées... la bête est libre.",
+      "Le sang que tu as versé m’appelle.",
+      "Oh, quelle journée. Quelle journée sanglante.",
+      "Violence suralimentée !",
+      "Du sang et du chrome !",
+      "Je suis en contrôle.",
+      "Je ne peux pas tous vous sauver... je ne veux pas."
+    ],
+    "voicelines_en": [
+      "Blood runs... they all run.",
+      "They fear me. They should.",
+      "The chains are broken... the beast is free.",
+      "The blood you spilled calls to me.",
+      "Oh, what a day. What a bloody day.",
+      "Violence supercharged!",
+      "Blood and chrome!",
+      "I am in control.",
+      "Can't save you all... don't want to."
+    ]
+  },
+  "Wukong": {
+    "name": "Wukong",
+    "voicelines": [
+      "Je serai le meilleur.",
+      "Qui remet en question mes capacités ?",
+      "Chaque erreur est une leçon.",
+      "Ne vous contentez jamais de la seconde.",
+      "Mon voyage ne fait que commencer.",
+      "Montre-moi le chemin.",
+      "Ma place est au sommet.",
+      "S'adapter à toutes les situations.",
+      "Apportez-moi un vrai défi."
+    ],
+    "voicelines_en": [
+      "I will be the best.",
+      "Who questions my ability?",
+      "Every mistake is a lesson.",
+      "Never settle for second.",
+      "My journey's only beginning.",
+      "Show me the path.",
+      "My place is at the top.",
+      "Adapt to all situations.",
+      "Bring me a real challenge."
+    ]
+  },
+  "Xayah": {
+    "name": "Xayah",
+    "voicelines": [
+      "Je ne peux jamais résister à une invitation à danser.",
+      "Très bien, je serai juste là... à aiguiser mes plumes.",
+      "Découpons-les en rubans.",
+      "Ah, le silence, si doré. Comme Rakan. Il me manque un peu. Même s'il est... bruyant.",
+      "Le Vastaya a nommé le monde. Nous avons nommé les arbres, le vent, les montagnes. Nous connaissons leur pouvoir.",
+      "Nous nous sommes engagés l'un envers l'autre au milieu d'une bagarre dans une taverne. L’endroit tout entier empestait le vomi, la sueur et le sang. C'était tellement romantique !",
+      "Ils me qualifieront probablement de criminel de guerre un jour, mais pas aujourd'hui.",
+      "Le monde a une grande dette envers Vastaya. Je suis ici pour collectionner.",
+      "Je suis juste une fille ordinaire. Une fille ordinaire avec une quantité infinie de piquants de mort."
+    ],
+    "voicelines_en": [
+      "I can never resist an invitation to dance.",
+      "Fine, I'll just be over here... sharpening my feathers.",
+      "Let's cut 'em to ribbons.",
+      "Ah, silence, so golden. Like Rakan. Kind of miss him. Even if he is... noisy.",
+      "The vastaya named the world. We named the trees, the wind, the mountains. We know their power.",
+      "We pledged ourselves to each other in the middle of a tavern brawl. The whole place reeked of vomit, sweat and blood. It was so romantic!",
+      "They'll probably label me a war criminal one day, but not today.",
+      "The world owes the Vastaya a great debt. I'm here to collect.",
+      "I'm just an ordinary girl. An ordinary girl with an infinite supply of death quills."
+    ]
+  },
+  "Xerath": {
+    "name": "Xerath",
+    "voicelines": [
+      "Renekton, montre-leur ta haine !",
+      "C'est notre heure, crocodile. Faites-les souffrir !",
+      "Aujourd'hui, je serai libre !",
+      "Le monde peut s'effondrer, mais je resterai.",
+      "Je vais vous montrer le vrai pouvoir.",
+      "Je serai leur perte.",
+      "Ces chaînes ne peuvent pas me retenir.",
+      "Les émotions ne sont que des distractions.",
+      "Les affaires des mortels sont en dessous de moi."
+    ],
+    "voicelines_en": [
+      "Renekton, show them your hatred!",
+      "It is our time, crocodile. Make them suffer!",
+      "Today, I will be free!",
+      "The world may crumble, but I shall remain.",
+      "I will show you true power.",
+      "I will be their undoing.",
+      "These chains cannot hold me.",
+      "Emotions are only distractions.",
+      "The affairs of mortals are beneath me."
+    ]
+  },
+  "Xin Zhao": {
+    "name": "Xin Zhao",
+    "voicelines": [
+      "L'esprit du guerrier n'est jamais brisé.",
+      "Mon roi commande.",
+      "Ce sera fait !",
+      "Un Demacien ne recule pas.",
+      "Sonnez la marche !",
+      "Seules les actions parlent vraiment.",
+      "Je suis peut-être en infériorité numérique, mais même les chances ne peuvent pas s'opposer à moi !",
+      "Trouvez-moi un objet immobile et je mettrai cette question de côté !",
+      "Le destin a fait son choix."
+    ],
+    "voicelines_en": [
+      "The warrior's spirit is never broken.",
+      "My king commands.",
+      "It shall be done!",
+      "A Demacian does not retreat.",
+      "Sound the march!",
+      "Only actions truly speak.",
+      "I may be outnumbered, but not even the odds can stand against me!",
+      "Find me an immovable object, and I'll put this question to rest!",
+      "Fate has made its choice."
+    ]
+  },
+  "Yasuo": {
+    "name": "Yasuo",
+    "voicelines": [
+      "La mort est comme le vent : toujours à mes côtés.",
+      "Pas de remède pour les imbéciles.",
+      "Une version allégée des pièces de théâtre \"GIANTS\".",
+      "Il n'est pas garanti que ces lignes soient jouées car les lignes mobiles sont copiées dans le pool Premier coup.",
+      "Les murmures dans le vent parlent d'un épéiste masqué à deux lames.",
+      "Mon frère est revenu. On dirait que mourir était la partie la plus facile.",
+      "Cette histoire n'est pas encore terminée.",
+      "Justice. C'est un joli mot.",
+      "Cette lame ne devient jamais plus légère."
+    ],
+    "voicelines_en": [
+      "Death is like the wind—always by my side.",
+      "No cure for fools.",
+      "A stripped-down version of \"GIANTS\" plays.",
+      "These lines aren't guaranteed to play because the Moving lines are copied into the First Move pool.",
+      "Whispers on the wind speak of a masked swordsman with two blades.",
+      "My brother returned. Seems dying was the easy part.",
+      "This story is not yet finished.",
+      "Justice. That's a pretty word.",
+      "This blade never gets any lighter."
+    ]
+  },
+  "Yone": {
+    "name": "Yone",
+    "voicelines": [
+      "Un à couper, un à sceller.",
+      "Tu penses que c'est moi qu'il faut craindre ? Hmph.",
+      "Avant, je chassais un vent capricieux. Maintenant, je chasse une tempête de ténèbres.",
+      "Beaucoup me prennent pour les cauchemars que je tue. Hmph, laissez-les.",
+      "Dans cette seconde vie maudite, où finit le masque et où commence-t-il ?",
+      "Ils me regardent et ne voient que le masque.",
+      "Les Azakana se sont répandus comme la peste depuis l'invasion noxienne. Mon travail... ne se termine jamais.",
+      "Hanté par un passé que je ne peux pas changer.",
+      "Un festival de fleurs pour se souvenir des disparus... Je pense que je préfère être oublié."
+    ],
+    "voicelines_en": [
+      "One to cut, one to seal.",
+      "You think I am the one to fear? Hmph.",
+      "Before, I chased a wayward gale. Now I hunt a storm of darkness.",
+      "Many mistake me for the nightmares I slay. Hmph, let them.",
+      "In this cursed second life, where does the mask end, and I begin?",
+      "They look at me and see only the mask.",
+      "The Azakana have spread like a plague since the Noxian invasion. My work ... never ends.",
+      "Haunted by a past I cannot change.",
+      "A festival of flowers to remember those lost... I think I'd rather be forgotten."
+    ]
+  },
+  "Yorick": {
+    "name": "Yorick",
+    "voicelines": [
+      "N'ayez crainte... j'utiliserai votre cadavre.",
+      "C'est tes funérailles.",
+      "J'ai eu de l'honneur autrefois... avant la Ruine.",
+      "Cette terre ne guérira jamais. Mais je vais le laisser reposer.",
+      "Fatigué, vieux et à moitié mort. Pourtant, je viens pour toi.",
+      "Je suis le fossé entre la vie et la mort. Le mince fossé entre le souffle et la tombe.",
+      "Rejoignez-nous dans l'éternité, Yorick.\n \"Dans l'au-delà, une fois libre.",
+      "Rejoignez-nous dans l'éternité, Yorick.",
+      "Dans l'au-delà, une fois libre."
+    ],
+    "voicelines_en": [
+      "Fear not... I will make use of your corpse.",
+      "It's your funeral.",
+      "I once had honor... before the Ruination.",
+      "This land will never heal. But I will lay it to rest.",
+      "Tired, ancient, and half-dead. Still, I come for you.",
+      "I am the rift between life and death. The thin divide between breath and grave.",
+      "Join us in eternity, Yorick.\"\n \"In the beyond, once you're free.",
+      "Join us in eternity, Yorick.",
+      "In the beyond, once you're free."
+    ]
+  },
+  "Yuumi": {
+    "name": "Yuumi",
+    "voicelines": [
+      "Toi et moi, on a ça !",
+      "Plutôt un amateur de chiens, hein ?",
+      "Les chats sont d'excellents compagnons ! Demandez simplement à mon maître... qui a disparu dans des circonstances mystérieuses.",
+      "Bien! Lequel d'entre vous a une excellente visée et est doué pour les coups de menton ?",
+      "Qui est prêt à risquer nos vies, à vaincre nos ennemis et peut-être à renverser quelques tasses ?",
+      "Répétez-moi le plan de match. Attendez. Poisson! Quelqu'un a du poisson ! Où est-il?",
+      "Alors, qui veut être mon meilleur ami ? ...Livre, je sais que tu es déjà mon meilleur ami !",
+      "♪ Où est mon plat de poisson au poisson ? ♪ Miaou !~",
+      "Aujourd'hui, nous sommes des destructeurs ! » Yuumi rigole."
+    ],
+    "voicelines_en": [
+      "You and me, we got this!",
+      "More of a dog person, huh?",
+      "Cats make great companions! Just ask my master... who disappeared under mysterious circumstances.",
+      "Alright! Which one of you's got great aim, and is good at chin scritches?",
+      "Who's ready to risk our lives, defeat our foes, and maybe knock over some cups?",
+      "Tell me the game plan again. Wait. Fish! Someone has fish! Where is it?",
+      "So, who wants to be my best friend? ...Book, I know you're already my best friend!",
+      "♪ Where's my fishy fish fish dish? ♪ Meow!~",
+      "Today we are destroyers!\" Yuumi giggles."
+    ]
+  },
+  "Zac": {
+    "name": "Zac",
+    "voicelines": [
+      "J'ai été fait pour ça... littéralement.",
+      "Eh bien, maintenant je suis juste en colère.",
+      "Je devrais me procurer un costume.",
+      "Je peux plier, mais je ne casse pas.",
+      "Juste une autre journée de travail.",
+      "J'aurais vraiment besoin d'une collation en ce moment.",
+      "Je ne saute jamais le petit-déjeuner.",
+      "Le combat est dans mon sang... je veux dire... mon goo.",
+      "Pourquoi merci ! Je m'entraîne."
+    ],
+    "voicelines_en": [
+      "I was made for this... literally.",
+      "Well, now I'm just mad.",
+      "I should get a suit.",
+      "I may bend, but I don't break.",
+      "Just another day on the job.",
+      "I could really use a snack right now.",
+      "I never skip breakfast.",
+      "Fighting is in my blood... I mean... my goo.",
+      "Why thanks! I do work out."
+    ]
+  },
+  "Zed": {
+    "name": "Zed",
+    "voicelines": [
+      "La lame invisible est la plus meurtrière.",
+      "Sans un bruit.",
+      "Aucune technique n'est interdite.",
+      "Bravez les ombres, trouvez la vérité.",
+      "Ne craignez pas le chemin enveloppé.",
+      "L'équilibre est le maître des imbéciles.",
+      "Les secrets gardés sont des armes gaspillées.",
+      "Les ombres m'ont éclairé.",
+      "L'équilibre est une faiblesse."
+    ],
+    "voicelines_en": [
+      "The unseen blade is the deadliest.",
+      "Without a sound.",
+      "No technique is forbidden.",
+      "Brave the shadows, find the truth.",
+      "Do not fear the shrouded path.",
+      "Balance is a fool's master.",
+      "Secrets kept are weapons wasted.",
+      "The shadows have enlightened me.",
+      "Balance is weakness."
+    ]
+  },
+  "Zeri": {
+    "name": "Zeri",
+    "voicelines": [
+      "Un Xer'Sai connu sous le nom de Rek'Sai",
+      "Kai'Sa combattant les bêtes extérieures 1",
+      "Kai'Sa combattant les Outerbeasts 2",
+      "Kai'Sa combattant les Outerbeasts 3",
+      "Kai'Sa combattant les Outerbeasts 4",
+      "Une étincelle, c'est tout ce dont j'ai besoin !",
+      "Aucune étincelle entre nous de toute façon.",
+      "Vous savez quoi? Nous pourrions mourir ici. Assurons-nous de nous balancer.",
+      "Criez si vous avez besoin de renfort. J'y serai en un rien de temps."
+    ],
+    "voicelines_en": [
+      "A Xer'Sai known as Rek'Sai",
+      "Kai'Sa fighting Outerbeasts 1",
+      "Kai'Sa fighting Outerbeasts 2",
+      "Kai'Sa fighting Outerbeasts 3",
+      "Kai'Sa fighting Outerbeasts 4",
+      "A spark is all I need!",
+      "No spark between us anyway.",
+      "You know what? We might die here. Let's make sure we go down swinging.",
+      "Yell if you need backup. I'll be there in no time."
+    ]
+  },
+  "Ziggs": {
+    "name": "Ziggs",
+    "voicelines": [
+      "Ce sera génial !",
+      "J'y vais, j'y vais.",
+      "C'est vrai !\" Ziggs rit.",
+      "Quelqu'un a-t-il une... correspondance ?",
+      "Allez... allez, allez !",
+      "Faisons sauter ce joint.",
+      "Hé... où est passée cette bombe ?",
+      "Ne vous inquiétez pas, j'ai compris.",
+      "Ziggs se moque. « Comment ça, ça n'a pas l'air sûr ? Ziggs rit malicieusement."
+    ],
+    "voicelines_en": [
+      "This'll be a blast!",
+      "I'm going, I'm going.",
+      "Right-o!\" Ziggs chuckles.",
+      "Anyone got a... match?",
+      "Come on... come on, come on!",
+      "Let's blow this joint.",
+      "Hey... where'd that bomb go?",
+      "Don't worry, I got this.",
+      "Ziggs scoffs. \"What do you mean this doesn't look safe?\" Ziggs chuckles to himself mischievously."
+    ]
+  },
+  "Zilean": {
+    "name": "Zilean",
+    "voicelines": [
+      "Je savais que tu ferais ça...",
+      "Le temps est perdu.",
+      "Le chemin est toujours le même.",
+      "Tout cela à temps.",
+      "J'ai vu ta mort, c'était douloureux...",
+      "Le temps passe comme une flèche ; les fruits volent comme la banane.",
+      "J'ai l'impression d'avoir déjà fait ça.",
+      "Hmmm, si je me souviens bien, nous gagnerons le prochain.",
+      "Le temps passe comme une flèche ; les fruits volent comme la banane\" fait référence au dicton éponyme."
+    ],
+    "voicelines_en": [
+      "I knew you would do that... ",
+      "Time is wasting.",
+      "The way is always the same.",
+      "All in good time.",
+      "I've seen your death, it was painful... ",
+      "Time flies like an arrow; fruit flies like banana.",
+      "I feel like I've done this before.",
+      "Hmmm, if I remember correctly, we'll win the next one.",
+      "Time flies like an arrow; fruit flies like banana\" references the eponymous saying."
+    ]
+  },
+  "Zoe": {
+    "name": "Zoe",
+    "voicelines": [
+      "Oui! Ce sera amusant ! Droite?",
+      "Non, ce n'est pas sympa !",
+      "Une version allégée de \"Scattered Stars\" est diffusée.",
+      "Il y a des trous dans la réalité. Et... en beignets.",
+      "Quand les êtres ici lèvent les yeux, pensent-ils que nous regardons en arrière ?! Nous ne le sommes vraiment pas.",
+      "♪ C'est parti pour l'aventure, à travers ce lieu ! Même si nous n'en connaissons pas le nom ! ♪ Ce n'est pas grave !",
+      "Il y a tellement de cinglés ici... C'est génial !",
+      "Le soleil et la lune se lèvent avec le temps, en cendres et en gaieté. La montagne prend... tout. Le changement arrive.",
+      "Hé les gars, alors, temps de changement cosmique, possible armageddon, crépuscule des dieux, bla-bla-bla – vous avez été annoncés."
+    ],
+    "voicelines_en": [
+      "Yes! This'll be fun! Right?",
+      "No, that's not nice!",
+      "A stripped-down version of \"Scattered Stars\" plays.",
+      "There are holes in reality. And... in donuts.",
+      "When the beings here look up, do they think we're looking back?! We really aren't.",
+      "♪ Here we go on an adventure, through this place! Even though we don't know the name of it! ♪ It doesn't matter!",
+      "There are so many weirdos here... It's awesome!",
+      "The sun and moon rise in time, to ash and mirth. The mountain takes... all. Change comes.",
+      "Hey guys, so, cosmic change time, possible armageddon, twilight of the gods, blah-blah-blah — you've been heralded."
+    ]
+  },
+  "Zyra": {
+    "name": "Zyra",
+    "voicelines": [
+      "Sentez l'étreinte des épines.",
+      "Un monde tellement occupé.",
+      "Juste une fleur inoffensive.",
+      "Prenez des mesures prudentes.",
+      "Il y a tellement plus à voir.",
+      "La forêt réserve bien des surprises.",
+      "Un jardin prometteur.",
+      "Les choses ne sont pas toujours ce qu’elles paraissent.",
+      "Attendez que mes graines prennent racine."
+    ],
+    "voicelines_en": [
+      "Feel the thorns' embrace.",
+      "Such a busy world.",
+      "Just a harmless flower.",
+      "Take careful steps.",
+      "So much more to see.",
+      "The forest holds many surprises.",
+      "A promising garden.",
+      "Things aren't always what they seem.",
+      "Wait until my seeds take root."
+    ]
+  }
+}

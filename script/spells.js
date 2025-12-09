@@ -1,34 +1,111 @@
-// spells.js - Mode Sorts
+// spells.js - Mode Sorts avec phase de devinette
 
-function SpellsMode({ champions, version, resetFlag, setShowSettings }) {
+// Modal des règles pour le mode Spells
+function SpellsRulesModal({ isOpen, onClose }) {
+  return React.createElement(Modal, { isOpen, onClose, title: '📖 Règles du Mode Sorts' },
+    React.createElement('p', null, 
+      'Devine le champion en observant UN SEUL de ses sorts ! À chaque partie, un sort aléatoire (Passif, Q, W, E ou R) est sélectionné.'
+    ),
+    
+    React.createElement('h3', null, '🎯 Comment jouer ?'),
+    React.createElement('ul', null,
+      React.createElement('li', null, '👁️ Un seul sort est affiché par partie'),
+      React.createElement('li', null, '🎲 Le sort est choisi aléatoirement (Passif, Q, W, E ou R)'),
+      React.createElement('li', null, '🔍 Observe bien l\'icône pour deviner le champion'),
+      React.createElement('li', null, '🏆 Trouve le champion puis devine quel sort était affiché'),
+      React.createElement('li', null, '⭐ Victoire parfaite si tu devines champion ET sort !')
+    ),
+    
+    React.createElement('h3', null, '🎮 Options de difficulté'),
+    React.createElement('ul', null,
+      React.createElement('li', null,
+        React.createElement('span', { className: 'color-indicator', style: { background: 'linear-gradient(to right, #000, #fff)', display: 'inline-block', width: '16px', height: '16px', borderRadius: '4px', marginRight: '8px', verticalAlign: 'middle' } }),
+        'Noir & Blanc : Le sort est affiché en niveaux de gris'
+      ),
+      React.createElement('li', null,
+        React.createElement('span', { style: { display: 'inline-block', marginRight: '8px' } }, '🔄'),
+        'Rotation : Le sort est tourné aléatoirement (90°, 180° ou 270°)'
+      ),
+      React.createElement('li', null, '💡 Tu peux activer/désactiver ces options à tout moment')
+    ),
+    
+    React.createElement('h3', null, '📊 Types de sorts possibles'),
+    React.createElement('ul', null,
+      React.createElement('li', null, '⚡ Passif - La capacité passive du champion'),
+      React.createElement('li', null, '🔵 Sort Q - Première compétence'),
+      React.createElement('li', null, '🟢 Sort W - Deuxième compétence'),
+      React.createElement('li', null, '🟡 Sort E - Troisième compétence'),
+      React.createElement('li', null, '🔴 Sort R - Ultime')
+    ),
+    
+    React.createElement('h3', null, '🏆 Système de victoire'),
+    React.createElement('ul', null,
+      React.createElement('li', null, '🎉 Victoire Parfaite : Champion trouvé + Sort correct'),
+      React.createElement('li', null, '🎯 Champion Trouvé : Champion trouvé mais sort incorrect')
+    ),
+    
+    React.createElement('p', { 
+      style: { 
+        marginTop: '1.5rem', 
+        fontWeight: 600,
+        textAlign: 'center',
+        fontSize: '1.1rem',
+        color: '#c8aa6e'
+      } 
+    },
+      '🔥 Un sort, un champion, un défi ! 🎯'
+    )
+  );
+}
+
+function SpellsMode({ champions, version, resetFlag, setShowSettings, onNextMode, currentMode }) {
   const [target, setTarget] = React.useState(null);
+  const [targetDetails, setTargetDetails] = React.useState(null);
+  const [selectedSpell, setSelectedSpell] = React.useState(null);
+  const [loading, setLoading] = React.useState(true);
   const [guesses, setGuesses] = React.useState([]);
-  const [won, setWon] = React.useState(false);
+  const [championFound, setChampionFound] = React.useState(false);
+  const [spellGuessed, setSpellGuessed] = React.useState(null);
+  const [gameComplete, setGameComplete] = React.useState(false);
   const [searchInput, setSearchInput] = React.useState('');
   const [showDropdown, setShowDropdown] = React.useState(false);
-  const [hardMode, setHardMode] = React.useState(false);
-  const [revealedSpells, setRevealedSpells] = React.useState([]);
-  const [currentSpellIndex, setCurrentSpellIndex] = React.useState(0);
+  const [grayscaleMode, setGrayscaleMode] = React.useState(false);
+  const [rotationMode, setRotationMode] = React.useState(false);
+  const [showRules, setShowRules] = React.useState(false);
+  const [spellRotation, setSpellRotation] = React.useState(0);
 
   // Reset le jeu
-  const reset = React.useCallback(() => {
+  const reset = React.useCallback(async () => {
     if (!champions || champions.length === 0) return;
+    
+    setLoading(true);
     const random = champions[Math.floor(Math.random() * champions.length)];
     setTarget(random);
+    
+    const randomSpell = Math.floor(Math.random() * 5);
+    setSelectedSpell(randomSpell);
+    
+    const details = await loadChampionDetails(random.id, version);
+    setTargetDetails(details);
+    setLoading(false);
+    
     setGuesses([]);
-    setWon(false);
+    setChampionFound(false);
+    setSpellGuessed(null);
+    setGameComplete(false);
     setSearchInput('');
     setShowDropdown(false);
-    setRevealedSpells([0]); // Révèle le premier sort (passif)
-    setCurrentSpellIndex(0);
-  }, [champions]);
+    
+    const rotations = [90, 180, 270];
+    setSpellRotation(rotations[Math.floor(Math.random() * rotations.length)]);
+  }, [champions, version]);
 
   React.useEffect(() => { 
     reset(); 
   }, [reset, resetFlag]);
 
   const handleGuess = (champ) => {
-    if (won || !target) return;
+    if (championFound || !target) return;
     if (guesses.some(g => g.id === champ.id)) return;
     
     const isCorrect = champ.id === target.id;
@@ -37,167 +114,199 @@ function SpellsMode({ champions, version, resetFlag, setShowSettings }) {
     setShowDropdown(false);
     
     if (isCorrect) {
-      setWon(true);
-    } else {
-      // Révèle le sort suivant après une mauvaise réponse
-      const nextIndex = currentSpellIndex + 1;
-      if (nextIndex < 5) {
-        setTimeout(() => {
-          setRevealedSpells(prev => [...prev, nextIndex]);
-          setCurrentSpellIndex(nextIndex);
-        }, 500);
-      }
+      setChampionFound(true);
     }
   };
 
-  const getSpellIcon = (spellKey) => {
-    if (!target) return '';
-    // Les sorts sont : passive (P), Q, W, E, R
+  const handleSpellGuess = (spellIndex) => {
+    setSpellGuessed(spellIndex);
+    setGameComplete(true);
+  };
+
+  const getSpellIcon = () => {
+    if (!targetDetails || !targetDetails.spells || selectedSpell === null) return '';
+    
+    if (selectedSpell === 0) {
+      const passiveImage = targetDetails.spells.passive?.image;
+      if (!passiveImage) return '';
+      return `https://ddragon.leagueoflegends.com/cdn/${version}/img/passive/${passiveImage}`;
+    }
+    
     const spellMap = {
-      0: target.id + 'P', // Passif
-      1: target.id + 'Q',
-      2: target.id + 'W',
-      3: target.id + 'E',
-      4: target.id + 'R'
+      1: targetDetails.spells.Q?.image,
+      2: targetDetails.spells.W?.image,
+      3: targetDetails.spells.E?.image,
+      4: targetDetails.spells.R?.image
     };
-    return `https://ddragon.leagueoflegends.com/cdn/${version}/img/spell/${spellMap[spellKey]}.png`;
+    
+    const imageName = spellMap[selectedSpell];
+    if (!imageName) return '';
+    
+    return `https://ddragon.leagueoflegends.com/cdn/${version}/img/spell/${imageName}`;
   };
 
-  const getSpellName = (index) => {
-    const names = ['Passif', 'Q', 'W', 'E', 'R'];
-    return names[index];
+  const getSpellName = () => {
+    if (selectedSpell === null) return '';
+    const names = ['Passif', 'Sort Q', 'Sort W', 'Sort E', 'Sort R'];
+    return names[selectedSpell];
   };
 
-  const getRandomRotation = () => {
-    const rotations = [0, 90, 180, 270];
-    return rotations[Math.floor(Math.random() * rotations.length)];
-  };
-
-  if (!target) {
+  if (!target || loading || !targetDetails) {
     return React.createElement('div', { 
-      style: { textAlign: 'center', padding: '3rem' } 
-    }, 'Chargement...');
+      style: { 
+        textAlign: 'center', 
+        padding: '3rem',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: '1rem'
+      } 
+    }, 
+      React.createElement('div', { style: { fontSize: '3rem' } }, '⚡'),
+      React.createElement('div', { style: { fontSize: '1.5rem', color: '#c8aa6e' } }, 'Chargement des sorts...')
+    );
   }
 
-  // Toggle Hard Mode
-  const hardModeToggle = React.createElement('div', {
+  // Boutons de contrôle
+  const controlButtons = React.createElement('div', {
     style: {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
       gap: '1rem',
       marginBottom: '2rem',
-      padding: '1rem',
-      background: 'rgba(240, 230, 210, 0.05)',
-      borderRadius: '12px',
-      border: '1px solid rgba(240, 230, 210, 0.1)'
-    }
-  },
-    React.createElement('span', {
-      style: {
-        fontSize: '1rem',
-        fontWeight: 600,
-        color: '#f0e6d2'
-      }
-    }, '🔥 Mode Difficile'),
-    React.createElement('div', {
-      className: `settings-toggle ${hardMode ? 'active' : ''}`,
-      onClick: () => setHardMode(!hardMode),
-      style: { cursor: 'pointer' }
-    },
-      React.createElement('div', { className: 'settings-toggle-thumb' })
-    ),
-    React.createElement('span', {
-      style: {
-        fontSize: '0.875rem',
-        color: 'rgba(240, 230, 210, 0.6)'
-      }
-    }, '(Noir & Blanc + Rotation)')
-  );
-
-  // Affichage des sorts
-  const spellsDisplay = React.createElement('div', {
-    style: {
-      display: 'flex',
-      justifyContent: 'center',
-      gap: '1.5rem',
-      marginBottom: '3rem',
       flexWrap: 'wrap'
     }
   },
-    [0, 1, 2, 3, 4].map(index => {
-      const isRevealed = revealedSpells.includes(index);
-      const rotation = hardMode ? getRandomRotation() : 0;
-      
-      return React.createElement('div', {
-        key: index,
+    React.createElement('button', {
+      className: 'btn btn-secondary',
+      onClick: () => setShowRules(true)
+    }, '📖 RÈGLES'),
+    
+    React.createElement('div', {
+      style: {
+        width: '2px',
+        height: '30px',
+        background: 'rgba(240, 230, 210, 0.2)',
+        margin: '0 0.5rem'
+      }
+    }),
+    
+    React.createElement('div', {
+      style: {
+        display: 'flex',
+        alignItems: 'center',
+        gap: '0.75rem',
+        padding: '0.75rem 1.25rem',
+        background: 'rgba(240, 230, 210, 0.05)',
+        borderRadius: '8px',
+        border: '1px solid rgba(240, 230, 210, 0.1)'
+      }
+    },
+      React.createElement('span', {
         style: {
-          position: 'relative',
-          width: '120px',
-          height: '120px'
+          fontSize: '0.875rem',
+          fontWeight: 600,
+          color: '#f0e6d2'
+        }
+      }, '🎨 Noir & Blanc'),
+      React.createElement('div', {
+        className: `settings-toggle ${grayscaleMode ? 'active' : ''}`,
+        onClick: () => setGrayscaleMode(!grayscaleMode),
+        style: { cursor: 'pointer' }
+      },
+        React.createElement('div', { className: 'settings-toggle-thumb' })
+      )
+    ),
+    
+    React.createElement('div', {
+      style: {
+        display: 'flex',
+        alignItems: 'center',
+        gap: '0.75rem',
+        padding: '0.75rem 1.25rem',
+        background: 'rgba(240, 230, 210, 0.05)',
+        borderRadius: '8px',
+        border: '1px solid rgba(240, 230, 210, 0.1)'
+      }
+    },
+      React.createElement('span', {
+        style: {
+          fontSize: '0.875rem',
+          fontWeight: 600,
+          color: '#f0e6d2'
+        }
+      }, '🔄 Rotation'),
+      React.createElement('div', {
+        className: `settings-toggle ${rotationMode ? 'active' : ''}`,
+        onClick: () => setRotationMode(!rotationMode),
+        style: { cursor: 'pointer' }
+      },
+        React.createElement('div', { className: 'settings-toggle-thumb' })
+      )
+    )
+  );
+
+  // Affichage du sort
+  const spellDisplay = React.createElement('div', {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      marginBottom: '3rem',
+      gap: '1.5rem'
+    }
+  },
+    React.createElement('h3', {
+      style: {
+        fontSize: '1.5rem',
+        fontWeight: 700,
+        color: '#c8aa6e',
+        textTransform: 'uppercase',
+        letterSpacing: '0.1rem'
+      }
+    }, championFound ? '✅ Champion trouvé ! Devine le sort' : `Devine le champion avec ce sort`),
+    
+    React.createElement('div', {
+      style: {
+        position: 'relative',
+        width: '200px',
+        height: '200px'
+      }
+    },
+      React.createElement('div', {
+        style: {
+          width: '100%',
+          height: '100%',
+          borderRadius: '16px',
+          border: '4px solid rgba(200, 170, 110, 0.6)',
+          background: 'rgba(240, 230, 210, 0.1)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          overflow: 'hidden',
+          boxShadow: '0 0 30px rgba(200, 170, 110, 0.4)',
+          transition: 'all 0.3s ease'
         }
       },
-        // Label du sort
-        React.createElement('div', {
-          style: {
-            position: 'absolute',
-            top: '-25px',
-            left: '50%',
-            transform: 'translateX(-50%)',
-            fontSize: '0.875rem',
-            fontWeight: 700,
-            color: isRevealed ? '#c8aa6e' : 'rgba(240, 230, 210, 0.3)',
-            textTransform: 'uppercase',
-            letterSpacing: '0.05rem'
-          }
-        }, getSpellName(index)),
-        
-        // Conteneur du sort
-        React.createElement('div', {
+        React.createElement('img', {
+          src: getSpellIcon(),
+          alt: 'Sort mystère',
           style: {
             width: '100%',
             height: '100%',
-            borderRadius: '12px',
-            border: `3px solid ${isRevealed ? 'rgba(200, 170, 110, 0.5)' : 'rgba(240, 230, 210, 0.2)'}`,
-            background: isRevealed ? 'rgba(240, 230, 210, 0.1)' : 'rgba(0, 0, 0, 0.5)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            overflow: 'hidden',
-            boxShadow: isRevealed ? '0 0 20px rgba(200, 170, 110, 0.3)' : 'none',
+            objectFit: 'cover',
+            filter: grayscaleMode ? 'grayscale(100%)' : 'none',
+            transform: rotationMode ? `rotate(${spellRotation}deg)` : 'rotate(0deg)',
             transition: 'all 0.3s ease'
           }
-        },
-          isRevealed 
-            ? React.createElement('img', {
-                src: getSpellIcon(index),
-                alt: getSpellName(index),
-                style: {
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover',
-                  filter: hardMode ? 'grayscale(100%)' : 'none',
-                  transform: `rotate(${rotation}deg)`,
-                  transition: 'all 0.3s ease'
-                },
-                onError: (e) => {
-                  e.target.style.display = 'none';
-                  e.target.parentElement.innerHTML += '<div style="color: rgba(240, 230, 210, 0.5); font-size: 0.875rem;">N/A</div>';
-                }
-              })
-            : React.createElement('div', {
-                style: {
-                  fontSize: '2rem',
-                  color: 'rgba(240, 230, 210, 0.2)'
-                }
-              }, '🔒')
-        )
-      );
-    })
+        })
+      )
+    )
   );
 
   // Barre de recherche
-  const searchBar = !won && React.createElement('div', { 
+  const searchBar = !championFound && React.createElement('div', { 
     className: 'glass', 
     style: { padding: '1.5rem', borderRadius: '12px', marginBottom: '2rem' } 
   },
@@ -291,29 +400,198 @@ function SpellsMode({ champions, version, resetFlag, setShowSettings }) {
     )
   );
 
-  // Écran de victoire
-  const victoryScreen = won && React.createElement('div', { 
-    className: 'glass victory-screen', 
-    style: { borderRadius: '12px', marginTop: '2rem' } 
+  // Phase de devinette du sort
+  const spellGuessPhase = championFound && !gameComplete && React.createElement('div', {
+    className: 'glass',
+    style: {
+      padding: '2rem',
+      borderRadius: '12px',
+      marginBottom: '2rem',
+      textAlign: 'center',
+      animation: 'slideIn 0.5s ease-out'
+    }
   },
-    React.createElement('div', { className: 'victory-emoji' }, '🎉'),
-    React.createElement('h3', { className: 'victory-title neon' }, 'BRAVO !'),
-    React.createElement('p', { className: 'victory-text' }, 
-      `Tu as trouvé ${target.nom} en ${guesses.length} tentative${guesses.length > 1 ? 's' : ''} !`
+    React.createElement('h3', {
+      style: {
+        fontSize: '1.75rem',
+        fontWeight: 700,
+        color: '#10b981',
+        marginBottom: '1rem',
+        textTransform: 'uppercase'
+      }
+    }, `✅ Champion trouvé : ${target.nom}`),
+    
+    React.createElement('p', {
+      style: {
+        fontSize: '1.25rem',
+        color: '#c8aa6e',
+        marginBottom: '2rem',
+        fontWeight: 600
+      }
+    }, '🎯 Maintenant, devine quel sort était affiché !'),
+    
+    React.createElement('div', {
+      style: {
+        display: 'flex',
+        justifyContent: 'center',
+        gap: '1rem',
+        flexWrap: 'wrap'
+      }
+    },
+      ['Passif', 'Q', 'W', 'E', 'R'].map((spellName, index) =>
+        React.createElement('button', {
+          key: index,
+          className: 'btn btn-primary',
+          onClick: () => handleSpellGuess(index),
+          style: {
+            fontSize: '1.1rem',
+            padding: '1rem 2rem',
+            minWidth: '120px',
+            transition: 'all 0.2s ease'
+          }
+        }, spellName)
+      )
+    )
+  );
+
+  // Écran de résultat final
+  const resultScreen = gameComplete && React.createElement('div', {
+    className: 'glass',
+    style: {
+      padding: '3rem 2rem',
+      borderRadius: '16px',
+      textAlign: 'center',
+      border: spellGuessed === selectedSpell 
+        ? '2px solid rgba(16, 185, 129, 0.6)'
+        : '2px solid rgba(245, 158, 11, 0.6)',
+      background: spellGuessed === selectedSpell
+        ? 'rgba(16, 185, 129, 0.05)'
+        : 'rgba(245, 158, 11, 0.05)',
+      animation: 'victoryPulse 0.6s ease-out'
+    }
+  },
+    React.createElement('div', {
+      style: { fontSize: '4rem', marginBottom: '1rem' }
+    }, spellGuessed === selectedSpell ? '🎉' : '🎯'),
+    
+    React.createElement('h3', {
+      style: {
+        fontSize: '2.5rem',
+        fontWeight: 800,
+        background: spellGuessed === selectedSpell
+          ? 'linear-gradient(135deg, #10b981, #34d399)'
+          : 'linear-gradient(135deg, #f59e0b, #fbbf24)',
+        WebkitBackgroundClip: 'text',
+        WebkitTextFillColor: 'transparent',
+        backgroundClip: 'text',
+        marginBottom: '1rem'
+      }
+    }, spellGuessed === selectedSpell ? 'VICTOIRE PARFAITE !' : 'CHAMPION TROUVÉ !'),
+    
+    React.createElement('p', {
+      style: {
+        fontSize: '1.25rem',
+        color: 'rgba(240, 230, 210, 0.8)',
+        marginBottom: '1.5rem'
+      }
+    }, 
+      spellGuessed === selectedSpell 
+        ? `🏆 Bravo ! Tu as trouvé ${target.nom} en ${guesses.length} tentative${guesses.length > 1 ? 's' : ''} ET deviné que c'était le ${getSpellName()} !`
+        : `Champion trouvé en ${guesses.length} tentative${guesses.length > 1 ? 's' : ''}, mais le sort était : ${getSpellName()}`
     ),
+    
+    React.createElement('div', {
+      style: {
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: '1.5rem',
+        marginBottom: '2rem'
+      }
+    },
+      React.createElement('div', {
+        style: {
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: '1rem'
+        }
+      },
+        React.createElement('img', {
+          src: getSpellIcon(),
+          alt: getSpellName(),
+          style: {
+            width: '120px',
+            height: '120px',
+            borderRadius: '12px',
+            border: '3px solid rgba(200, 170, 110, 0.6)',
+            boxShadow: '0 0 20px rgba(200, 170, 110, 0.3)'
+          }
+        }),
+        React.createElement('div', {
+          style: {
+            fontSize: '1.25rem',
+            fontWeight: 700,
+            color: '#c8aa6e'
+          }
+        }, `C'était le ${getSpellName()}`)
+      )
+    ),
+    
     React.createElement('div', { className: 'victory-splash' },
-      React.createElement('img', { 
-        src: DDRAGON.champSplash(target.id), 
-        alt: target.nom 
+      React.createElement('img', {
+        src: `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${target.id}_0.jpg`,
+        alt: target.nom,
+        style: { width: '100%', display: 'block' }
       })
+    ),
+    
+    React.createElement('div', {
+      style: {
+        display: 'flex',
+        gap: '1rem',
+        justifyContent: 'center',
+        marginTop: '2rem',
+        flexWrap: 'wrap'
+      }
+    },
+      React.createElement('button', {
+        className: 'btn btn-primary',
+        onClick: reset,
+        style: {
+          fontSize: '1.1rem',
+          padding: '1rem 2rem'
+        }
+      }, '🔄 NOUVELLE PARTIE'),
+      React.createElement('button', {
+        className: 'btn btn-secondary',
+        onClick: () => {
+          const modes = ['CLASSIQUE', 'CITATIONS', 'SPELLS', 'ITEMS', 'SUDOKU'];
+          const currentIndex = modes.indexOf(currentMode);
+          const nextIndex = (currentIndex + 1) % modes.length;
+          onNextMode && onNextMode(modes[nextIndex]);
+        },
+        style: {
+          fontSize: '1.1rem',
+          padding: '1rem 2rem',
+          background: 'linear-gradient(135deg, #c8aa6e, #a88c5a)',
+          color: '#0a0e12',
+          border: 'none'
+        }
+      }, '➡️ JEU SUIVANT')
     )
   );
 
   return React.createElement('div', null,
-    hardModeToggle,
-    spellsDisplay,
+    controlButtons,
+    spellDisplay,
     searchBar,
     guessHistory,
-    victoryScreen
+    spellGuessPhase,
+    resultScreen,
+    React.createElement(SpellsRulesModal, { 
+      isOpen: showRules, 
+      onClose: () => setShowRules(false) 
+    })
   );
 }

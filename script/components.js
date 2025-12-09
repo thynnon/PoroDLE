@@ -1,4 +1,76 @@
-// components.js
+// Ajoutez cette version mise à jour de VictoryScreen dans votre components.js
+
+// Composant VictoryScreen réutilisable
+function VictoryScreen({ target, guesses, onNextGame, onNextMode, version, currentMode }) {
+  React.useEffect(() => {
+    // Scroll automatique vers la victoire
+    setTimeout(() => {
+      const victoryElement = document.getElementById('victory-section');
+      if (victoryElement) {
+        victoryElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }, 500);
+  }, []);
+
+  // Déterminer le mode suivant
+  const getNextMode = () => {
+    const modes = ['CLASSIQUE', 'CITATIONS', 'SPELLS', 'ITEMS', 'SUDOKU'];
+    const currentIndex = modes.indexOf(currentMode);
+    const nextIndex = (currentIndex + 1) % modes.length;
+    return modes[nextIndex];
+  };
+
+  const nextModeName = getNextMode();
+
+  return React.createElement('div', { 
+    className: 'glass victory-screen', 
+    style: { borderRadius: '12px', marginTop: '2rem' },
+    id: 'victory-section'
+  },
+    React.createElement('div', { className: 'victory-emoji' }, '🎉'),
+    React.createElement('h3', { className: 'victory-title neon' }, 'FÉLICITATIONS !'),
+    React.createElement('p', { className: 'victory-text' }, 
+      `Tu as trouvé ${target.nom} en ${guesses.length} tentative${guesses.length > 1 ? 's' : ''} !`
+    ),
+    React.createElement('div', { className: 'victory-splash' },
+      React.createElement('img', { 
+        src: `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${target.id}_0.jpg`,
+        alt: target.nom,
+        style: { width: '100%', display: 'block' }
+      })
+    ),
+    React.createElement('div', {
+      style: {
+        display: 'flex',
+        gap: '1rem',
+        justifyContent: 'center',
+        marginTop: '2rem',
+        flexWrap: 'wrap'
+      }
+    },
+      React.createElement('button', {
+        className: 'btn btn-primary',
+        onClick: onNextGame,
+        style: { 
+          fontSize: '1.1rem',
+          padding: '1rem 2rem'
+        }
+      }, '🔄 NOUVELLE PARTIE'),
+      React.createElement('button', {
+        className: 'btn btn-secondary',
+        onClick: () => onNextMode && onNextMode(nextModeName),
+        style: { 
+          fontSize: '1.1rem',
+          padding: '1rem 2rem',
+          background: 'linear-gradient(135deg, #c8aa6e, #a88c5a)',
+          color: '#0a0e12',
+          border: 'none'
+        }
+      }, `➡️ JEU SUIVANT (${nextModeName})`)
+    )
+  );
+}
+
 function SearchDropdown({ champions, searchInput, onSelect, version }) {
   if (!searchInput.trim()) return null;
   

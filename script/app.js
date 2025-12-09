@@ -192,6 +192,8 @@ function App() {
       ModeComponent = SpellsMode;
       break;
     case 'CITATIONS':
+      ModeComponent = CitationsMode;
+      break;
     case 'ITEMS':
     case 'SUDOKU':
       // Ces modes seront créés plus tard
@@ -225,7 +227,9 @@ function App() {
       champions: data.champions,
       version: data.version,
       resetFlag,
-      setShowSettings
+      setShowSettings,
+      onNextMode: handleModeChange,
+      currentMode: activeMode
     }),
     
     // Modal des paramètres

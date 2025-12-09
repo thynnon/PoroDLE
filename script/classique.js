@@ -1,6 +1,6 @@
 // classique.js - Mode Classique (sans navigation)
 
-function ClassicMode({ champions, version, resetFlag, setShowSettings }) {
+function ClassicMode({ champions, version, resetFlag, setShowSettings, onNextMode, currentMode }) {
   const [target, setTarget] = React.useState(null);
   const [guesses, setGuesses] = React.useState([]);
   const [won, setWon] = React.useState(false);
@@ -30,13 +30,17 @@ function ClassicMode({ champions, version, resetFlag, setShowSettings }) {
     if (won || !target) return;
     if (guesses.some(g => g.id === champ.id)) return;
 
+    const isCorrect = champ.id === target.id;
     const newGuess = { ...champ, revealedCells: 0 };
     setGuesses(prev => [newGuess, ...prev]);
     setSearchInput('');
 
-    if (champ.id === target.id) {
-      setWon(true);
-      setShowDropdown(false);
+    if (isCorrect) {
+      // Attendre que toutes les cellules de la ligne gagnante soient révélées
+      setTimeout(() => {
+        setWon(true);
+        setShowDropdown(false);
+      }, 8 * 250 + 300); // 8 cellules * 250ms + 300ms de marge
     }
   };
 
@@ -44,18 +48,24 @@ function ClassicMode({ champions, version, resetFlag, setShowSettings }) {
   React.useEffect(() => {
     if (guesses.length === 0) return;
 
-    const lastGuess = guesses[0];
-    if (lastGuess.revealedCells >= 8) return;
+    // Animer toutes les lignes qui n'ont pas fini leur animation
+    const timers = guesses.map((guess, index) => {
+      if (guess.revealedCells >= 8) return null;
 
-    const timer = setTimeout(() => {
-      setGuesses(prev => {
-        const updated = [...prev];
-        updated[0] = { ...lastGuess, revealedCells: lastGuess.revealedCells + 1 };
-        return updated;
-      });
-    }, 250);
+      return setTimeout(() => {
+        setGuesses(prev => {
+          const updated = [...prev];
+          if (updated[index] && updated[index].revealedCells < 8) {
+            updated[index] = { ...updated[index], revealedCells: updated[index].revealedCells + 1 };
+          }
+          return updated;
+        });
+      }, 250);
+    });
 
-    return () => clearTimeout(timer);
+    return () => {
+      timers.forEach(timer => timer && clearTimeout(timer));
+    };
   }, [guesses]);
 
   if (!target) {
@@ -173,22 +183,14 @@ function ClassicMode({ champions, version, resetFlag, setShowSettings }) {
   );
 
   // Écran de victoire
-  const victoryScreen = won && React.createElement('div', { 
-    className: 'glass victory-screen', 
-    style: { borderRadius: '12px' } 
-  },
-    React.createElement('div', { className: 'victory-emoji' }, '🎉'),
-    React.createElement('h3', { className: 'victory-title neon' }, 'BRAVO !'),
-    React.createElement('p', { className: 'victory-text' }, 
-      `Tu as trouvé ${target.nom} en ${guesses.length} tentative${guesses.length > 1 ? 's' : ''} !`
-    ),
-    React.createElement('div', { className: 'victory-splash' },
-      React.createElement('img', { 
-        src: DDRAGON.champSplash(target.id), 
-        alt: target.nom 
-      })
-    )
-  );
+  const victoryScreen = won && React.createElement(VictoryScreen, {
+    target,
+    guesses,
+    onNextGame: reset,
+    onNextMode: onNextMode,
+    version,
+    currentMode: currentMode
+  });
 
   return React.createElement('div', null,
     controlButtons,

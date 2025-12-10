@@ -1,5 +1,41 @@
 // citations.js - Mode Citations
 
+// Données des citations chargées depuis le JSON
+let VOICELINES_DATA = null;
+
+// Charger les données des citations
+async function loadVoicelinesData() {
+  if (VOICELINES_DATA) return VOICELINES_DATA;
+  
+  try {
+    const response = await fetch('script/lol_voicelines_FR.json');
+    VOICELINES_DATA = await response.json();
+    return VOICELINES_DATA;
+  } catch (error) {
+    console.error('Erreur lors du chargement des citations:', error);
+    return {};
+  }
+}
+
+// Vérifier si un champion a des citations
+function hasQuotes(championId) {
+  if (!VOICELINES_DATA) return false;
+  const champData = VOICELINES_DATA[championId];
+  return champData && champData.voicelines && champData.voicelines.length > 0;
+}
+
+// Obtenir une citation aléatoire pour un champion
+function getRandomQuote(championId) {
+  if (!VOICELINES_DATA || !hasQuotes(championId)) {
+    return "Citation non disponible";
+  }
+  
+  const champData = VOICELINES_DATA[championId];
+  const quotes = champData.voicelines;
+  const randomIndex = Math.floor(Math.random() * quotes.length);
+  return quotes[randomIndex];
+}
+
 // Modal des règles pour le mode Citations
 function CitationsRulesModal({ isOpen, onClose }) {
   return React.createElement(Modal, { isOpen, onClose, title: '📖 Règles du Mode Citations' },
@@ -68,6 +104,14 @@ function CitationsMode({ champions, version, resetFlag, setShowSettings, onNextM
   const [hardMode, setHardMode] = React.useState(false);
   const [maskedQuote, setMaskedQuote] = React.useState('');
   const [revealedWords, setRevealedWords] = React.useState(new Set());
+  const [dataLoaded, setDataLoaded] = React.useState(false);
+
+  // Charger les données au montage
+  React.useEffect(() => {
+    loadVoicelinesData().then(() => {
+      setDataLoaded(true);
+    });
+  }, []);
 
   // Fonction pour masquer des mots aléatoires dans la citation
   const maskQuote = React.useCallback((text) => {
@@ -93,7 +137,7 @@ function CitationsMode({ champions, version, resetFlag, setShowSettings, onNextM
 
   // Reset le jeu
   const reset = React.useCallback(() => {
-    if (!champions || champions.length === 0) return;
+    if (!champions || champions.length === 0 || !dataLoaded) return;
     
     // Filtrer les champions qui ont des citations
     const championsWithQuotes = champions.filter(c => hasQuotes(c.id));
@@ -114,11 +158,13 @@ function CitationsMode({ champions, version, resetFlag, setShowSettings, onNextM
     setSearchInput('');
     setShowDropdown(false);
     setRevealedWords(new Set());
-  }, [champions, maskQuote]);
+  }, [champions, maskQuote, dataLoaded]);
 
   React.useEffect(() => { 
-    reset(); 
-  }, [reset, resetFlag]);
+    if (dataLoaded) {
+      reset();
+    }
+  }, [reset, resetFlag, dataLoaded]);
 
   const handleGuess = (champ) => {
     if (won || !target) return;
@@ -163,7 +209,7 @@ function CitationsMode({ champions, version, resetFlag, setShowSettings, onNextM
     }).join(' ');
   };
 
-  if (!target) {
+  if (!dataLoaded || !target) {
     return React.createElement('div', { 
       style: { 
         textAlign: 'center', 
@@ -268,7 +314,7 @@ function CitationsMode({ champions, version, resetFlag, setShowSettings, onNextM
         fontSize: '4rem',
         opacity: 0.1
       }
-    }, '❝'),
+    }, '"'),
     
     React.createElement('div', {
       style: {
@@ -279,7 +325,7 @@ function CitationsMode({ champions, version, resetFlag, setShowSettings, onNextM
         opacity: 0.1,
         transform: 'rotate(180deg)'
       }
-    }, '❝'),
+    }, '"'),
     
     // Citation
     React.createElement('p', {

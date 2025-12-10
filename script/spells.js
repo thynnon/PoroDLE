@@ -20,13 +20,13 @@ function SpellsRulesModal({ isOpen, onClose }) {
     React.createElement('ul', null,
       React.createElement('li', null,
         React.createElement('span', { className: 'color-indicator', style: { background: 'linear-gradient(to right, #000, #fff)', display: 'inline-block', width: '16px', height: '16px', borderRadius: '4px', marginRight: '8px', verticalAlign: 'middle' } }),
-        'Noir & Blanc : Le sort est affiché en niveaux de gris'
+        'Noir & Blanc : Le sort est affiché en niveaux de gris (ACTIVÉ par défaut)'
       ),
       React.createElement('li', null,
         React.createElement('span', { style: { display: 'inline-block', marginRight: '8px' } }, '🔄'),
-        'Rotation : Le sort est tourné aléatoirement (90°, 180° ou 270°)'
+        'Rotation : Le sort est tourné aléatoirement (90°, 180° ou 270°) (ACTIVÉ par défaut)'
       ),
-      React.createElement('li', null, '💡 Tu peux activer/désactiver ces options à tout moment')
+      React.createElement('li', null, '💡 Tu peux désactiver ces options pour un mode plus facile')
     ),
     
     React.createElement('h3', null, '📊 Types de sorts possibles'),
@@ -69,8 +69,8 @@ function SpellsMode({ champions, version, resetFlag, setShowSettings, onNextMode
   const [gameComplete, setGameComplete] = React.useState(false);
   const [searchInput, setSearchInput] = React.useState('');
   const [showDropdown, setShowDropdown] = React.useState(false);
-  const [grayscaleMode, setGrayscaleMode] = React.useState(false);
-  const [rotationMode, setRotationMode] = React.useState(false);
+  const [grayscaleMode, setGrayscaleMode] = React.useState(true); // ACTIVÉ par défaut
+  const [rotationMode, setRotationMode] = React.useState(true); // ACTIVÉ par défaut
   const [showRules, setShowRules] = React.useState(false);
   const [spellRotation, setSpellRotation] = React.useState(0);
 
@@ -123,27 +123,26 @@ function SpellsMode({ champions, version, resetFlag, setShowSettings, onNextMode
     setGameComplete(true);
   };
 
-  const getSpellIcon = () => {
-    if (!targetDetails || !targetDetails.spells || selectedSpell === null) return '';
-    
-    if (selectedSpell === 0) {
-      const passiveImage = targetDetails.spells.passive?.image;
-      if (!passiveImage) return '';
-      return `https://ddragon.leagueoflegends.com/cdn/${version}/img/passive/${passiveImage}`;
-    }
-    
-    const spellMap = {
-      1: targetDetails.spells.Q?.image,
-      2: targetDetails.spells.W?.image,
-      3: targetDetails.spells.E?.image,
-      4: targetDetails.spells.R?.image
-    };
-    
-    const imageName = spellMap[selectedSpell];
-    if (!imageName) return '';
-    
-    return `https://ddragon.leagueoflegends.com/cdn/${version}/img/spell/${imageName}`;
-  };
+const getSpellIcon = () => {
+  if (!targetDetails) return '';
+
+  // Passif
+  if (selectedSpell === 0) {
+    const img = targetDetails.passive?.image?.full;
+    return img
+      ? `https://ddragon.leagueoflegends.com/cdn/${version}/img/passive/${img}`
+      : '';
+  }
+
+  // Q / W / E / R = index 1..4
+  const spell = targetDetails.spells?.[selectedSpell - 1];
+  const img = spell?.image?.full;
+
+  return img
+    ? `https://ddragon.leagueoflegends.com/cdn/${version}/img/spell/${img}`
+    : '';
+};
+
 
   const getSpellName = () => {
     if (selectedSpell === null) return '';

@@ -8,8 +8,8 @@ function GameFrise({ activeMode, onSelectMode }) {
     { name: 'CLASSIQUE', icon: '❓', file: 'classique' },
     { name: 'CITATIONS', icon: '💬', file: 'citations' },
     { name: 'SPELLS', icon: '🔥', file: 'spells' },
-    { name: 'ITEMS', icon: '🛡️', file: 'items' },
-    { name: 'SUDOKU', icon: '🎮', file: 'sudoku' }
+    { name: 'SPLASHART', icon: '🖼️', file: 'splashart' },
+    { name: 'ITEMS', icon: '🛡️', file: 'items' }
   ];
 
   return React.createElement('div', {
@@ -194,9 +194,14 @@ function App() {
     case 'CITATIONS':
       ModeComponent = CitationsMode;
       break;
+    case 'SPLASHART':
+      ModeComponent = SplashartMode;
+      break;
     case 'ITEMS':
-    case 'SUDOKU':
-      // Ces modes seront créés plus tard
+      ModeComponent = ItemsMode;  // au lieu de SplashartMode
+      break;
+
+      // Ce mode sera créé plus tard
       ModeComponent = () => React.createElement('div', {
         className: 'container',
         style: { textAlign: 'center', padding: '3rem' }

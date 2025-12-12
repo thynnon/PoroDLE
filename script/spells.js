@@ -40,8 +40,8 @@ function SpellsRulesModal({ isOpen, onClose }) {
     
     React.createElement('h3', null, '🏆 Système de victoire'),
     React.createElement('ul', null,
-      React.createElement('li', null, '🎉 Victoire Parfaite : Champion trouvé + Sort correct'),
-      React.createElement('li', null, '🎯 Champion Trouvé : Champion trouvé mais sort incorrect')
+      React.createElement('li', null, ' Victoire Parfaite : Champion trouvé + Sort correct'),
+      React.createElement('li', null, ' Champion Trouvé : Champion trouvé mais sort incorrect')
     ),
     
     React.createElement('p', { 
@@ -354,7 +354,7 @@ const getSpellIcon = () => {
         gap: '0.75rem'
       }
     },
-      guesses.map((guess, idx) => 
+      [...guesses].reverse().map((guess, idx) => 
         React.createElement('div', {
           key: idx,
           style: {
@@ -471,7 +471,7 @@ const getSpellIcon = () => {
   },
     React.createElement('div', {
       style: { fontSize: '4rem', marginBottom: '1rem' }
-    }, spellGuessed === selectedSpell ? '🎉' : '🎯'),
+    }, spellGuessed === selectedSpell ? '' : ''),
     
     React.createElement('h3', {
       style: {

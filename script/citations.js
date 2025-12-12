@@ -403,7 +403,7 @@ function CitationsMode({ champions, version, resetFlag, setShowSettings, onNextM
         gap: '0.75rem'
       }
     },
-      guesses.map((guess, idx) => 
+      [...guesses].reverse().map((guess, idx) => 
         React.createElement('div', {
           key: idx,
           style: {

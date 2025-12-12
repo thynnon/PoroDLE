@@ -187,9 +187,11 @@ function SplashartMode({ champions, version, resetFlag, setShowSettings, onNextM
   const [showRules, setShowRules] = React.useState(false);
   const [loading, setLoading] = React.useState(true);
   const [loadingProgress, setLoadingProgress] = React.useState(0);
+  const [skinSearchInput, setSkinSearchInput] = React.useState('');
+  const [skinAttempts, setSkinAttempts] = React.useState([]);
 
   const MAX_ATTEMPTS = 100;
-  const ZOOM_LEVELS = [750, 725, 700, 675, 650, 600, 550, 500, 450, 400, 350, 300, 250, 200, 150, 100 ];
+  const ZOOM_LEVELS = [750, 725, 700, 675, 650, 600, 550, 500, 450, 400, 350, 300, 250, 200, 150, 100];
 
   // Charger tous les skins de tous les champions au démarrage
   React.useEffect(() => {
@@ -246,6 +248,8 @@ function SplashartMode({ champions, version, resetFlag, setShowSettings, onNextM
     setChampionFound(false);
     setSkinGuessed(null);
     setGameComplete(false);
+    setSkinSearchInput('');
+    setSkinAttempts([]);
   }, [allSkinsData]);
 
   React.useEffect(() => { 
@@ -274,14 +278,26 @@ function SplashartMode({ champions, version, resetFlag, setShowSettings, onNextM
     setGameComplete(true);
   };
 
+  const handleSkinTextGuess = () => {
+    if (!skinSearchInput.trim()) return;
+    
+    const userGuess = skinSearchInput.trim().toLowerCase();
+    const correctSkinName = targetSkin.skinName.toLowerCase();
+    
+    const isCorrect = userGuess === correctSkinName;
+    
+    setSkinAttempts([...skinAttempts, { guess: skinSearchInput, isCorrect }]);
+    
+    if (isCorrect) {
+      handleSkinGuess(targetSkin.skinNum);
+    }
+    
+    setSkinSearchInput('');
+  };
+
   const getSplashartUrl = () => {
     if (!targetSkin) return '';
     return `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${targetSkin.championId}_${targetSkin.skinNum}.jpg`;
-  };
-
-  const getChampionSkins = () => {
-    if (!targetSkin) return [];
-    return allSkinsData.filter(skin => skin.championId === targetSkin.championId);
   };
 
   if (loading) {
@@ -336,7 +352,6 @@ function SplashartMode({ champions, version, resetFlag, setShowSettings, onNextM
   }
 
   const currentZoom = getZoomLevel();
-  const championSkins = getChampionSkins();
 
   // Bouton règles
   const rulesButton = React.createElement('div', {
@@ -364,65 +379,62 @@ function SplashartMode({ champions, version, resetFlag, setShowSettings, onNextM
   }, `Tentatives : ${guesses.length} / ${MAX_ATTEMPTS}`);
 
   // Affichage du splashart avec zoom
-const splashartDisplay = React.createElement('div', {
-  style: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    marginBottom: '2rem',
-    gap: '1rem'
-  }
-},
-  React.createElement('h3', {
+  const splashartDisplay = React.createElement('div', {
     style: {
-      fontSize: '1.5rem',
-      fontWeight: 700,
-      color: '#c8aa6e',
-      textTransform: 'uppercase',
-      letterSpacing: '0.1rem'
-    }
-  }, championFound ? '✅ Champion trouvé ! Devine le skin' : 'Devine le champion'),
-  
-  React.createElement('div', {
-    style: {
-      position: 'relative',
-      width: '550px',
-      maxWidth: '85vw',
-      height: '310px',
-      borderRadius: '16px',
-      border: '4px solid rgba(200, 170, 110, 0.6)',
-      overflow: 'hidden',
-      boxShadow: '0 0 30px rgba(200, 170, 110, 0.4)',
-      transition: 'all 0.5s ease',
-      background: '#000'
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      marginBottom: '2rem',
+      gap: '1rem'
     }
   },
+    React.createElement('h3', {
+      style: {
+        fontSize: '1.5rem',
+        fontWeight: 700,
+        color: '#c8aa6e',
+        textTransform: 'uppercase',
+        letterSpacing: '0.1rem'
+      }
+    }, championFound ? '✅ Champion trouvé ! Devine le skin' : 'Devine le champion'),
+    
     React.createElement('div', {
       style: {
-        width: '100%',
-        height: '100%',
+        position: 'relative',
+        width: '550px',
+        maxWidth: '85vw',
+        height: '310px',
+        borderRadius: '16px',
+        border: '4px solid rgba(200, 170, 110, 0.6)',
         overflow: 'hidden',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center'
+        boxShadow: '0 0 30px rgba(200, 170, 110, 0.4)',
+        transition: 'all 0.5s ease',
+        background: '#000'
       }
     },
-      React.createElement('img', {
-        src: getSplashartUrl(),
-        alt: 'Splashart mystère',
+      React.createElement('div', {
         style: {
-          width: `${currentZoom}%`,
-          height: `${currentZoom}%`,
-          objectFit: 'cover',
-          transition: 'all 0.8s ease'
+          width: '100%',
+          height: '100%',
+          overflow: 'hidden',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center'
         }
-      })
+      },
+        React.createElement('img', {
+          src: getSplashartUrl(),
+          alt: 'Splashart mystère',
+          style: {
+            width: `${currentZoom}%`,
+            height: `${currentZoom}%`,
+            objectFit: 'cover',
+            transition: 'all 0.8s ease'
+          }
+        })
+      )
     )
-
-    // 👉 Bloc zoom supprimé ici
-  )
-);
-
+  );
 
   // Barre de recherche
   const searchBar = !championFound && React.createElement('div', { 
@@ -451,7 +463,7 @@ const splashartDisplay = React.createElement('div', {
     )
   );
 
-  // Historique des tentatives
+  // Historique des tentatives (inversé)
   const guessHistory = guesses.length > 0 && React.createElement('div', {
     className: 'glass',
     style: {
@@ -477,7 +489,7 @@ const splashartDisplay = React.createElement('div', {
         gap: '0.75rem'
       }
     },
-      guesses.map((guess, idx) => 
+      [...guesses].reverse().map((guess, idx) => 
         React.createElement('div', {
           key: idx,
           style: {
@@ -522,7 +534,7 @@ const splashartDisplay = React.createElement('div', {
     )
   );
 
-  // Phase de devinette du skin
+  // Phase de devinette du skin (input texte)
   const skinGuessPhase = championFound && !gameComplete && React.createElement('div', {
     className: 'glass',
     style: {
@@ -554,28 +566,84 @@ const splashartDisplay = React.createElement('div', {
     
     React.createElement('div', {
       style: {
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
-        gap: '1rem',
-        maxHeight: '400px',
-        overflowY: 'auto',
-        padding: '1rem'
+        display: 'flex',
+        gap: '0.75rem',
+        maxWidth: '500px',
+        margin: '0 auto 2rem'
       }
     },
-      championSkins.map((skin) =>
-        React.createElement('button', {
-          key: skin.skinNum,
-          className: 'btn btn-primary',
-          onClick: () => handleSkinGuess(skin.skinNum),
-          style: {
-            fontSize: '0.95rem',
-            padding: '1rem',
-            textAlign: 'center',
-            whiteSpace: 'normal',
-            minHeight: '60px',
-            transition: 'all 0.2s ease'
-          }
-        }, skin.skinName)
+      React.createElement('input', {
+        type: 'text',
+        className: 'search-input',
+        value: skinSearchInput,
+        onChange: (e) => setSkinSearchInput(e.target.value),
+        onKeyPress: (e) => e.key === 'Enter' && handleSkinTextGuess(),
+        placeholder: 'Nom du skin...',
+        style: {
+          flex: 1
+        }
+      }),
+      React.createElement('button', {
+        className: 'btn btn-primary',
+        onClick: handleSkinTextGuess,
+        style: {
+          padding: '0.75rem 1.5rem',
+          whiteSpace: 'nowrap'
+        }
+      }, '✅ VALIDER')
+    ),
+    
+    skinAttempts.length > 0 && React.createElement('div', {
+      style: {
+        marginTop: '1.5rem'
+      }
+    },
+      React.createElement('h4', {
+        style: {
+          fontSize: '1rem',
+          color: '#c8aa6e',
+          marginBottom: '0.75rem'
+        }
+      }, 'Tentatives de skin :'),
+      React.createElement('div', {
+        style: {
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '0.5rem',
+          maxWidth: '400px',
+          margin: '0 auto'
+        }
+      },
+        [...skinAttempts].reverse().map((attempt, idx) =>
+          React.createElement('div', {
+            key: idx,
+            style: {
+              padding: '0.75rem',
+              borderRadius: '8px',
+              background: attempt.isCorrect 
+                ? 'rgba(16, 185, 129, 0.15)' 
+                : 'rgba(239, 68, 68, 0.15)',
+              border: `2px solid ${attempt.isCorrect 
+                ? 'rgba(16, 185, 129, 0.4)' 
+                : 'rgba(239, 68, 68, 0.4)'}`,
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center'
+            }
+          },
+            React.createElement('span', {
+              style: {
+                color: '#f0e6d2',
+                fontWeight: 500
+              }
+            }, attempt.guess),
+            React.createElement('span', {
+              style: {
+                fontSize: '1.25rem'
+              }
+            }, attempt.isCorrect ? '✅' : '❌')
+          )
+        )
       )
     )
   );
@@ -598,7 +666,7 @@ const splashartDisplay = React.createElement('div', {
   },
     React.createElement('div', {
       style: { fontSize: '4rem', marginBottom: '1rem' }
-    }, skinGuessed === targetSkin.skinNum ? '🎉' : '🎯'),
+    }, skinGuessed === targetSkin.skinNum ? '🏆' : '🎯'),
     
     React.createElement('h3', {
       style: {

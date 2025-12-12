@@ -27,7 +27,7 @@ function VictoryScreen({ target, guesses, onNextGame, onNextMode, version, curre
     style: { borderRadius: '12px', marginTop: '2rem' },
     id: 'victory-section'
   },
-    React.createElement('div', { className: 'victory-emoji' }, '🎉'),
+    React.createElement('div', { className: 'victory-emoji' }, ''),
     React.createElement('h3', { className: 'victory-title neon' }, 'FÉLICITATIONS !'),
     React.createElement('p', { className: 'victory-text' }, 
       `Tu as trouvé ${target.nom} en ${guesses.length} tentative${guesses.length > 1 ? 's' : ''} !`

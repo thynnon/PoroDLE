@@ -1,15 +1,16 @@
-// app.js - Gestionnaire principal de l'application
+// app.js - Gestionnaire principal de l'application avec page d'accueil
 
 // =====================================================
 // COMPOSANT : Frise des modes (navigation)
 // =====================================================
 function GameFrise({ activeMode, onSelectMode }) {
   const modes = [
-    { name: 'CLASSIQUE', icon: '❓', file: 'classique' },
-    { name: 'CITATIONS', icon: '💬', file: 'citations' },
-    { name: 'SPELLS', icon: '🔥', file: 'spells' },
-    { name: 'SPLASHART', icon: '🖼️', file: 'splashart' },
-    { name: 'ITEMS', icon: '🛡️', file: 'items' }
+    { name: 'CLASSIQUE', icon: '❓' },
+    { name: 'CITATIONS', icon: '💬' },
+    { name: 'SPELLS', icon: '🔥' },
+    { name: 'SPLASHART', icon: '🖼️' },
+    { name: 'ITEMS', icon: '🛡️' },
+    { name: 'SUDOKU', icon: '🧩' }
   ];
 
   return React.createElement('div', {
@@ -21,13 +22,12 @@ function GameFrise({ activeMode, onSelectMode }) {
       margin: '1.5rem 0',
       padding: '1rem',
       borderRadius: '15px',
-      width: 'fit-content',
+      width: 'fit-content'
     }
   },
     modes.map((mode, index) => {
       const isActive = mode.name === activeMode;
       return [
-        // Cercle du mode
         React.createElement('div', {
           key: mode.name,
           onClick: () => onSelectMode(mode.name),
@@ -52,7 +52,6 @@ function GameFrise({ activeMode, onSelectMode }) {
           title: mode.name
         }, mode.icon),
 
-        // Trait entre les cercles
         index < modes.length - 1 && React.createElement('div', {
           key: 'connector-' + index,
           style: {
@@ -73,7 +72,7 @@ function GameFrise({ activeMode, onSelectMode }) {
 // =====================================================
 // COMPOSANT : Header global
 // =====================================================
-function Header({ reset, setShowSettings, activeMode, onSelectMode }) {
+function Header({ reset, setShowSettings, activeMode, onSelectMode, onBackHome }) {
   return React.createElement('div', {
     className: 'header-visual',
     style: {
@@ -85,7 +84,6 @@ function Header({ reset, setShowSettings, activeMode, onSelectMode }) {
       position: 'relative'
     }
   },
-    // Boutons fixes en haut à droite
     React.createElement('div', {
       style: {
         position: 'fixed',
@@ -96,36 +94,42 @@ function Header({ reset, setShowSettings, activeMode, onSelectMode }) {
         zIndex: 1000
       }
     },
-      React.createElement('button', { 
-        className: 'btn btn-secondary', 
-        onClick: () => setShowSettings(true) 
+      React.createElement('button', {
+        className: 'btn btn-secondary',
+        onClick: onBackHome,
+        title: 'Retour à l\'accueil'
+      }, '🏠 ACCUEIL'),
+      
+      React.createElement('button', {
+        className: 'btn btn-secondary',
+        onClick: () => setShowSettings(true)
       }, '⚙️ PARAMÈTRES'),
-      React.createElement('button', { 
-        className: 'btn btn-primary', 
-        onClick: reset 
+
+      React.createElement('button', {
+        className: 'btn btn-primary',
+        onClick: reset
       }, '🔄 NOUVEAU')
     ),
-    
-    // Logo
+
     React.createElement('img', {
-      src: '../img/logo.png',
+      src: './img/logo.png',
       alt: 'LOLDLE',
       className: 'logo-image',
-      style: { marginBottom: '1rem' }
+      style: { marginBottom: '1rem', cursor: 'pointer' },
+      onClick: onBackHome
     }),
-    
-    // Frise des modes
+
     React.createElement(GameFrise, { activeMode, onSelectMode }),
-    
-    // Titre centré
+
     React.createElement('div', { style: { textAlign: 'center' } },
-      React.createElement('h2', { 
-        className: 'title-neon-glow', 
-        style: { fontSize: '2.8rem', marginBottom: '0.5rem' } 
+      React.createElement('h2', {
+        className: 'title-neon-glow',
+        style: { fontSize: '2.8rem', marginBottom: '0.5rem' }
       }, `MODE ${activeMode}`),
-      React.createElement('p', { 
-        className: 'subtitle-epic', 
-        style: { fontSize: '1.2rem' } 
+
+      React.createElement('p', {
+        className: 'subtitle-epic',
+        style: { fontSize: '1.2rem' }
       }, 'Chaque indice compte… Sauras-tu révéler le champion mystère ?')
     )
   );
@@ -137,11 +141,10 @@ function Header({ reset, setShowSettings, activeMode, onSelectMode }) {
 function App() {
   const [data, setData] = React.useState(null);
   const [loading, setLoading] = React.useState(true);
-  const [activeMode, setActiveMode] = React.useState('CLASSIQUE');
+  const [activeMode, setActiveMode] = React.useState(window.INITIAL_MODE || 'CLASSIQUE');
   const [showSettings, setShowSettings] = React.useState(false);
   const [resetFlag, setResetFlag] = React.useState(0);
 
-  // Chargement initial des données
   React.useEffect(() => {
     loadChampionData().then(result => {
       setData(result);
@@ -149,42 +152,51 @@ function App() {
     });
   }, []);
 
-  // Handler pour le reset
-  const handleReset = () => {
+  const handleReset = () => setResetFlag(prev => prev + 1);
+  
+  const handleModeChange = (mode) => {
+    setActiveMode(mode);
     setResetFlag(prev => prev + 1);
+    
+    // Mettre à jour l'URL
+    window.history.pushState({}, '', `?mode=${mode}`);
   };
 
-  // Handler pour le changement de mode
-  const handleModeChange = (newMode) => {
-    setActiveMode(newMode);
-    setResetFlag(prev => prev + 1); // Reset le jeu quand on change de mode
+  const handleBackHome = () => {
+    // Retour à la page d'accueil
+    document.body.classList.remove('react-active');
+    window.history.pushState({}, '', '/');
   };
 
-  // Écran de chargement
+  // Exposer la fonction pour permettre le changement de mode depuis l'extérieur
+  React.useEffect(() => {
+    window.triggerModeChange = (mode) => {
+      setActiveMode(mode);
+      setResetFlag(prev => prev + 1);
+    };
+  }, []);
+
   if (loading) {
     return React.createElement('div', {
       className: 'container',
-      style: { 
-        display: 'flex', 
-        justifyContent: 'center', 
-        alignItems: 'center', 
-        minHeight: '100vh' 
+      style: {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        minHeight: '100vh'
       }
     },
       React.createElement('div', { style: { textAlign: 'center' } },
-        React.createElement('div', { 
-          style: { fontSize: '4rem', marginBottom: '1rem' } 
-        }, '⚡'),
-        React.createElement('div', { 
-          className: 'title neon' 
-        }, 'Chargement...')
+        React.createElement('div', { style: { fontSize: '4rem', marginBottom: '1rem' } }, '⚡'),
+        React.createElement('div', { className: 'title neon' }, 'Chargement...')
       )
     );
   }
 
-  // Sélection du composant de mode à afficher
+  // Sélection du mode actif
   let ModeComponent = null;
-  switch(activeMode) {
+
+  switch (activeMode) {
     case 'CLASSIQUE':
       ModeComponent = ClassicMode;
       break;
@@ -198,36 +210,24 @@ function App() {
       ModeComponent = SplashartMode;
       break;
     case 'ITEMS':
-      ModeComponent = ItemsMode;  // au lieu de SplashartMode
+      ModeComponent = ItemsMode;
       break;
-
-      // Ce mode sera créé plus tard
-      ModeComponent = () => React.createElement('div', {
-        className: 'container',
-        style: { textAlign: 'center', padding: '3rem' }
-      },
-        React.createElement('h2', { style: { fontSize: '2rem', marginBottom: '1rem' } }, 
-          `Mode ${activeMode} - En développement`
-        ),
-        React.createElement('p', { style: { fontSize: '1.2rem', opacity: 0.7 } }, 
-          'Ce mode sera bientôt disponible ! 🚧'
-        )
-      );
+    case 'SUDOKU':
+      ModeComponent = SudokuMode;
       break;
     default:
       ModeComponent = ClassicMode;
   }
 
   return React.createElement('div', { className: 'container' },
-    // Header global avec navigation
     React.createElement(Header, {
       reset: handleReset,
       setShowSettings,
       activeMode,
-      onSelectMode: handleModeChange
+      onSelectMode: handleModeChange,
+      onBackHome: handleBackHome
     }),
-    
-    // Rendu du mode actif
+
     React.createElement(ModeComponent, {
       champions: data.champions,
       version: data.version,
@@ -236,8 +236,7 @@ function App() {
       onNextMode: handleModeChange,
       currentMode: activeMode
     }),
-    
-    // Modal des paramètres
+
     React.createElement(SettingsModal, {
       isOpen: showSettings,
       onClose: () => setShowSettings(false),

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LoLdle - Accueil</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="style/modal.css" />
+  <link rel="stylesheet" href="style/home.css">
+
+</head>
+<body>
+  <!-- Page d'accueil -->
+  <div id="homepage" class="homepage-container">
+    <div class="homepage-logo-section">
+      <img src="./img/logo.png" alt="LoLdle" class="homepage-logo-image" />
+      <p class="homepage-subtitle">Choisissez votre mode de jeu</p>
+    </div>
+
+    <div class="homepage-game-modes">
+      <button class="homepage-mode-button" data-mode="CLASSIQUE">
+        <span class="homepage-mode-icon">❓</span>
+        <div class="homepage-mode-title">CLASSIQUE</div>
+        <div class="homepage-mode-description">Devinez le champion grâce aux indices</div>
+      </button>
+
+      <button class="homepage-mode-button" data-mode="CITATIONS">
+        <span class="homepage-mode-icon">💬</span>
+        <div class="homepage-mode-title">CITATIONS</div>
+        <div class="homepage-mode-description">Devinez avec une citation</div>
+      </button>
+
+      <button class="homepage-mode-button" data-mode="SPELLS">
+        <span class="homepage-mode-icon">🔥</span>
+        <div class="homepage-mode-title">SORTS</div>
+        <div class="homepage-mode-description">Devinez avec un sort</div>
+      </button>
+
+      <button class="homepage-mode-button" data-mode="SPLASHART">
+        <span class="homepage-mode-icon">🖼️</span>
+        <div class="homepage-mode-title">SPLASHART</div>
+        <div class="homepage-mode-description">Devinez avec un splashart</div>
+      </button>
+
+      <button class="homepage-mode-button" data-mode="ITEMS">
+        <span class="homepage-mode-icon">🛡️</span>
+        <div class="homepage-mode-title">ITEMS</div>
+        <div class="homepage-mode-description">Devinez le prix</div>
+      </button>
+
+      <button class="homepage-mode-button" data-mode="SUDOKU">
+        <span class="homepage-mode-icon">🧩</span>
+        <div class="homepage-mode-title">SUDOKU</div>
+        <div class="homepage-mode-description">Résolvez le sudoku</div>
+      </button>
+    </div>
+  </div>
+
+  <!-- React monte ici -->
+  <div id="app"></div>
+
+  <!-- Librairies React -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
+  <!-- Scripts utilitaires et données -->
+  <script src="script/utils.js"></script>
+  <script src="script/constants.js"></script>
+  <script src="script/data-loader.js"></script>
+  <script src="script/components.js"></script>
+
+  <!-- Modules React des modes -->
+  <script src="script/classique.js"></script>
+  <script src="script/spells.js"></script>
+  <script src="script/citations.js"></script>
+  <script src="script/splashart.js"></script>
+  <script src="script/items.js"></script>
+  <script src="script/sudoku.js"></script>
+
+  <!-- Script de gestion de la page d'accueil -->
+  <script>
+    (function() {
+      // Vérifier si on vient de la page d'accueil ou si on a un mode dans l'URL
+      const urlParams = new URLSearchParams(window.location.search);
+      const modeFromUrl = urlParams.get('mode');
+
+      // Variable globale pour stocker le mode initial
+      window.INITIAL_MODE = modeFromUrl || null;
+
+      // Si on a un mode dans l'URL, on active React
+      if (modeFromUrl) {
+        document.body.classList.add('react-active');
+      }
+
+      // Gérer les clics sur les boutons de mode
+      const modeButtons = document.querySelectorAll('.homepage-mode-button');
+      modeButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          const mode = this.getAttribute('data-mode');
+          
+          // Masquer la page d'accueil
+          document.body.classList.add('react-active');
+          
+          // Mettre à jour l'URL sans recharger
+          window.history.pushState({}, '', `?mode=${mode}`);
+          
+          // Déclencher le démarrage de React avec le mode sélectionné
+          window.INITIAL_MODE = mode;
+          
+          // Forcer le re-render de React
+          if (window.triggerModeChange) {
+            window.triggerModeChange(mode);
+          }
+        });
+      });
+
+      // Gérer le bouton retour du navigateur
+      window.addEventListener('popstate', function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const mode = urlParams.get('mode');
+        
+        if (!mode) {
+          // Retour à la page d'accueil
+          document.body.classList.remove('react-active');
+          window.INITIAL_MODE = null;
+        } else {
+          // Changement de mode
+          document.body.classList.add('react-active');
+          window.INITIAL_MODE = mode;
+          if (window.triggerModeChange) {
+            window.triggerModeChange(mode);
+          }
+        }
+      });
+    })();
+  </script>
+
+  <!-- Script principal React (doit être après la gestion de la page d'accueil) -->
+  <script src="script/app.js"></script>
+</body>
+</html>
